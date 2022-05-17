@@ -23,7 +23,7 @@
 		- 1.9: point.county (IRI)
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
-<details>
+<details open>
 	<summary>
 		<b>1. LOCATION</b> <i>(single entity)</i>
 	</summary>
@@ -38,7 +38,7 @@
 						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
 					<blockquote>
-						1.1.1.1: point.geometry.coordinates *(single entity)*
+						1.1.1.1: point.geometry.COORDINATE *(single entity)*
 					</blockquote>
 				</details>
 			</blockquote>
