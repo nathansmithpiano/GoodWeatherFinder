@@ -25,7 +25,7 @@
 		- 1.11: point.timeZone
 <details>
 	<summary>
-		1: <b>location</b> <i>(single entity)</i>
+		1: <h2>location</h2> <i>(single entity)</i>
 	</summary>
 	<blockquote>
 		<details>
