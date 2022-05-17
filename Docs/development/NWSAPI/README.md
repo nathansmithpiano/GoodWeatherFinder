@@ -23,16 +23,20 @@
 		- 1.9: point.county (IRI)
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
-		
 <details>
-<summary>location.point</summary>
-lots
-of
-stuff
-will
-go
-here
+	<summary>location *(entity)*</summary>
+	<details>
+		<summary>location.point</summary>
+		here
+		
+		is
+		
+		some
+		
+		stuff
+	</details>
 </details>
+
 
 ### [Endpoints](Endpoints/README.md)
 
