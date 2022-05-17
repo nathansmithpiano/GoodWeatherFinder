@@ -6,11 +6,11 @@ The National Weather Service (weather.gov) API provides weather data for one loc
 
 GoodWeatherFinder requests this data at regular time intervals and places this data in its own database. This allow for quick searching on multiple locations and control over how often the servers are taxed.
 
+This is a personal project for Nathan Smith (check me out on [LinkedIn](https://www.linkedin.com/in/nathansmithpiano/))
+
 <hr>
 
 ## Development Process
-
-This is a personal project for Nathan Smith (check me out on [LinkedIn](https://www.linkedin.com/in/nathansmithpiano/))
 
 To follow along with the development process, check out the [development docs](docs/development).
 
