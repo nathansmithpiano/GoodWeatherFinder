@@ -25,16 +25,14 @@
 		- 1.11: point.timeZone
 <details>
 	<summary>location</summary>
-	<details>
-		<summary>location.point</summary>
-		here
-		
-		is
-		
-		some
-		
-		stuff
-	</details>
+	<blockquote>
+		<details>
+			<summary>location.point</summary>
+			<blockquote>
+				here is some stuff
+			</blockquote>
+		</details>
+	</blockquote>
 </details>
 
 
