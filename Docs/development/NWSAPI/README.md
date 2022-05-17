@@ -24,10 +24,12 @@
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
 <details>
-	<summary>1:  LOCATION</summary>
+	<summary>
+		1: **location** *(single entity)*
+	</summary>
 	<blockquote>
 		<details>
-			<summary>1.1:  location.point</summary>
+			<summary>1.1: location.point</summary>
 			<blockquote>
 				here is some stuff
 			</blockquote>
