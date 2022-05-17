@@ -31,8 +31,8 @@
 | "@context.@version | "1.1" (Double) |
 | id | URL to another endpoint |
 | type | "Feature" (String) |
-| geometry | **Geometry entity, multiple coordinates** |
-| properties.@id | URL to another endpoint |
+| geometry | **Geometry** entity, multiple coordinates |
+| properties.@id | this endpoint IRI |
 | properties.@type | "wx:Zone" (String) |
 | properties.id | "COC065" (String) |
 | properties.type | "county" (String) |
