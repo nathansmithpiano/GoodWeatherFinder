@@ -6,23 +6,23 @@
 ### Use Structure
 
 1. **LOCATION**
-	* 1. **point** *(single entity)*
-		* 1.1: point.**geometry** *(single entity)*
-			* 1.1.1: point.geometry.coordinates **(Entities)**
-	* 1.2: point.forecastOffice (IRI) *(single entity)*
-	* 1.3: point.forecast (IRI) *(single entity)*
-		* 1.3.1: point.forecast.periods **(Entities)**
-	* 1.4: point.forecast (hourly) (IRI) *(single entity)*
-		1. point.forecast.periods **(Entities)**
-	5. point.forecastGridData (IRI)
-	6. point.observationStations (IRI)
-	7. point.relativeLocation
-		1.6.1 point.relativeLocation.geometry
-			1.6.1.1 point.relativeLocation.geometry.coordinates
-	8. point.forecastZone (IRI)
-	9. point.county (IRI)
-	10. point.fireWeatherZone (IRI)
-	11. point.timeZone
+	- 1. **point** *(single entity)*
+		- 1.1: point.**geometry** *(single entity)*
+			- 1.1.1: point.geometry.coordinates *(multiple entities)*
+		- 1.2: point.forecastOffice (IRI) *(single entity)*
+		- 1.3: point.forecast (IRI) *(single entity)*
+			- 1.3.1: point.forecast.periods *(multiple entities)*
+		- 1.4: point.forecast (hourly) (IRI) *(single entity)*
+			- 1.4.1 point.forecast.periods *(multiple entities)*
+		- 1.5: point.forecastGridData (IRI)
+		- 1.6: point.observationStations (IRI)
+		- 1.7: point.relativeLocation
+			- 1.7.1: point.relativeLocation.geometry
+				- 1.7.1.1: point.relativeLocation.geometry.coordinates
+		- 1.8: point.forecastZone (IRI)
+		- 1.9: point.county (IRI)
+		- 1.10: point.fireWeatherZone (IRI)
+		- 1.11: point.timeZone
 
 ### [Endpoints](Endpoints/README.md)
 
