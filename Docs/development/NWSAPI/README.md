@@ -38,13 +38,7 @@
 						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
 					<blockquote>
-						<details>
-							<summary>
-								1.1.1.1: point.geometry.coordinates *(multiple entities)*
-							</summary>
-							<blockquote>
-							</blockquote>
-						</details>
+						1.1.1.1: point.geometry.coordinates *(single entity)*
 					</blockquote>
 				</details>
 			</blockquote>
