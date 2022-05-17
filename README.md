@@ -18,7 +18,7 @@ To follow along with the development process, check out the [development docs](d
 
 ## Why?
 
-Why this? Well, a few reasons...
+Well, I'm glad you asked...
 
 I have been an avid hiker and backpacker in the Colorado mountains for years.  For those who know the area, mountain weather can be turn on you at a moment's notice. It can be no fun at all to be stuck above treeline when there's lightning or hail storm.
 
