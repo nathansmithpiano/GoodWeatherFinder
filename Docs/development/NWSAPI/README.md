@@ -35,10 +35,10 @@
 				<blockquote>
 				<details open>
 					<summary>
-						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
+						<b>1.1.1: location.point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
 						<blockquote>
-							<b>1.1.1.1: point.geometry.COORDINATE</b> <i>(single entity)</i>
+							<b>1.1.1.1: location.point.geometry.COORDINATE</b> <i>(single entity)</i>
 						</blockquote>
 				</details>
 				<details>
