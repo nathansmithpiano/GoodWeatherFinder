@@ -29,24 +29,24 @@
 | Field | Description |
 | --- | --- |
 | id | URL to this endpoint |
-| type | "Feature" |
-|  geometry | **new Geometry entity, single coordinate** |
+| type | "Feature" (String) |
+|  geometry | **Geometry entity, single coordinate** |
 | properties.@id | URL to this endpoint |
 | properties.@type | "wx:Point" (String) |
-| properties.cwa | officeId (String) |
-| properties.forecastOffice | URL to another endpoint |
+| properties.cwa | officeId (String), i.e. "PUB" |
+| properties.forecastOffice | **ForecastOffice entity** via URL to another endpoint |
 | properties.gridId | wfo (String) |
 | properties.gridX | integer |
 | properties.gridY | integer |
-| properties.forecast | URL to another endpoint |
-| properties.forecastHourly | URL to another endpoint |
-| properties.forecastGridData | URL to another endpoint |
-| properties.observationStations | URL to another endpoint |
+| properties.forecast | **Forecast entity** via URL to another endpoint |
+| properties.forecastHourly | **Forecast entity** via URL to another endpoint |
+| properties.forecastGridData | **ForecastGridData entity** via URL to another endpoint |
+| properties.observationStations | **ObservationStations entity** via URL to another endpoint |
 | properties.relativeLocation | **new RelativeLocation entity with new Geometry entity, single coordinate**  |
-| properties.forecastZone | URL to another endpoint |
-| properties.county | URL to another endpoint |
-| properties.fireWeatherZone | URL to another endpoint |
-| properties.timeZone | Time Zone (String) |
+| properties.forecastZone | **ForecastZone entity** via URL to another endpoint |
+| properties.county | **County entity** via URL to another endpoint |
+| properties.fireWeatherZone | **FireWeatherZone entity** via URL to another endpoint |
+| properties.timeZone | Time Zone (String), i.e. |
 | properties.radarStation | Zone ID (String) |
 <hr>
 

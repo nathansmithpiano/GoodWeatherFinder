@@ -31,8 +31,7 @@
 | "@context.@version | "1.1" (Double) |
 | id | URL to another endpoint |
 | type | "Feature" (String) |
-| geometry.type | "Polygon" (String) |
-| geometry.coordinates | ArrayList of many Double[], i.e. -106.3711929,39.361213599999999
+| geometry | **Geometry entity, multiple coordinates** |
 | properties.@id | URL to another endpoint |
 | properties.@type | "wx:Zone" (String) |
 | properties.id | "COC065" (String) |
