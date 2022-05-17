@@ -33,7 +33,7 @@
 				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
 			<blockquote>
-				<details>
+				<details open>
 					<summary>
 						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
