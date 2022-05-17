@@ -23,7 +23,10 @@ Why this? Well, a few reasons...
 I have been an avid hiker and backpacker in the Colorado mountains for years.  For those who know the area, mountain weather can be turn on you at a moment's notice. It can be no fun at all to be stuck above treeline when there's lightning or hail storm.
 
 Before each trip, I would try to find the best weather conditions for various peaks, considering how far I wanted to drive from home.  This would include many steps:
-1. Visit [14ers.com](http://www.14ers.com) to view the map of all peaks in Colorado above 13,000 and 14,000 feet
+1. Visit [14ers.com](http://www.14ers.com) to view the map of all peaks in Colorado above 13,000 and 14,000 feet.
+2. Click on each peak and visit the associated weather.gov page to see forecast information.  For example, [Mt. Elbert](https://forecast.weather.gov/MapClick.php?lat=39.117770000000064&lon=-106.44529999999997#)
+3. Do this for many locations - not just the one peak - as I want to see if nearby peaks show similar forecasts and/or if certain areas are predicted to have better conditions.
+4. Briefly look at the main forecast page and if it's not immediately discouraging, click on 
 
 ## Backend
 - **Java** compiler version 1.8
