@@ -25,12 +25,12 @@
 		- 1.11: point.timeZone
 <details>
 	<summary>
-		<b>1: location</b> <i>(single entity)</i>
+		<b>LOCATION</b> <i>(single entity)</i>
 	</summary>
 	<blockquote>
 		<details>
 			<summary>
-				<b>1.1: location.point</b> <i>single entity</i>
+				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
 			<blockquote>
 				here is some stuff
