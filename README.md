@@ -44,7 +44,7 @@ During this program, we were developing RESTful applications through a Java JPA 
 
 Also, I hoped this would be something desirable for potential employers, as I would begin hunting for my first full-time position in June of 2022.
 
-*TL;DR*: A cool thing I wanted to actually use, could see others using, and would challenge my new skills as a developer.
+***TL;DR***: A cool thing I wanted to actually use, could see others using, and would challenge my new skills as a developer.
 
 ## Backend
 - **Java** compiler version 1.8
