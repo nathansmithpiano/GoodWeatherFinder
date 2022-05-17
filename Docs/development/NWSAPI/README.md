@@ -23,6 +23,16 @@
 		- 1.9: point.county (IRI)
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
+		
+<details>
+<summary>location.point</summary>
+lots
+of
+stuff
+will
+go
+here
+</details>
 
 ### [Endpoints](Endpoints/README.md)
 
