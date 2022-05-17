@@ -25,20 +25,27 @@
 		- 1.11: point.timeZone
 <details>
 	<summary>
-		<b>LOCATION</b> <i>(single entity)</i>
+		<b>1. LOCATION</b> <i>(single entity)</i>
 	</summary>
 	<blockquote>
 		<details>
-			- Location 1:1 Point
 			<summary>
 				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
 			<blockquote>
 				<details>
 					<summary>
-						<blockquote>
-						</blockquote>
+						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
+					<blockquote>
+						<details>
+							<summary>
+								1.1.1.1: point.geometry.coordinates *(multiple entities)*
+							</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
 				</details>
 			</blockquote>
 		</details>
@@ -48,9 +55,9 @@
 ### TEMPLATE
 <details>
 	<summary>
-		<blockquote>
-		</blockquote>
 	</summary>
+	<blockquote>
+	</blockquote>
 </details>
 
 ### [Endpoints](Endpoints/README.md)
