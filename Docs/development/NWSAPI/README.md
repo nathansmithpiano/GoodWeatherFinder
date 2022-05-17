@@ -29,16 +29,29 @@
 	</summary>
 	<blockquote>
 		<details>
+			Location 1:1 Point
 			<summary>
 				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
 			<blockquote>
-				here is some stuff
+				<details>
+					<summary>
+						<blockquote>
+						</blockquote>
+					</summary>
+				</details>
 			</blockquote>
 		</details>
 	</blockquote>
 </details>
 
+### TEMPLATE
+<details>
+	<summary>
+		<blockquote>
+		</blockquote>
+	</summary>
+</details>
 
 ### [Endpoints](Endpoints/README.md)
 
