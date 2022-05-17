@@ -33,9 +33,9 @@
 |  geometry | **new Geometry entity, single coordinate** |
 | properties.@id | URL to this endpoint |
 | properties.@type | "wx:Point" (String) |
-| properties.cwa | officeId |
+| properties.cwa | officeId (String) |
 | properties.forecastOffice | URL to another endpoint |
-| properties.gridId | wfo |
+| properties.gridId | wfo (String) |
 | properties.gridX | integer |
 | properties.gridY | integer |
 | properties.forecast | URL to another endpoint |

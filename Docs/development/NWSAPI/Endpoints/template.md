@@ -1,6 +1,6 @@
 [Up](README.md) | [Back](county.md)
 
-### Weather.gov API: Fire Weather Zone
+## Weather.gov API: Fire Weather Zone
 - **Example:** Mt. Elbert
 - **Updated:** 5/13/22
 - **Referenced By:**
@@ -10,9 +10,14 @@
 - **Endpoint:** 
 <hr>
 
-#### Forward Endpoints in JSON
+### Forward Endpoints in JSON
 ```
 ```
 <hr>
 
-#### JSON
+### Data Fields
+| Field | Description |
+| --- | --- |
+
+<hr>
+### JSON

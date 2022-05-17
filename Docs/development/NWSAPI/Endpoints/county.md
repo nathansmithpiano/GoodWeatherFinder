@@ -1,7 +1,7 @@
 [Up](README.md) | [Back](forecastZone.md) | [Next](fireWeatherZone.md)
 <hr>
 
-### Weather.gov API: County
+## Weather.gov API: County
 - **Example:** Mt. Elbert
 - **Updated:** 5/13/22
 - **Endpoint:** https://api.weather.gov/zones/county/COC065
@@ -12,7 +12,7 @@
     - **Forecast Zone** responsibleCounties[]
 <hr>
 
-#### Forward Endpoints in JSON
+### Forward Endpoints in JSON
 ```
 "forecastOffices": [
     "https://api.weather.gov/offices/PUB",
@@ -25,7 +25,30 @@
 ```
 <hr>
 
-#### JSON
+### Data Fields
+| Field | Description |
+| --- | --- |
+| "@context.@version | double |
+| id | URL to another endpoint |
+| type | "Feature" (String) |
+| geometry.type |  |
+| geometry.coordinates | ArrayList of many double[] [longitude, latitude] |
+| properties.@id | URL to another endpoint |
+| properties.@type | URL to another endpoint |
+| properties.id |  |
+| properties.type |  |
+| properties.name |  |
+| properties.effectiveDate |  |
+| properties.expirationDate |  |
+| properties.state |  |
+| properties.cwa | ArrayList of officeIds (String) |
+| properties.forecastOffices | ArrayList of URLs to other endpoints (ForecastOffice) |
+| properties.timeZone | ArrayList of Time Zones (String) |
+| properties.observationStations | ArrayList of URLs to other endpoints (ObservationStations) |
+| properties.radarStation | empty in example **UPDATE THIS** |
+<hr>
+
+### JSON
 ```
 {
     "@context": {
