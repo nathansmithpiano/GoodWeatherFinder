@@ -10,10 +10,17 @@ GoodWeatherFinder requests this data at regular time intervals and places this d
 
 ## Development Process
 
+This is a personal project for Nathan Smith.
+
 To follow along with the development process, check out the [development docs](docs/development).
 
 <hr>
 
+## Why?
+
+Why this? Well, a few reasons...
+- I have been an avid hiker and backpacker in the Colorado mountains for years.  For those who know the area, mountain weather can be turn on you at a moment's notice. It can be no fun at all to be stuck above treeline when there's lightning or hail storm.
+- Before each trip, I would visit [14ers.com](http://www.14ers.com) to view the map of all peaks in Colorado above 13,000 and 14,000 feet
 
 ## Backend
 - **Java** compiler version 1.8
