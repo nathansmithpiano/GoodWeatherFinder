@@ -6,8 +6,8 @@
 ### Use Structure
 
 1. point
-	1.1 point.geometry **(Entity)**
-		1.1.1 point.geometry.coordinates
+	1. point.geometry **(Entity)**
+		1. point.geometry.coordinates
 	1.1 point.forecastOffice (IRI)
 	1.2 point.forecast (IRI)
 		1.2.1 point.forecast.periods
