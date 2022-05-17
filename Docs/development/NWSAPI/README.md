@@ -29,7 +29,9 @@
 	</summary>
 	<blockquote>
 		<details>
-			<summary>1.1: location.point</summary>
+			<summary>
+				<h3>1.1: location.point</h3> <i>single entity</i>
+			</summary>
 			<blockquote>
 				here is some stuff
 			</blockquote>
