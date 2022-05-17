@@ -5,8 +5,7 @@ Using the National Weather Service (weather.gov) API, as the name implies, GoodW
 Each **Location** consists of:
 
 ## Backend
-### Java
-- Java compiler version 1.8
+- **Java** compiler version 1.8
 - **JPA** version 2.2 *(GoodWeatherJPA)*
 - **Gradle** version 7.4.2
 - **Hibernate** version 5.4.32 Final
