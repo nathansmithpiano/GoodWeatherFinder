@@ -10,7 +10,7 @@ GoodWeatherFinder requests this data at regular time intervals and places this d
 
 ## Development Process
 
-To follow along with the development process, check out the (development docs)[Docs/Development]
+To follow along with the development process, check out the (development docs)[docs/development]
 
 <hr>
 
