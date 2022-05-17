@@ -26,28 +26,28 @@
 <hr>
 
 ### Data Fields
-| Field | Field | Description |
-| --- | --- | --- |
-|   | id | URL to this endpoint |
-|   | type | "Feature" |
-|   | geometry | **new Geometry entity, single coordinate** |
-| properties | @id | URL to this endpoint |
-| properties | @type | "wx:Point" (String) |
-| properties | cwa | officeId |
-| properties | forecastOffice | URL to another endpoint |
-| properties | gridId | wfo |
-| properties | gridX | integer |
-| properties | gridY | integer |
-| properties | forecast | URL to another endpoint |
-| properties | forecastHourly | URL to another endpoint |
-| properties | forecastGridData | URL to another endpoint |
-| properties | observationStations | URL to another endpoint |
-| properties | relativeLocation | **new RelativeLocation entity with new Geometry entity, single coordinate**  |
-| properties | forecastZone | URL to another endpoint |
-| properties | county | URL to another endpoint |
-| properties | fireWeatherZone | URL to another endpoint |
-| properties | timeZone | Time Zone (String) |
-| properties | radarStation | Zone ID (String) |
+| Field | Description |
+| --- | --- |
+| id | URL to this endpoint |
+| type | "Feature" |
+|  geometry | **new Geometry entity, single coordinate** |
+| properties.@id | URL to this endpoint |
+| properties.@type | "wx:Point" (String) |
+| properties.cwa | officeId |
+| properties.forecastOffice | URL to another endpoint |
+| properties.gridId | wfo |
+| properties.gridX | integer |
+| properties.gridY | integer |
+| properties.forecast | URL to another endpoint |
+| properties.forecastHourly | URL to another endpoint |
+| properties.forecastGridData | URL to another endpoint |
+| properties.observationStations | URL to another endpoint |
+| properties.relativeLocation | **new RelativeLocation entity with new Geometry entity, single coordinate**  |
+| properties.forecastZone | URL to another endpoint |
+| properties.county | URL to another endpoint |
+| properties.fireWeatherZone | URL to another endpoint |
+| properties.timeZone | Time Zone (String) |
+| properties.radarStation | Zone ID (String) |
 <hr>
 
 ### JSON
