@@ -8,7 +8,7 @@
 1. **LOCATION**
 	- 1: **point** *(single entity)*
 		- 1.1: point.**geometry** *(single entity)*
-			- 1.1.1: point.geometry.coordinates *(multiple entities)*
+			- 1.1.1: point.geometry.coordinate *(single entities)*
 		- 1.2: point.forecastOffice (IRI) *(single entity)*
 		- 1.3: point.forecast (IRI) *(single entity)*
 			- 1.3.1: point.forecast.periods *(multiple entities)*
@@ -32,13 +32,25 @@
 			<summary>
 				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
-			<blockquote>
+				<blockquote>
 				<details open>
 					<summary>
 						<b>1.1.1: point.GEOMETRY</b> <i>(single entity)</i>
 					</summary>
+						<blockquote>
+							<b>1.1.1.1: point.geometry.COORDINATE</b> <i>(single entity)</i>
+						</blockquote>
+				</details>
+				<details>
+					<summary>
+					</summary>
 					<blockquote>
-						1.1.1.1: point.geometry.COORDINATE *(single entity)*
+					</blockquote>
+				</details>
+				<details>
+					<summary>
+					</summary>
+					<blockquote>
 					</blockquote>
 				</details>
 			</blockquote>
