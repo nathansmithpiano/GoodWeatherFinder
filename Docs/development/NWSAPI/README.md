@@ -6,22 +6,22 @@
 ### Use Structure
 
 1. point
-	1. point.geometry **(Entity)**
-		1. point.geometry.coordinates
-	1.1 point.forecastOffice (IRI)
-	1.2 point.forecast (IRI)
-		1.2.1 point.forecast.periods
-	1.3 point.forecastHourly (IRI)
-		1.3.1 point.forecast.periods
-	1.4 point.forecastGridData (IRI)
-	1.5 point.observationStations (IRI)
-	1.6 point.relativeLocation
+	* 1.1 point.geometry **(Entity)**
+		* 1.1.1 point.geometry.coordinates **(Entities)**
+	* 1.2 point.forecastOffice (IRI) **(Entity)**
+	* 1.3 point.forecast (IRI) **(Entity)**
+		1. point.forecast.periods **(Entities)**
+	* 1.4 point.forecast (hourly) (IRI) **(Entity)**
+		1. point.forecast.periods **(Entities)**
+	5. point.forecastGridData (IRI)
+	6. point.observationStations (IRI)
+	7. point.relativeLocation
 		1.6.1 point.relativeLocation.geometry
 			1.6.1.1 point.relativeLocation.geometry.coordinates
-	1.7 point.forecastZone (IRI)
-	1.8 point.county (IRI)
-	1.9 point.fireWeatherZone (IRI)
-	1.10 point.timeZone
+	8. point.forecastZone (IRI)
+	9. point.county (IRI)
+	10. point.fireWeatherZone (IRI)
+	11. point.timeZone
 
 ### [Endpoints](Endpoints/README.md)
 
