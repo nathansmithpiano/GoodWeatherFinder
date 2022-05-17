@@ -36,6 +36,12 @@ As you can imagine, this process is time consuming and I've wondered for years w
 
 Weather can make or break an experience, so why not have a way to choose your activity based on the weather, instead of the other way around?
 
+## Is that the only reason?
+
+You guessed it. I do have other motivations. I began this project while attending [Skill Distillery](https://skilldistillery.com)'s Full Stack with Java bootcamp.  Shoutout to the excellent instructors there and fellow SD32 cohort members.
+
+During this program, we were developing RESTful applications through a Java JPA / Spring REST backend and an Angular frontend. While this project would be outside the scope of any weekend or even the midterm or final projects, I wanted a side project as an extra challenge during the bootcamp, and for something to continue working on after graduation. Ideally, I hoped this would be something desirable for potential employers, as I would begin hunting for my first full-time position in June of 2022.
+
 ## Backend
 - **Java** compiler version 1.8
 - **JPA** version 2.2 *(GoodWeatherJPA)*
