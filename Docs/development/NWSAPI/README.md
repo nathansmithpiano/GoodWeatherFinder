@@ -29,7 +29,7 @@
 	</summary>
 	<blockquote>
 		<details>
-			Location 1:1 Point
+			- Location 1:1 Point
 			<summary>
 				<b>1.1: location.POINT</b> <i>(single entity)</i>
 			</summary>
