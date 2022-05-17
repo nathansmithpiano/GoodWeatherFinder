@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>GoodWeatherJPA</name>
+	<name>DocumentationWeb</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.wst.common.project.facet.core.builder</name>
 			<arguments>
@@ -28,7 +18,19 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Docs</name>
+			<type>2</type>
+			<location>/Users/nathan/Desktop/Dev/GoodWeatherFinder/Docs</location>
+		</link>
+		<link>
+			<name>README.md</name>
+			<type>1</type>
+			<location>/Users/nathan/Desktop/Dev/GoodWeatherFinder/README.md</location>
+		</link>
+	</linkedResources>
 </projectDescription>
