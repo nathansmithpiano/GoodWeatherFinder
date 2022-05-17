@@ -5,13 +5,15 @@
 
 ### Use Structure
 
+1. *LOCATION*
+	1. point **(Entity)**
 1. point
-	* 1.1 point.geometry **(Entity)**
-		* 1.1.1 point.geometry.coordinates **(Entities)**
-	* 1.2 point.forecastOffice (IRI) **(Entity)**
-	* 1.3 point.forecast (IRI) **(Entity)**
-		1. point.forecast.periods **(Entities)**
-	* 1.4 point.forecast (hourly) (IRI) **(Entity)**
+	* 1.1: point.geometry **(Entity)**
+		* 1.1.1: point.geometry.coordinates **(Entities)**
+	* 1.2: point.forecastOffice (IRI) **(Entity)**
+	* 1.3: point.forecast (IRI) **(Entity)**
+		* 1.3.1: point.forecast.periods **(Entities)**
+	* 1.4: point.forecast (hourly) (IRI) **(Entity)**
 		1. point.forecast.periods **(Entities)**
 	5. point.forecastGridData (IRI)
 	6. point.observationStations (IRI)
