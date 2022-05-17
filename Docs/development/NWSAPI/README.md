@@ -24,7 +24,7 @@
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
 <details>
-	<summary>location *(entity)*</summary>
+	<summary>location /*(entity)*</summary>
 	<details>
 		<summary>location.point</summary>
 		here
