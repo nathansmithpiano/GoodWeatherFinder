@@ -28,22 +28,22 @@
 ### Data Fields
 | Field | Description |
 | --- | --- |
-| "@context.@version | double |
+| "@context.@version | "1.1" (Double) |
 | id | URL to another endpoint |
 | type | "Feature" (String) |
 | geometry.type |  |
-| geometry.coordinates | ArrayList of many double[] [longitude, latitude] |
+| geometry.coordinates | ArrayList of many Double[], i.e. -106.3711929,39.361213599999999
 | properties.@id | URL to another endpoint |
-| properties.@type | URL to another endpoint |
-| properties.id |  |
-| properties.type |  |
-| properties.name |  |
-| properties.effectiveDate |  |
-| properties.expirationDate |  |
-| properties.state |  |
-| properties.cwa | ArrayList of officeIds (String) |
+| properties.@type | "wx:Zone" (String) |
+| properties.id | "COC065" (String) |
+| properties.type | "county" (String) |
+| properties.name | "Lake" (String) |
+| properties.effectiveDate | "2022-04-05T18:00:00+00:00" (OffsetDateTime) |
+| properties.expirationDate | "2200-01-01T00:00:00+00:00" (OffsetDateTime) |
+| properties.state | "CO" (String) |
+| properties.cwa | ArrayList of officeIds (String), i.e. "PUB"  |
 | properties.forecastOffices | ArrayList of URLs to other endpoints (ForecastOffice) |
-| properties.timeZone | ArrayList of Time Zones (String) |
+| properties.timeZone | ArrayList of Time Zones (String), i.e. "America/Denver" |
 | properties.observationStations | ArrayList of URLs to other endpoints (ObservationStations) |
 | properties.radarStation | empty in example **UPDATE THIS** |
 <hr>
