@@ -6,7 +6,7 @@
 ### Use Structure
 
 1. **LOCATION**
-	* 1. **point** *(single entity)*
+	- 1. **point** *(single entity)*
 		- 1.1: point.**geometry** *(single entity)*
 			- 1.1.1: point.geometry.coordinates **(Entities)**
 	* 1.2: point.forecastOffice (IRI) *(single entity)*
