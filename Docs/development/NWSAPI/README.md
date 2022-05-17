@@ -5,7 +5,7 @@
 
 ### Use Structure
 
-1. *LOCATION*
+1. #### LOCATION
 	1. point **(Entity)**
 1. point
 	* 1.1: point.geometry **(Entity)**
