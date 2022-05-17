@@ -19,9 +19,11 @@ To follow along with the development process, check out the [development docs](d
 ## Why?
 
 Why this? Well, a few reasons...
-- I have been an avid hiker and backpacker in the Colorado mountains for years.  For those who know the area, mountain weather can be turn on you at a moment's notice. It can be no fun at all to be stuck above treeline when there's lightning or hail storm.
-- Before each trip, I would try to find the best weather conditions for various peaks, considering how far I wanted to drive from home.  This would include many steps:
-	1. Visit [14ers.com](http://www.14ers.com) to view the map of all peaks in Colorado above 13,000 and 14,000 feet
+
+I have been an avid hiker and backpacker in the Colorado mountains for years.  For those who know the area, mountain weather can be turn on you at a moment's notice. It can be no fun at all to be stuck above treeline when there's lightning or hail storm.
+
+Before each trip, I would try to find the best weather conditions for various peaks, considering how far I wanted to drive from home.  This would include many steps:
+1. Visit [14ers.com](http://www.14ers.com) to view the map of all peaks in Colorado above 13,000 and 14,000 feet
 
 ## Backend
 - **Java** compiler version 1.8
