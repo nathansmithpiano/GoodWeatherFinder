@@ -41,19 +41,19 @@
 							1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i>
 						</blockquote>
 				</details>
-				<details>
-					<summary>
-						<b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i>
-					</summary>
-					<blockquote>
-					</blockquote>
-				</details>
-				<details>
-					<summary>
-					</summary>
-					<blockquote>
-					</blockquote>
-				</details>
+			</blockquote>
+		</details>
+		<details>
+			<summary>
+				<b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i>
+			</summary>
+			<blockquote>
+			</blockquote>
+		</details>
+		<details>
+			<summary>
+			</summary>
+			<blockquote>
 			</blockquote>
 		</details>
 	</blockquote>
