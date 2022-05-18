@@ -13,7 +13,7 @@ Example: Mt. Elbert (Colorado 14er)
 		<details>
 			<summary>JSON</summary>
 			
-			```json
+```json
 			
 {
     "@context": [
@@ -109,7 +109,7 @@ Example: Mt. Elbert (Colorado 14er)
         "radarStation": "KGJX"
     }
 }
-			```
+```
 
 		</details>
 		
