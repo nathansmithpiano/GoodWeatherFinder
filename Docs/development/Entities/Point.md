@@ -213,7 +213,10 @@ public class Forecast {
 ```json
 "properties": {
 	"periods": [
-		{ }
+		{ 
+			"number": 1,
+			"additional-values"; ""
+		}
 	]
 }
 ```
