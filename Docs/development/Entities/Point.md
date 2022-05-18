@@ -137,7 +137,7 @@ public class Coordinates {
 <details open>
 <summary><h3>ForecastOffice</h3></summary>
 
-Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
+Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.  
 When `Point` is updated, `ForecastOffice` is also updated.
 
 <table>
