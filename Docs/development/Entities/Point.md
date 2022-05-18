@@ -178,6 +178,38 @@ public class Point {
 Each `Point` has two and only two `Forecast` - one normal and one hourly.  Each `Forecast` has one and only one `Point`.  
 When `Point` is updated, each `Forecast` is also updated.
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+    "forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
+
 </details>
 <details open>
 <summary><h3>ForecastGridData</h3></summary>
