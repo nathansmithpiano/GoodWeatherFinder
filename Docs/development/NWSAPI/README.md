@@ -3,47 +3,10 @@
 
 ## National Weather Service (Weather.gov) API
 
-### Use Structure
-
-1. **LOCATION**
-	- 1: **point** *(single entity)*
-		- 1.1: point.**geometry** *(single entity)*
-			- 1.1.1: point.geometry.coordinate *(single entities)*
-		- 1.2: point.forecastOffice (IRI) *(single entity)*
-		- 1.3: point.forecast (IRI) *(single entity)*
-			- 1.3.1: point.forecast.periods *(multiple entities)*
-		- 1.4: point.forecast (hourly) (IRI) *(single entity)*
-			- 1.4.1 point.forecast.periods *(multiple entities)*
-		- 1.5: point.forecastGridData (IRI)
-		- 1.6: point.observationStations (IRI)
-		- 1.7: point.relativeLocation
-			- 1.7.1: point.relativeLocation.geometry
-				- 1.7.1.1: point.relativeLocation.geometry.coordinates
-		- 1.8: point.forecastZone (IRI)
-		- 1.9: point.county (IRI)
-		- 1.10: point.fireWeatherZone (IRI)
-		- 1.11: point.timeZone
-<details open><summary>1. <b>location</b> <i>(single entity)</i></summary>
-	<blockquote>
-		<details open><summary>1.1: location.<b>point</b> <i>(single entity)</i></summary>
-			<blockquote>
-				<details open><summary>1.1.1: location.point.<b>geometry</b> <i>(single entity)</i></summary>
-					<blockquote>
-						<details><summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
-						</details>
-					</blockquote>
-				</details>
-				<details><summary>1.2: location.<b>forecastOffice</b> <i>(single entity)</i></summary>
-					<blockquote>
-					</blockquote>
-				</details>
-			</blockquote>
-		</details>
-	</blockquote>
-</details>
-
 ### Importing Data
 This is an overview of how NWS API JSON will translate to entities in the database.
+Each **location** shares a 1:1 mapping with a **point** in the NWS API.  From this point, many other entities will be created, or more commonly, updated.
+The structure below does not show properties for each individual entity.  Rather, it shows each entity or collection of entities that will be created, or more commonly, updated.
 
 <details open><summary><b>location</b></summary>
 	<blockquote>
