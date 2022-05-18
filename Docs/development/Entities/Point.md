@@ -8,9 +8,29 @@ https://api.weather.gov/points/{latitude},{longitude}
 ```
 <hr>
 
-### Properties
+### Point
 
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
+
+<table>
+<tr>
+<td>
+```java
+private String id; // ID and IRI for this Point
+private String propertiesId; // expected to be same as id | saved for verification later
+```
+</td>
+<td>
+```json
+"id": "https://api.weather.gov/points/39.1177,-106.4453",
+"properties": {
+        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+```
+</td>
+</tr>
+</table>
+
+
 
 ### Properties
 
@@ -38,7 +58,9 @@ private String type; // GeoJSON type | i.e. Feature
 ```
 
 ```java
-private String propertiesType; // corresponds to other types | used for verification later | i.e. wx:Point
+public class Point {
+	private String propertiesType; // corresponds to other types | used for verification later | i.e. wx:Point
+}
 
 public class RelativeLocation {
 	private String type;
@@ -90,7 +112,28 @@ private Geometry geometry; // single pair of Coordinates
 ```
 
 ```json
-
+"relativeLocation": {
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -106.318985,
+            39.103709000000002
+        ]
+    },
+    "properties": {
+        "city": "Twin Lakes",
+        "state": "CO",
+        "distance": {
+            "unitCode": "wmoUnit:m",
+            "value": 11008.865990169001
+        },
+        "bearing": {
+            "unitCode": "wmoUnit:degree_(angle)",
+            "value": 278
+        }
+    }
+}
 ```
 <hr>
 
