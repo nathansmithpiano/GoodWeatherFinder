@@ -38,11 +38,25 @@ private String type; // GeoJSON type | i.e. Feature
 ```
 
 ```java
+private String propertiesType; // corresponds to other types | used for verification later | i.e. wx:Point
+
+public class RelativeLocation {
+	private String type;
+}
+```
 
 
 ```json
 "properties": {
 	"@type": "wx:Point"
+	
+"geometry": {
+    "type": "Point",
+    "coordinates": [
+        -106.4453,
+        39.117699999999999
+    ]
+}
 ```
 <hr>
 
