@@ -3,8 +3,7 @@
 **Point** 1:1 **Location**
 Example: Mt. Elbert (Colorado 14er)
 
-<details open><summary><b>Point</b></summary>
-
+<details><summary><b>Point</b></summary>
 ```json
 {
     "@context": [
