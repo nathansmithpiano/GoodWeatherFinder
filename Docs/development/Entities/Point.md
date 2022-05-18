@@ -44,7 +44,7 @@ public class Point {
 
 | Related Entity | Owner | Relationship |
 | --- | --- | --- |
-| `Location` | `Location` | `Point` 1:1 `Location` |
+| `Location` | `Location` | `Point` `**1:1**` `Location` |
 
 ### Location
 
