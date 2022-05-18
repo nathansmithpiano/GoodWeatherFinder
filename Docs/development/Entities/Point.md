@@ -138,6 +138,7 @@ public class Coordinates {
 <summary><h3>ForecastOffice</h3></summary>
 
 Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
+When `Point` is updated, `ForecastOffice` is also updated.
 
 <table>
 <thead><tr>
@@ -149,6 +150,10 @@ Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has o
 <td>
 
 ```java
+
+public class Point {
+	private ForecastOffice forecastOffice;
+}
 
 ```
 
