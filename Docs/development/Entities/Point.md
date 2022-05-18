@@ -5,10 +5,10 @@
 Each `Location` has at most one `Point`. Each `Point` has at most one `Location`.  
 
 `Point` JSON is obtained via its GPS coordinates (latitude and longitude) via the following IRI:<br>
-> `GET: https://api.weather.gov/points/{latitude},{longitude}`
+`GET: https://api.weather.gov/points/{latitude},{longitude}`
 
 The following example is for Mt. Elbert, the highest peak in Colorado.<br>
-> `GET: https://api.weather.gov/points/39.1177,-106.4453`
+`GET: https://api.weather.gov/points/39.1177,-106.4453`
 
 ## Primary Key
 The primary key for `Point` is the IRI, included twice in the JSON: `id` and `properties.@id`.  
