@@ -190,7 +190,7 @@ When `Point` is updated, each `Forecast` is also updated.
 ```java
 
 public class Point {
-	private List<Forecast> forecastList;
+  private List<Forecast> forecastList;
 }
 
 ```
