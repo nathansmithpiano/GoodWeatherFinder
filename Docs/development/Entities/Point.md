@@ -16,7 +16,7 @@ The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 | --- | --- | --- | --- | --- |
 | id | id &<br>properties.@id | `String` | primary key & IRI | https://api.weather.gov/points/39.1177,-106.4453 |
 | type | type | `String` | GeoJSON @type | Feature |
-| `geometry` | geometry | `Geometry` | single `Coordinates` | `type = "Point";`<br>`coordinates = [-106.4453,39.117699999999999];` |
+| `geometry` | geometry | `Geometry` | single `Coordinates` entity | `type = "Point";`<br>`coordinates = [-106.4453,39.117699999999999];` |
 | properties.
 <hr>
 
