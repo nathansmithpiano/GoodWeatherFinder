@@ -39,6 +39,8 @@ private String type; // GeoJSON type, i.e. Feature
 <hr>
 
 
+
+
 ```java
 private Geometry geometry; // single pair of Coordinates
 ```
@@ -53,12 +55,14 @@ private Geometry geometry; // single pair of Coordinates
 }
 ```
 <hr>
-```java
 
+```java
+private String cwa; // County Warning Area, used in IRIs for forecastOffice, forecast, forecastGridData, observationStation
 ```
 
 ```json
-
+"properties": {
+	"cwa": "PUB"
 ```
 <hr>
 

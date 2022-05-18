@@ -31,7 +31,7 @@
 | id | URL to this endpoint |
 | type | "Feature" (String) |
 |  geometry | **Geometry entity, single coordinate** |
-| properties.@id | URL to this endpoint |
+| properties.@id | unique identifier for this resource (IRI) |
 | properties.@type | "wx:Point" (String) |
 | properties.cwa | officeId (String), i.e. "PUB" |
 | properties.forecastOffice | **ForecastOffice entity** via URL to another endpoint |
