@@ -43,7 +43,7 @@ public class Point {
 ## Relationships
 
 | Related Entity | Owner | Relationship | Type |
-| --- | --- | --- |
+| --- | --- | --- | -- |
 | `Location` | `Location` | `Point` `1:1` `Location` | `Unidirectional` |
 | `Geometry` | `Point` | `Point` `1:1` `Geometry` | `Unidirectional` |
 | `Geometry`.`Coordinates` | `Point`.`Geometry` | `Geometry` `1:1` `Coordinates` | `Unidirectional` |
