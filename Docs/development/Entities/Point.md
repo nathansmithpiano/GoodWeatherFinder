@@ -3,7 +3,7 @@
 **Point** 1:1 **Location**
 Example: Mt. Elbert (Colorado 14er)
 
-<details><summary><b>Point</b></summary>
+<details><summary><b>JSON</b> <i>Requested May 17 2022</i></summary>
 
 ```json
 {
