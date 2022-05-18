@@ -20,19 +20,19 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 <tbody>
 <tr>
 <td>
+
 ```java
 private String id; 
 private String propertiesId; 
 ```
-
 </td>
 <td>
+
 ```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
-
 </td>
 </tr>
 </tbody>
