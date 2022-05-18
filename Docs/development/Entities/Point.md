@@ -66,7 +66,7 @@ public class Point {
 
 </details>
 
-<details open>
+<details>
 <summary><h3>Geometry</h3></summary>
 
 Each `Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.  
