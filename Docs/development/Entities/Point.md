@@ -15,7 +15,7 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 | Java | JSON |
 | --- | --- |
 | `private String id;` | `"id": "https://api.weather.gov/points/39.1177,-106.4453"` |
-| `private String propertiesId` | `"properties": {`<br>`"@id": "https://api.weather.gov/points/39.1177,-106.4453"` |
+| `private String propertiesId` | <pre>"properties": {<br>"@id": "https://api.weather.gov/points/39.1177,-106.4453"</pre> |
 
 ```java
 // ID and IRI for this Point
