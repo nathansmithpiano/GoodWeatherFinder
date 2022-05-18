@@ -13,38 +13,37 @@ https://api.weather.gov/points/{latitude},{longitude}
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
 <table>
-<thead>
-<tr>
-<th>
-Java
-</th>
-<th>
-Json
-</th>
-</tr>
-</thead>
-<tr>
-<td>
+	<thead><tr>
+		<th></th>
+		<th>Java</th>
+		<th>JSON</th>
+	</tr></thead>
+	<tbody>
+		<tr>
+		<td>
+			`id`
+		</td>
+		<td>
 
-```java
-// ID and IRI for this Point
-private String id; 
+			```java
+			// ID and IRI for this Point
+			private String id; 
+			
+			// expected to be same as id
+			private String propertiesId; 
+			```
 
-// expected to be same as id
-private String propertiesId; 
-```
+		</td>
+		<td>
 
-</td>
-<td>
-
-```json
-"id": "https://api.weather.gov/points/39.1177,-106.4453",
-"properties": {
-        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
-```
-
-</td>
-</tr>
+			```json
+			"id": "https://api.weather.gov/points/39.1177,-106.4453",
+			"properties": {
+			        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+			```
+		
+		</td>
+		</tr>
 </table>
 
 
