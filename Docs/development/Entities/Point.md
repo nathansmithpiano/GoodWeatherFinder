@@ -28,7 +28,6 @@ private String id; // ID and IRI for this Point
 ```
 <hr>
 
-<hr>
 ```java
 private String type; // GeoJSON type, i.e. Feature
 ```
