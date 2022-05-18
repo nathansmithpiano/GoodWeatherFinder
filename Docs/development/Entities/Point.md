@@ -202,13 +202,16 @@ public class Forecast {
 </td>
 <td>
 
-```json
-// Point
+<code>
+Point
+<pre>
+json
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
 	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
-```
+</pre>
+</code>
 
 </td>
 </tr>
