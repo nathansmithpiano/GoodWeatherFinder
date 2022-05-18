@@ -34,7 +34,7 @@ private Geometry geometry; // single pair of Coordinates
 
 ```json
 "geometry": {
-    "type": "Point",
+    "type": "Point", // Geometry of type "Point" indicates only one pair of coordinates
     "coordinates": [
         -106.4453,
         39.117699999999999
