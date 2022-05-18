@@ -50,8 +50,6 @@
 				<details open><summary>1.1.1</summary>
 					<blockquote>
 						<details open><summary>1.1.1.1</summary>
-							<blockquote>
-							</blockquote>
 						</details>
 					</blockquote>
 				</details>
@@ -62,8 +60,6 @@
 				<details open><summary>1.2.1</summary>
 					<blockquote>
 						<details open><summary>1.2.1.1</summary>
-							<blockquote>
-							</blockquote>
 						</details>
 					</blockquote>
 				</details>
