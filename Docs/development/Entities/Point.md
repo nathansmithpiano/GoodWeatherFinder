@@ -96,7 +96,7 @@ public class Geometry {
 </table>
 
 <details>
-<summary>Click to show map of `Geometry` GeoJSON</summary>
+<summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
 
 ```geojson
 {
