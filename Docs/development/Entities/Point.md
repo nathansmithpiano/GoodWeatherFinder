@@ -12,11 +12,11 @@ https://api.weather.gov/points/{latitude},{longitude}
 
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
-| Entity | JSON | Type | Description | Example |
+| Property | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
-| `id` | `id` `properties.@id` | `String` | `primary key`<br>`id`<br>`IRI` | https://api.weather.gov/points/39.1177,-106.4453 |
-| `type` | `type` | `String` | `GeoJSON @type` | `Feature` |
-| `geometry` | `geometry` | `Geometry` | single `Coordinate` | `"type": "Point"`,<br>`"coordinates": [-106.4453,39.117699999999999]` |
+| id | id properties.@id | `String` | primary key/id & IRI | "https://api.weather.gov/points/39.1177,-106.4453" |
+| type | type | `String` | GeoJSON @type | "Feature" |
+| `geometry` | geometry | `Geometry` | single `Coordinate` pair | "type": "Point",<br>"coordinates": [-106.4453,39.117699999999999] |
 <hr>
 
 - id and properties.@id
