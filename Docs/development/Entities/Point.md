@@ -18,10 +18,12 @@ The primary key and IRI `String`.<br>
 Included twice in the JSON: `id` and `properties.@id`.
 
 ```
+#### Entity
 private String id;
 ```
 
-```
+```json
+#### JSON
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453",
