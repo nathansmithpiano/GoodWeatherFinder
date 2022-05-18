@@ -179,6 +179,8 @@ When `Point` is updated, each `Forecast` is also updated.
 Each `Forecast` has either 14 (normal) or 156 (hourly) `Period`.  Each `Period` has one and only one `Forecast`.  
 When `Forecast` is updated, each `Period` is also updated.
 
+When `Point` is updated, a total of 2 `Forecast` and 170 `Period` are also updated.
+
 <table>
 <thead><tr>
 <th>Java</th>
@@ -195,6 +197,7 @@ public class Point {
 ```
 ```java
 public class Forecast {
+	private Geometry geometry;
 	private List<Period> periodList;
 }
 ```
@@ -211,6 +214,33 @@ public class Forecast {
 ```
 ##### Forecast
 ```json
+"geometry": {
+    "type": "Polygon",
+    "coordinates": [
+        [
+            [
+                -106.4610958,
+                39.117267400000003
+            ],
+            [
+                -106.4586896,
+                39.095231600000005
+            ],
+            [
+                -106.4302713,
+                39.097097800000007
+            ],
+            [
+                -106.43267160000001,
+                39.119133800000007
+            ],
+            [
+                -106.4610958,
+                39.117267400000003
+            ]
+        ]
+    ]
+},
 "properties": {
 	"periods": [
 		{},
