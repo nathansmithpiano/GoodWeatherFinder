@@ -119,8 +119,6 @@ public class Coordinates {
 </tbody>
 </table>
 
-</details>
-
 <details>
 <summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
 
@@ -135,8 +133,9 @@ public class Coordinates {
 ```
 
 </details>
-
-### ForecastOffice
+</details>
+<details open>
+<summary><h3>ForecastOffice</h3></summary>
 
 Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
 
@@ -158,23 +157,51 @@ Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has o
 <td>
 
 ```json
-
+"properties": {
+	"forecastOffice": "https://api.weather.gov/offices/PUB"
+}
 ```
 </td>
 </tr>
 </tbody>
 </table>
 
+</details>
+<details open>
+<summary><h3>Forecast</h3></summary>
 
 
+</details>
+<details open>
+<summary><h3>ForecastGridData</h3></summary>
 
 
+</details>
+<details open>
+<summary><h3>ObservationStation</h3></summary>
 
 
+</details>
+<details open>
+<summary><h3>RelativeLocation</h3></summary>
 
 
+</details>
+<details open>
+<summary><h3>ForecastZone</h3></summary>
 
 
+</details>
+<details open>
+<summary><h3>County</h3></summary>
+
+
+</details>
+<details open>
+<summary><h3>FireWeatherZone</h3></summary>
+
+
+</details>
 
 ### Template
 
