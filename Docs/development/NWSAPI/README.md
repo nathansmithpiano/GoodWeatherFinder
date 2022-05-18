@@ -38,7 +38,7 @@ The structure below does not show properties for each individual entity.  Rather
 						</details>
 					</blockquote>
 					<blockquote>
-						<details open><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
+						<details><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 								<details><summary>location.point.properties.forecastOffice.<b>geometry</b> <i>(single entity)</i></summary>
 									<blockquote>
