@@ -302,6 +302,43 @@ public class Coordinates {
 </tbody>
 </table>
 
+<details>
+<summary>Click to show map of <code>`Forecast`.`Geometry`</code> GeoJSON</summary>
+
+```geojson
+
+{
+    "type": "Polygon",
+    "coordinates": [
+        [
+            [
+                -106.4610958,
+                39.117267400000003
+            ],
+            [
+                -106.4586896,
+                39.095231600000005
+            ],
+            [
+                -106.4302713,
+                39.097097800000007
+            ],
+            [
+                -106.43267160000001,
+                39.119133800000007
+            ],
+            [
+                -106.4610958,
+                39.117267400000003
+            ]
+        ]
+    ]
+}
+
+```
+
+</details>
+
 </details>
 <details open>
 <summary><h3>ForecastGridData</h3></summary>
