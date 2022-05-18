@@ -5,7 +5,7 @@
 
 ### Importing Data
 This is an overview of how NWS API JSON will translate to entities in the database.
-Each **location** shares a 1:1 mapping with a **point** in the NWS API.  From this point, many other entities will be created, or more commonly, updated.
+Each **location** shares a **1:1** mapping with a **point** in the NWS API.  From this **point***, many other entities will be created, or more commonly, updated.
 The structure below does not show properties for each individual entity.  Rather, it shows each entity or collection of entities that will be created, or more commonly, updated.
 
 <details open><summary><b>location</b></summary>
