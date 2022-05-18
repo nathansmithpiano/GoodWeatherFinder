@@ -19,6 +19,30 @@ The structure below does not show properties for each individual entity.  Rather
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecastOffice</b> <i>(single entity)</i></summary>
+					<blockquote>
+						<details><summary>location.point.properties.forecastOffice.<b>responsibleCounties</b> <i>(many IRI's, multiple entities)</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
+					<blockquote>
+						<details><summary>location.point.properties.forecastOffice.<b>responsibleForecastZones</b> <i>(many IRI's, multiple entities)</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
+					<blockquote>
+						<details><summary>location.point.properties.forecastOffice.<b>responsibleFireZones</b> <i>(many IRI's, multiple entities)</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
+					<blockquote>
+						<details><summary>location.point.properties.forecastOffice.<b>approvedObservationStations</b> <i>(many IRI's, multiple entities)</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecast & forecastHourly</b> <i>(2 IRI's, multiple entities)</i></summary>
 					<blockquote>
