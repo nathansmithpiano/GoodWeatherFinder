@@ -12,7 +12,7 @@ Example: Mt. Elbert (Colorado 14er)
 		</ul>
 		<details>
 			<summary>JSON</summary>
-```
+```json
 {
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
