@@ -44,7 +44,8 @@ public class Point {
 
 ### Location
 
-Each `Location` has at most one `Point`. Each `Point` has at most one `Location`.
+Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.
+When `Point` is updated, it will have no 
 
 ```java
 public class Point {
@@ -93,6 +94,17 @@ public class Geometry {
 </tr>
 </tbody>
 </table>
+
+```geojson
+{
+    "type": "Point",
+    "coordinates": [
+        -106.4453,
+        39.117699999999999
+    ]
+}
+```
+
 
 Each `Point` has 
 
