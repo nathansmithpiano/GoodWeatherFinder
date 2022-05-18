@@ -45,49 +45,43 @@
 ### TEMPLATE
 <details open><summary><b>location</b></summary>
 	<blockquote>
-		<details open><summary>location.<b>point</b></summary>
+		<details open><summary>location.<b>point</b> <i>(single entity)</i></summary>
 			<blockquote>
-				<details open><summary>location.point.<b>geometry</b></summary>
+				<details open><summary>location.point.<b>geometry</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details open><summary>location.point.geometry.<b>coordinates</b></summary>
+						<details open><summary>location.point.geometry.<b>coordinates</b> <i>(single entity)</i></summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.<b>forecastOffice</b></summary>
+				<details open><summary>location.point.properties.<b>forecastOffice</b> <i>(single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>forecast</b></summary>
+				<details open><summary>location.point.properties.<b>forecast & forecastHourly</b> <i>(2 IRI's, multiple entities)</i></summary>
 					<blockquote>
 						<details open><summary>location.point.properties.forecast.<b>periods</b></summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.<b>forecastHourly</b></summary>
-					<blockquote>
-						<details open><summary>location.point.properties.forecast.<b>periods</b></summary>
-						</details>
-					</blockquote>
+				<details open><summary>location.point.properties.<b>forecastGridData</b> <i>(IRI, single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>forecastGridData</b></summary>
-				</details>
-				<details open><summary>location.point.properties.<b>relativeLocation</b></summary>
+				<details open><summary>location.point.properties.<b>relativeLocation</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details><summary>location.point.properties.relativeLocation.<b>geometry</b></summary>
+						<details><summary>location.point.properties.relativeLocation.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
-								<details open><summary>location.point.properties.relativeLocation.geometry.<b>coordinates</b></summary>
+								<details open><summary>location.point.properties.relativeLocation.geometry.<b>coordinates</b> <i>(single entity)</i></summary>
 								</details>
 							</blockquote>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.<b>forecastZone</b></summary>
+				<details open><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>county</b></summary>
+				<details open><summary>location.point.properties.<b>county</b> <i>(IRI, single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>fireWeatherZone</b></summary>
+				<details open><summary>location.point.properties.<b>fireWeatherZone</b> <i>(IRI, single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>timeZone</b></summary>
+				<details open><summary>location.point.properties.<b>timeZone</b> <i>(single entity)</i></summary>
 				</details>
-				<details open><summary>location.point.properties.<b>radarStation</b></summary>
+				<details open><summary>location.point.properties.<b>radarStation</b> <i>(single entity)</i></summary>
 				</details>
 			</blockquote>
 		</details>
