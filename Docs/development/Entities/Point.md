@@ -109,6 +109,7 @@ Example: Mt. Elbert (Colorado 14er)
     }
 }
 ```
+
 		</details>
 		
 	</blockquote>
