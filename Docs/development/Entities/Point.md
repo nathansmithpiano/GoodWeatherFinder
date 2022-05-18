@@ -13,7 +13,7 @@ Example: Mt. Elbert (Colorado 14er)
 		<details>
 			<summary>JSON</summary>
 			
-			```
+```
 {
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -108,7 +108,7 @@ Example: Mt. Elbert (Colorado 14er)
         "radarStation": "KGJX"
     }
 }
-			```
+```
 			
 		</details>
 		
