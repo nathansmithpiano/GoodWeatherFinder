@@ -1,3 +1,13 @@
+## Point
+Primary Key: IRI (String)
+Also defined by its coordinates
+
+`Point` 1:1 `Location`
+
+
+
+## Location
+`Location` 1:1 `Point`
 
 # Alert
 
