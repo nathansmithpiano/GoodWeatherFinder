@@ -33,7 +33,7 @@
 						</details>
 					</blockquote>
 				</details>
-				<details><summary><b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i></summary>
+				<details><summary>1.2: location.<b>forecastOffice</b> <i>(single entity)</i></summary>
 					<blockquote>
 					</blockquote>
 				</details>
