@@ -213,9 +213,7 @@ public class Forecast {
 ```json
 "properties": {
 	"periods": [
-        { 
-        	...
-        }
+        { }
 	]
 }
 ```
