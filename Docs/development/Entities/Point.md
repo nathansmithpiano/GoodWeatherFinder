@@ -19,7 +19,6 @@ Included twice in the JSON: `id` and `properties.@id`.
 
 ```java
 private String id; // ID and IRI for this Point
-
 private String propertiesId; // expected to be same as id | saved for verification later
 ```
 
