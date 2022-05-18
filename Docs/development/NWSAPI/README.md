@@ -11,8 +11,8 @@ The structure below does not show properties for each individual entity.  Rather
 <details open><summary><b>location</b></summary>
 	<blockquote>
 		<details open><summary>location.<b>point</b> <i>(single entity)</i></summary>
-			<p>i.e. https://api.weather.gov/offices/PUB</p>
 			<blockquote>
+			<p>i.e. https://api.weather.gov/offices/PUB</p>
 				<details open><summary>location.point.<b>geometry</b> <i>(single entity)</i></summary>
 					<blockquote>
 						<details open><summary>location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
