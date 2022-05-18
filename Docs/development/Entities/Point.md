@@ -97,6 +97,7 @@ public class Geometry {
 
 <details>
 <summary>Click to show map of GeoJSON</summary>
+
 ```geojson
 {
     "type": "Point",
@@ -106,6 +107,7 @@ public class Geometry {
     ]
 }
 ```
+
 </details>
 
 Each `Point` has 
