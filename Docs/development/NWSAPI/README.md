@@ -24,29 +24,17 @@
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
 <details open>
-	<summary>
-		1. <b>location</b> <i>(single entity)</i>
-	</summary>
-	<blockquote>
-		<details open>
-			<summary>
-				1.1: location.<b>point</b> <i>(single entity)</i>
-			</summary>
-				<blockquote>
-				<details open>
-					<summary>
-						1.1.1: location.point.<b>geometry</b> <i>(single entity)</i>
-					</summary>
-						<blockquote>
-							1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i>
-						</blockquote>
-				</details>
-			</blockquote>
+	<summary>1. <b>location</b> <i>(single entity)</i></summary>
+	<blockquote><details open>
+		<summary>1.1: location.<b>point</b> <i>(single entity)</i></summary>
+		<blockquote><details open>
+			<summary>1.1.1: location.point.<b>geometry</b> <i>(single entity)</i></summary>
+			<blockquote><details>
+				<summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
+			</blockquote></details>
 		</details>
 		<details>
-			<summary>
-				<b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i>
-			</summary>
+			<summary><b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i></summary>
 			<blockquote>
 			</blockquote>
 		</details>
