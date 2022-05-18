@@ -7,9 +7,9 @@ A point is found via its GPS coordinates (latitude and longitude) via the follow
 https://api.weather.gov/points/{latitude},{longitude}
 ```
 
-| Property | Type | Description | Example |
-| --- | --- | --- | --- |
-| id & properties.@id | String | IRI; primary key & id for this **point** | https://api.weather.gov/points/39.1177,-106.4453 |
+| Entity | JSON | Type | Description | Example |
+| --- | --- | --- | --- | --- |
+| id | id & properties.@id | String | IRI; primary key & id for this **point** | https://api.weather.gov/points/39.1177,-106.4453 |
 <hr>
 
 - id and properties.@id
