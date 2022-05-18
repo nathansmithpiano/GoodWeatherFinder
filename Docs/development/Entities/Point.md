@@ -35,7 +35,7 @@ public class Point {
 ```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
-        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+    "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
 </td>
 </tr>
