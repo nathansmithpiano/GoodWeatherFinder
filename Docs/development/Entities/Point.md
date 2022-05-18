@@ -24,6 +24,7 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 private String id; 
 private String propertiesId; 
 ```
+
 </td>
 <td>
 ```json
@@ -31,6 +32,7 @@ private String propertiesId;
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
+
 </td>
 </tr>
 </tbody>
