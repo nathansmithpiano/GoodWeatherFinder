@@ -11,11 +11,13 @@ Example: Mt. Elbert (Colorado 14er)
 		</ul>
 		
 		<details><summary>JSON</summary>
+		
 			<blockquote>
 				```json
 				Code here
 				```
 			</blockquote>
 		</details>
+		
 	</blockquote>
 </details>
