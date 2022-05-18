@@ -49,18 +49,21 @@
 			<blockquote>
 				<details open><summary>location.point.geometry</summary>
 					<blockquote>
-						location.point.geometry.coordinates
+						<details open><summary>location.point.geometry.coordinates</summary>
+						</details>
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.forecastOffice</summary>
 				</details>
 				<details><summary>location.point.properties.forecast</summary>
 					<blockquote>
-						<details><summary></summary>
-							<blockquote>
-								<details><summary>location.point.properties.forecast.periods</summary>
-								</details>
-							</blockquote>
+						<details><summary>location.point.properties.forecast.periods</summary>
+						</details>
+					</blockquote>
+				</details>
+				<details><summary>location.point.properties.forecastHourly</summary>
+					<blockquote>
+						<details><summary>location.point.properties.forecast.periods</summary>
 						</details>
 					</blockquote>
 				</details>
