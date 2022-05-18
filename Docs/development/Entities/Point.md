@@ -45,7 +45,7 @@ public class Point {
 ### Location
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.
-When `Point` is updated, it will have no 
+When `Point` is updated, it will have no effect on `Location`.
 
 ```java
 public class Point {
@@ -55,10 +55,11 @@ public class Point {
 
 ### Geometry
 
-Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.  
-When `Point` JSON is requested from the NWS API, `Geometry` is updated (replaced) with the current data.
+Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.
+Each `Geometry` is unique to `Point`.
+When `Point` is updated, `Geometry` is also updated.
 
-<table padding="0">
+<table>
 <thead><tr>
 <th>Java</th>
 <th>JSON</th>
@@ -112,7 +113,78 @@ public class Geometry {
 
 ### ForecastOffice
 
-Each `Point` has one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
+Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
+
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```json
+
+```
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+### Template
+
+Each `Entity` has `Entity`. That `Entity` has `Entity.
+
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+```
+</td>
+</tr>
+<tr>
+<td>
+
+```json
+
+```
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
 
 
 
