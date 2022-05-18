@@ -19,18 +19,12 @@ Included twice in the JSON: `id` and `properties.@id`.
 
 ```java
 private String id; // ID and IRI for this Point
-```
 
-```json
-"id": "https://api.weather.gov/points/39.1177,-106.4453"
-```
-
-```java
 private String propertiesId; // expected to be same as id | saved for verification later
 ```
 
 ```json
-,
+"id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
