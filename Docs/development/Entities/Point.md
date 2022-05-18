@@ -22,8 +22,7 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 <tr>
 <td>
 
-`primary key`
-
+`id` 
 </td>
 <td>
 
