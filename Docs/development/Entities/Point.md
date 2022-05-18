@@ -215,30 +215,217 @@ public class Point {
 <summary><h3>ForecastGridData</h3></summary>
 
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
+
 </details>
 <details open>
 <summary><h3>ObservationStation</h3></summary>
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 </details>
 <details open>
 <summary><h3>RelativeLocation</h3></summary>
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 </details>
 <details open>
 <summary><h3>ForecastZone</h3></summary>
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 </details>
 <details open>
 <summary><h3>County</h3></summary>
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 </details>
 <details open>
 <summary><h3>FireWeatherZone</h3></summary>
 
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+
+public class Point {
+	private List<Forecast> forecastList;
+}
+
+```
+
+</td>
+<td>
+
+```json
+"properties": {
+	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+}
+```
+
+</td>
+</tr>
+</tbody>
+</table>
 
 </details>
 
