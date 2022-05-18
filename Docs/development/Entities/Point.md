@@ -23,7 +23,6 @@ private String id;
 ```
 
 ```json
-<h4>JSON</hr>
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453",
