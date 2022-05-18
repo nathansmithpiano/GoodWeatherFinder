@@ -1,4 +1,4 @@
-## Entities: Point
+# Entities: Point
 
 Each `Location` has at most one `Point`.  As such, `Point` is the starting point for obtaining data in the **NWS API**. 
 
