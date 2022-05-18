@@ -4,6 +4,7 @@
 Example: Mt. Elbert (Colorado 14er)
 
 <details open><summary><b>Point</b></summary>
+
 ```json
 {
     "@context": [
@@ -100,4 +101,5 @@ Example: Mt. Elbert (Colorado 14er)
     }
 }
 ```
+
 </details>
