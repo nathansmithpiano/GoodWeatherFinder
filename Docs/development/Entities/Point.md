@@ -8,9 +8,8 @@ https://api.weather.gov/points/{latitude},{longitude}
 ```
 
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
-```
-https://api.weather.gov/points/39.1177,-106.4453
-```
+`https://api.weather.gov/points/39.1177,-106.4453`
+
 <hr>
 
 ### Point
