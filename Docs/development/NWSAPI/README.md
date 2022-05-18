@@ -14,37 +14,43 @@ The structure below does not show properties for each individual entity.  Rather
 			<blockquote>
 				<details open><summary>location.point.<b>geometry</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details open><summary>location.point.geometry.<b>coordinates</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
 						</details>
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecastOffice</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details><summary>location.point.properties.forecastOffice.<b>responsibleCounties</b> <i>(many IRI's, multiple entities)</summary>
+						<details><summary>location.point.properties.forecastOffice.<b>counties</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 							</blockquote>
 						</details>
 					</blockquote>
 					<blockquote>
-						<details><summary>location.point.properties.forecastOffice.<b>responsibleForecastZones</b> <i>(many IRI's, multiple entities)</summary>
+						<details><summary>location.point.properties.forecastOffice.<b>forecastZones</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 							</blockquote>
 						</details>
 					</blockquote>
 					<blockquote>
-						<details><summary>location.point.properties.forecastOffice.<b>responsibleFireZones</b> <i>(many IRI's, multiple entities)</summary>
+						<details><summary>location.point.properties.forecastOffice.<b>fireZones</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 							</blockquote>
 						</details>
 					</blockquote>
 					<blockquote>
-						<details open><summary>location.point.properties.forecastOffice.<b>approvedObservationStations</b> <i>(many IRI's, multiple entities)</summary>
+						<details open><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 								<details><summary>location.point.properties.forecastOffice.<b>geometry</b> <i>(single entity)</i></summary>
 									<blockquote>
-										<details open><summary>location.point.properties.forecastOffice.geometry.<b>coordinates</b> <i>(single entity)</i></summary>
+										<details open><summary>location.point.properties.forecastOffice.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
 										</details>
 									</blockquote>
+								</details>
+								<details><summary>location.point.properties.forecastOffice.<b>forecastZone</b> <i>(URI, single entity)</i></summary>
+								</details>
+								<details><summary>location.point.properties.forecastOffice.<b>county</b> <i>(URI, single entity)</i></summary>
+								</details>
+								<details><summary>location.point.properties.forecastOffice.<b>fireWeatherZone</b> <i>(URI, single entity)</i></summary>
 								</details>
 							</blockquote>
 						</details>
