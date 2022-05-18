@@ -52,7 +52,7 @@ The structure below does not show properties for each individual entity.  Rather
 						</details>
 					</blockquote>
 				</details>
-				<details><summary>location.point.properties.<b>forecastGridData</b> <i>(IRI, single entity)</i></summary>
+				<details open><summary>location.point.properties.<b>forecastGridData</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
 						<p>i.e. https://api.weather.gov/gridpoints/PUB/33,107</p>
 						<details open><summary>location.point.properties.forecastGridData.<b>geometry</b> <i>(single entity)</i></summary>
@@ -61,7 +61,7 @@ The structure below does not show properties for each individual entity.  Rather
 								</details>
 							</blockquote>
 						</details>
-						<details><summary>location.point.properties.forecastGridData.<b>forecastOffice</b> <i>(URI, single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>forecastOffice</b> <i>(URI, single entity)</i></summary>
 							<blockquote>
 								<p>i.e. https://api.weather.gov/offices/PUB</p>
 							</blockquote>
