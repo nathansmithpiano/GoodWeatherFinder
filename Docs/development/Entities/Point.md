@@ -11,7 +11,8 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 <hr>
 
 ### Primary Key
-The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.  Both are stored in the entity as it may be helpful for verification later.
+The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.
+  Both are stored in the entity as it may be helpful for verification later.
 
 <table>
 <thead><tr>
