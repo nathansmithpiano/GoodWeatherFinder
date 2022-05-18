@@ -308,28 +308,41 @@ public class Coordinates {
 ```geojson
 
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 1,
+			"properties": {
+			"ID": 0
+			},
+			"geometry": {
+			"type": "Polygon",
+			"coordinates": [[
+					[
+						-106.4610958,
+	                    39.117267400000003
+	            	],
+	            	[
+	                    -106.4586896,
+	                    39.095231600000005
+	                ],
+	                [
+	                    -106.4302713,
+	                    39.097097800000007
+	                ],
+	                [
+	                    -106.43267160000001,
+	                    39.119133800000007
+	                ],
+	                [
+	                    -106.4610958,
+	                    39.117267400000003
+	                ]
+				]]
+			}
+		}
+	]
 }
 
 ```
