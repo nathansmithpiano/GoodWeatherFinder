@@ -28,11 +28,12 @@ private String propertiesId;
 ```
 </td>
 <td>
-<pre><code>
+
+```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
-</code></pre>
+```
 </td>
 </tr>
 </tbody>
