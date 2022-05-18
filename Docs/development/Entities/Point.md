@@ -10,20 +10,15 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 
 <hr>
 
-### Point
+### Primary Key
 
 <table>
 <thead><tr>
-<th></th>
 <th>Java</th>
 <th>JSON</th>
 </thead></tr>
 <tbody>
 <tr>
-<td>
-
-`id` 
-</td>
 <td>
 
 ```java
@@ -43,23 +38,8 @@ private String propertiesId;
 </tbody>
 </table>
 
+The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.
 
-
-### Properties
-
-The primary key and IRI `String`.<br>
-Included twice in the JSON: `id` and `properties.@id`.
-
-```java
-private String id; // ID and IRI for this Point
-private String propertiesId; // expected to be same as id | saved for verification later
-```
-
-```json
-"id": "https://api.weather.gov/points/39.1177,-106.4453",
-"properties": {
-        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
-```
 <hr>
 
 ```java
