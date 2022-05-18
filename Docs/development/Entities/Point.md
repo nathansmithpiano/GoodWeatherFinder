@@ -11,7 +11,7 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 <hr>
 
 ### Primary Key
-The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.  
+The primary key for `Point` is the IRI, included twice in the JSON: `id` and `properties.@id`.  
 Both are stored in the entity as it may be helpful for verification later.
 
 <table>
@@ -44,7 +44,9 @@ public class Point {
 
 ### Relationships
 
+Each `Point` entity contains several other entities or collections of entities.
 
+Each `Point` may have at most one `Geometry`.  That `Geometry` will have at most one `Coordinates`.
 
 <table padding="0">
 <thead><tr>
