@@ -318,7 +318,8 @@ public class Coordinates {
 			},
 			"geometry": {
 			"type": "Polygon",
-			"coordinates": [[
+			"coordinates": [
+				[
 					[
 						-106.4610958,
 	                    39.117267400000003
