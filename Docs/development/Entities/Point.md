@@ -53,16 +53,13 @@ private String propertiesId;
 <tr>
 <td>
 
-<pre>
-java
+```java
 private Geometry geometry;
-</pre>
+```
 </td>
 <td>
 
-<pre>
-json
-{
+```json
 "geometry": {
     "type": "Point",
     "coordinates": [
@@ -70,7 +67,7 @@ json
         39.117699999999999
     ]
 }
-</pre>
+```
 </td>
 </tr>
 </tbody>
