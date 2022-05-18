@@ -24,8 +24,10 @@ Both are stored in the entity as it may be helpful for verification later.
 <td>
 
 ```java
-private String id; 
-private String propertiesId; 
+public class Point {
+	private String id; 
+	private String propertiesId; 
+}
 ```
 </td>
 <td>
