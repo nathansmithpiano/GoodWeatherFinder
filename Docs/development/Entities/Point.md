@@ -54,8 +54,9 @@ private String propertiesId;
 <td>
 
 ```java
+public class Point {
 private Geometry geometry;
-
+}
 public class Geometry {
 	private String type;
 	private List<Coordinate> coordinateList;
