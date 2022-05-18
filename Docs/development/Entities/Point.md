@@ -57,7 +57,6 @@ public class Point {
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.  
 When `Point` is updated, it has no effect on `Location`.
-
 ```java
 public class Point {
 	private Location location;
