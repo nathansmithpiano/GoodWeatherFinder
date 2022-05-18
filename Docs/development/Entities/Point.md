@@ -19,12 +19,18 @@ Included twice in the JSON: `id` and `properties.@id`.
 
 ```java
 private String id; // ID and IRI for this Point
-
-private String propertiesId; // expected to match with id
 ```
 
 ```json
-"id": "https://api.weather.gov/points/39.1177,-106.4453",
+"id": "https://api.weather.gov/points/39.1177,-106.4453"
+```
+
+```java
+private String propertiesId; // expected to be same as id | saved for verification later
+```
+
+```json
+,
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
@@ -33,6 +39,13 @@ private String propertiesId; // expected to match with id
 ```java
 private String type; // GeoJSON type | i.e. Feature
 ```
+
+```json
+"type": "Feature"
+```
+
+```java
+
 
 ```json
 "properties": {
@@ -62,6 +75,33 @@ private Geometry geometry; // single pair of Coordinates
         39.117699999999999
     ]
 }
+```
+<hr>
+
+```java
+
+```
+
+```json
+
+```
+<hr>
+
+```java
+
+```
+
+```json
+
+```
+<hr>
+
+```java
+
+```
+
+```json
+
 ```
 <hr>
 
