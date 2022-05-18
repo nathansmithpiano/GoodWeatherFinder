@@ -27,46 +27,34 @@ The structure below does not show properties for each individual entity.  Rather
 								<p>i.e. https://api.weather.gov/zones/county/COC003</p>
 							</blockquote>
 						</details>
-					</blockquote>
-					<blockquote>
 						<details><summary>location.point.properties.forecastOffice.<b>forecastZones</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
+								<p>i.e. https://api.weather.gov/zones/forecast/COZ058</p>
 							</blockquote>
 						</details>
-					</blockquote>
-					<blockquote>
-						<details><summary>location.point.properties.forecastOffice.<b>fireZones</b> <i>(many IRI's, multiple entities)</summary>
+						<details open><summary>location.point.properties.forecastOffice.<b>fireZones</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
+								<p>i.e. https://api.weather.gov/zones/fire/COZ220</p>
 							</blockquote>
 						</details>
-					</blockquote>
-					<blockquote>
 						<details><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
-								<details><summary>location.point.properties.forecastOffice.<b>geometry</b> <i>(single entity)</i></summary>
-									<blockquote>
-										<details open><summary>location.point.properties.forecastOffice.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
-										</details>
-									</blockquote>
-								</details>
-								<details><summary>location.point.properties.forecastOffice.<b>forecastZone</b> <i>(URI, single entity)</i></summary>
-								</details>
-								<details><summary>location.point.properties.forecastOffice.<b>county</b> <i>(URI, single entity)</i></summary>
-								</details>
-								<details><summary>location.point.properties.forecastOffice.<b>fireWeatherZone</b> <i>(URI, single entity)</i></summary>
-								</details>
+								<p>i.e. https://api.weather.gov/stations/K04V</p>
 							</blockquote>
 						</details>
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecast & forecastHourly</b> <i>(2 IRI's, multiple entities)</i></summary>
 					<blockquote>
+						<p>i.e. https://api.weather.gov/gridpoints/PUB/33,107/forecast</p>
+						<p>i.e. https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly</p>
 						<details open><summary>location.point.properties.forecast.<b>periods</b> <i>(multiple entities)</i></summary>
 						</details>
 					</blockquote>
 				</details>
 				<details><summary>location.point.properties.<b>forecastGridData</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
+						<p>i.e. https://api.weather.gov/gridpoints/PUB/33,107</p>
 						<details open><summary>location.point.properties.forecastGridData.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
 								<details open><summary>location.point.properties.forecastGridData.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
@@ -74,6 +62,9 @@ The structure below does not show properties for each individual entity.  Rather
 							</blockquote>
 						</details>
 						<details><summary>location.point.properties.forecastGridData.<b>forecastOffice</b> <i>(URI, single entity)</i></summary>
+							<blockquote>
+								<p>i.e. https://api.weather.gov/offices/PUB</p>
+							</blockquote>
 						</details>
 						<details open><summary>location.point.properties.forecastGridData.<b>temperature</b> <i>(single entity)</i></summary>
 						</details>
@@ -187,6 +178,7 @@ The structure below does not show properties for each individual entity.  Rather
 				</details>
 				<details open><summary>location.point.properties.<b>observationStations</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
+						<p> i.e. https://api.weather.gov/gridpoints/PUB/33,107/stations</p>
 						<p>This IRI contains the JSON for all observationStations, as well as a list of those URI's.<br>
 						Rather than creating a unique entity as the unique IRI would imply, point will store a collection.</p>
 					</blockquote>
@@ -203,6 +195,7 @@ The structure below does not show properties for each individual entity.  Rather
 				</details>
 				<details><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
+						<p>i.e. https://api.weather.gov/zones/forecast/COZ060</p>
 						<details><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
 								<details open><summary>location.point.properties.forecastZone.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
@@ -210,14 +203,31 @@ The structure below does not show properties for each individual entity.  Rather
 							</blockquote>
 						</details>
 						<details open><summary>location.point.properties.forecastZone.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
+							<blockquote>
+								<p>i.e. https://api.weather.gov/offices/PUB</p>
+							</blockquote>
 						</details>
 						<details open><summary>location.point.properties.forecastZone.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
-						</details>
-						<details><summary>location.point.properties.forecastZone.<b>radarStation</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<p>i.e. https://api.weather.gov/stations/KASE</p>
+							</blockquote>
 						</details>
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>county</b> <i>(IRI, single entity)</i></summary>
+					<blockquote>
+						<p>i.e. https://api.weather.gov/zones/county/COC065</p>
+						<details><summary>location.point.properties.county.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
+							<blockquote>
+								<p>i.e. https://api.weather.gov/offices/PUB</p>
+							</blockquote>
+						</details>
+						<details><summary>location.point.properties.county.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
+							<blockquote>
+								<p>no example at this time </p>
+							</blockquote>
+						</details>
+					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>fireWeatherZone</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
@@ -227,19 +237,12 @@ The structure below does not show properties for each individual entity.  Rather
 								</details>
 							</blockquote>
 							<details open><summary>location.point.properties.forecastZone.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
-							</details>
-							<details open><summary>location.point.properties.forecastZone.<b>timeZones</b> <i>(multiple entities)</i></summary>
+								<p></p>
 							</details>
 							<details open><summary>location.point.properties.forecastZone.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
 							</details>
-							<details open><summary>location.point.properties.forecastZone.<b>timeZones</b> <i>(single entity)</i></summary>
-							</details>
 						</details>
 					</blockquote>
-				</details>
-				<details open><summary>location.point.properties.<b>timeZone</b> <i>(single entity)</i></summary>
-				</details>
-				<details open><summary>location.point.properties.<b>radarStation</b> <i>(single entity)</i></summary>
 				</details>
 			</blockquote>
 		</details>
