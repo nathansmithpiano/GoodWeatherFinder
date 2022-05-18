@@ -13,6 +13,16 @@ https://api.weather.gov/points/{latitude},{longitude}
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
 <table>
+<thead>
+<tr>
+<th>
+Java
+</th>
+<th>
+Json
+</th>
+</tr>
+</thead>
 <tr>
 <td>
 
