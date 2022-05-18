@@ -17,8 +17,11 @@ The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 <td>
 
 ```java
-private String id; // ID and IRI for this Point
-private String propertiesId; // expected to be same as id | saved for verification later
+// ID and IRI for this Point
+private String id; 
+
+// expected to be same as id
+private String propertiesId; 
 ```
 
 </td>
