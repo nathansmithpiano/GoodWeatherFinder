@@ -55,8 +55,10 @@ private String propertiesId;
 
 ```java
 public class Point {
-private Geometry geometry;
+	private Geometry geometry;
 }
+```
+```java
 public class Geometry {
 	private String type;
 	private List<Coordinate> coordinateList;
