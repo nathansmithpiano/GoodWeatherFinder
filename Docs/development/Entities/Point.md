@@ -50,7 +50,8 @@ public class Point {
 | `ForecastOffice` | `Point` | `Point` `1:1` `ForecastOffice` | `Unidirectional` |
 
 
-### Location
+<details open>
+<summary><h3>Location</h3></summary>
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.  
 When `Point` is updated, it has no effect on `Location`.
@@ -60,6 +61,8 @@ public class Point {
 	private Location location;
 }
 ```
+
+</details>
 
 ### Geometry
 
