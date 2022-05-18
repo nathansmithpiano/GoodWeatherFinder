@@ -27,7 +27,7 @@ The structure below does not show properties for each individual entity.  Rather
 								<p>i.e. https://api.weather.gov/zones/county/COC003</p>
 							</blockquote>
 						</details>
-						<details><summary>location.point.properties.forecastOffice.<b>forecastZones</b> <i>(many IRI's, multiple entities)</summary>
+						<details open><summary>location.point.properties.forecastOffice.<b>forecastZones</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 								<p>i.e. https://api.weather.gov/zones/forecast/COZ058</p>
 							</blockquote>
@@ -196,7 +196,7 @@ The structure below does not show properties for each individual entity.  Rather
 				<details open><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
 						<p>i.e. https://api.weather.gov/zones/forecast/COZ060</p>
-						<details><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
 								<details open><summary>location.point.properties.forecastZone.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
 								</details>
@@ -251,7 +251,7 @@ The structure below does not show properties for each individual entity.  Rather
 <hr>
 
 #### TEMPLATE
-<details><summary></summary>
+<details open><summary></summary>
 	<blockquote>
 	</blockquote>
 </details>
