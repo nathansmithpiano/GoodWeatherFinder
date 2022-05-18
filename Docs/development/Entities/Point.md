@@ -12,6 +12,7 @@ Example: Mt. Elbert (Colorado 14er)
 		</ul>
 		<details>
 			<summary>JSON</summary>
+			
 			```
 			{
 			    "@context": [
@@ -110,5 +111,6 @@ Example: Mt. Elbert (Colorado 14er)
 			```
 			
 		</details>
+		
 	</blockquote>
 </details>
