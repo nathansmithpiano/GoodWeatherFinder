@@ -57,7 +57,7 @@
 				</details>
 				<details open><summary>location.point.properties.<b>forecast & forecastHourly</b> <i>(2 IRI's, multiple entities)</i></summary>
 					<blockquote>
-						<details open><summary>location.point.properties.forecast.<b>periods</b></summary>
+						<details open><summary>location.point.properties.forecast.<b>periods</b> <i>(multiple entities)</i></summary>
 						</details>
 					</blockquote>
 				</details>
