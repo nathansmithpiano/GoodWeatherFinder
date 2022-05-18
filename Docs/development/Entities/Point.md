@@ -7,7 +7,9 @@ A point is found via its GPS coordinates (latitude and longitude) via the follow
 https://api.weather.gov/points/{latitude},{longitude}
 ```
 <hr>
+
 ### Properties
+
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
 | Entity | JSON | Type | Description | Example |
