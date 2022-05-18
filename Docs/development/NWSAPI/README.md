@@ -183,6 +183,10 @@ The structure below does not show properties for each individual entity.  Rather
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>observationStations</b> <i>(IRI, single entity)</i></summary>
+					<blockquote>
+						<p>This IRI contains the JSON for all observationStations, as well as a list of those URI's.<br>
+						Rather than creating a unique entity as the unique IRI would imply, point will store a collection.</p>
+					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>relativeLocation</b> <i>(single entity)</i></summary>
 					<blockquote>
