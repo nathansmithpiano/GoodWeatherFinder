@@ -44,7 +44,8 @@ public class Point {
 
 ### Relationships
 
-Each `Point` may have at most one `Geometry`.  That `Geometry` will have at most one `Coordinates`.
+Each `Point` may have at most one `Geometry`.  That `Geometry` will have at most one `Coordinates`.  
+When `Point` JSON is requested from the NWS API, `Geometry` will be updated (replaced) with the current data.
 
 <table padding="0">
 <thead><tr>
@@ -83,6 +84,7 @@ public class Geometry {
 </tbody>
 </table>
 
+Each `Point` may have at most one `Geometry`.  That `Geometry` will have at most one `Coordinates`.
 
 ```java
 private String type; // GeoJSON type | i.e. Feature
