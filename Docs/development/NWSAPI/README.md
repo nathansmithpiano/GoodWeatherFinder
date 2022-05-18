@@ -43,51 +43,51 @@
 </details>
 
 ### TEMPLATE
-<details open><summary>location</summary>
+<details open><summary><b>location</b></summary>
 	<blockquote>
-		<details open><summary>location.point</summary>
+		<details open><summary>location.<b>point</b></summary>
 			<blockquote>
-				<details open><summary>location.point.geometry</summary>
+				<details open><summary>location.point.<b>geometry</b></summary>
 					<blockquote>
-						<details open><summary>location.point.geometry.coordinates</summary>
+						<details open><summary>location.point.geometry.<b>coordinates</b></summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.forecastOffice</summary>
+				<details open><summary>location.point.properties.<b>forecastOffice</b></summary>
 				</details>
-				<details open><summary>location.point.properties.forecast</summary>
+				<details open><summary>location.point.properties.<b>forecast</b></summary>
 					<blockquote>
-						<details open><summary>location.point.properties.forecast.periods</summary>
+						<details open><summary>location.point.properties.forecast.<b>periods</b></summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.forecastHourly</summary>
+				<details open><summary>location.point.properties.<b>forecastHourly</b></summary>
 					<blockquote>
-						<details open><summary>location.point.properties.forecast.periods</summary>
+						<details open><summary>location.point.properties.forecast.<b>periods</b></summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.forecastGridData</summary>
+				<details open><summary>location.point.properties.<b>forecastGridData</b></summary>
 				</details>
-				<details open><summary>location.point.properties.relativeLocation</summary>
+				<details open><summary>location.point.properties.<b>relativeLocation</b></summary>
 					<blockquote>
-						<details><summary>location.point.properties.relativeLocation.geometry</summary>
+						<details><summary>location.point.properties.relativeLocation.<b>geometry</b></summary>
 							<blockquote>
-								<details open><summary>location.point.properties.relativeLocation.geometry.coordinates</summary>
+								<details open><summary>location.point.properties.relativeLocation.geometry.<b>coordinates</b></summary>
 								</details>
 							</blockquote>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.forecastZone</summary>
+				<details open><summary>location.point.properties.<b>forecastZone</b></summary>
 				</details>
-				<details open><summary>location.point.properties.county</summary>
+				<details open><summary>location.point.properties.<b>county</b></summary>
 				</details>
-				<details open><summary>location.point.properties.fireWeatherZone</summary>
+				<details open><summary>location.point.properties.<b>fireWeatherZone</b></summary>
 				</details>
-				<details open><summary>location.point.properties.timeZone</summary>
+				<details open><summary>location.point.properties.<b>timeZone</b></summary>
 				</details>
-				<details open><summary>location.point.properties.radarStation</summary>
+				<details open><summary>location.point.properties.<b>radarStation</b></summary>
 				</details>
 			</blockquote>
 		</details>
