@@ -63,9 +63,11 @@ public class Point {
 	private Location location;
 }
 ```
+
 </details>
 
-### Geometry
+<details open>
+<summary><h3>Geometry</h3></summary>
 
 `Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.
 When `Point` is updated, that `Geometry` is also updated.
@@ -116,6 +118,8 @@ public class Coordinates {
 </tr>
 </tbody>
 </table>
+
+</details>
 
 <details>
 <summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
