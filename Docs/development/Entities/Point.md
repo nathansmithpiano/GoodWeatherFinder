@@ -42,10 +42,14 @@ public class Point {
 
 ## Relationships
 
+| Related Entity | Owner | Relationship |
+| --- | --- | --- |
+| `Location` | `Location` | `Point` 1:1 `Location` |
+
 ### Location
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.  
-When `Point` is updated, it will have no effect on `Location`.
+When `Point` is updated, it has no effect on `Location`.
 
 ```java
 public class Point {
@@ -55,8 +59,11 @@ public class Point {
 
 ### Geometry
 
-Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.  
-Each `Geometry` is unique to `Point`.  
+`Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.
+When `Point` is updated, that `Geometry` is also updated.
+
+The `Geometry` belonging to `Point` has at most one `Coordinates`.  
+When `Geometry` is updated, `Coordinates` is also updated.
 When `Point` is updated, `Geometry` is also updated.
 
 <table>
