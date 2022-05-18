@@ -203,6 +203,8 @@ When `Point` is updated, each `Forecast` is also updated.
 Each `Forecast` has one and only one `Geometry`. Each `Geometry` has one and only one `Forecast`.
 When `Forecast` is updated, `Geometry` is also updated.
 
+Each `Forecast` has one and only one `GridData`. Each `GridData` has one and only one `Forecast`.
+
 Each `Forecast` has either 14 (normal) or 156 (hourly) `Period`.  Each `Period` has one and only one `Forecast`.  
 When `Forecast` is updated, each `Period` is also updated.
 
