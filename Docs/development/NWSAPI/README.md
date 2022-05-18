@@ -43,8 +43,32 @@
 </details>
 
 ### TEMPLATE
-<details><summary>Top 1</summary>
+<details><summary>1</summary>
 	<blockquote>
+		<details><summary>1.1</summary>
+			<blockquote>
+				<details><summary>1.1.1</summary>
+					<blockquote>
+						<details><summary>1.1.1.1</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
+				</details>
+			</blockquote>
+		</details>
+		<details><summary>1.2</summary>
+			<blockquote>
+				<details><summary>1.2.1</summary>
+					<blockquote>
+						<details><summary>1.2.1.1</summary>
+							<blockquote>
+							</blockquote>
+						</details>
+					</blockquote>
+				</details>
+			</blockquote>
+		</details>
 	</blockquote>
 </details>
 <details><summary>Top 2</summary>
