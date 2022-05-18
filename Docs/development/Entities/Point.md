@@ -60,7 +60,8 @@ private Geometry geometry;
 </td>
 <td>
 
-```json
+<pre>
+json
 "geometry": {
     "type": "Point",
     "coordinates": [
@@ -68,7 +69,7 @@ private Geometry geometry;
         39.117699999999999
     ]
 }
-```
+</pre>
 </td>
 </tr>
 </tbody>
