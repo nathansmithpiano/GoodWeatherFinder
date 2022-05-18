@@ -23,8 +23,8 @@ Both are stored in the entity as it may be helpful for verification later.
 
 ```java
 public class Point {
-	private String id; 
-	private String propertiesId; 
+  private String id; 
+  private String propertiesId; 
 }
 ```
 </td>
@@ -33,7 +33,7 @@ public class Point {
 ```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
-    "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+  "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
 </td>
 </tr>
@@ -60,7 +60,7 @@ When `Point` is updated, it has no effect on `Location`.
 
 ```java
 public class Point {
-	private Location location;
+  private Location location;
 }
 ```
 
@@ -85,19 +85,19 @@ When `Geometry` is updated, `Coordinates` is also updated.
 
 ```java
 public class Point {
-	private Geometry geometry;
+  private Geometry geometry;
 }
 ```
 ```java
 public class Geometry {
-	private String type;
-	private List<Coordinate> coordinateList;
+  private String type;
+  private List<Coordinate> coordinateList;
 }
 ```
 ```java
 public class Coordinates {
-	private double latitude;
-	private double longitude;
+  private double latitude;
+  private double longitude;
 }
 ```
 
@@ -106,11 +106,11 @@ public class Coordinates {
 
 ```json
 "geometry": {
-    "type": "Point",
-    "coordinates": [
-        -106.4453,
-        39.117699999999999
-    ]
+  "type": "Point",
+  "coordinates": [
+    -106.4453,
+    39.117699999999999
+  ]
 }
 ```
 
@@ -124,11 +124,11 @@ public class Coordinates {
 
 ```geojson
 {
-    "type": "Point",
-    "coordinates": [
-        -106.4453,
-        39.117699999999999
-    ]
+  "type": "Point",
+  "coordinates": [
+    -106.4453,
+    39.117699999999999
+  ]
 }
 ```
 
@@ -152,7 +152,7 @@ When `Point` is updated, `ForecastOffice` is also updated.
 ```java
 
 public class Point {
-	private ForecastOffice forecastOffice;
+  private ForecastOffice forecastOffice;
 }
 
 ```
@@ -162,7 +162,7 @@ public class Point {
 
 ```json
 "properties": {
-	"forecastOffice": "https://api.weather.gov/offices/PUB"
+  "forecastOffice": "https://api.weather.gov/offices/PUB"
 }
 ```
 
