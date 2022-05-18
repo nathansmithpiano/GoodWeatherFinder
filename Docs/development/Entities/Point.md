@@ -201,7 +201,7 @@ public class Point {
 ```json
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
-    "forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
 ```
 
