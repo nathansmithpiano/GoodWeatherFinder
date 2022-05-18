@@ -25,22 +25,22 @@ The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 		</td>
 		<td>
 
-			```java
-			// ID and IRI for this Point
-			private String id; 
-			
-			// expected to be same as id
-			private String propertiesId; 
-			```
+```java
+// ID and IRI for this Point
+private String id; 
+
+// expected to be same as id
+private String propertiesId; 
+```
 
 		</td>
 		<td>
 
-			```json
-			"id": "https://api.weather.gov/points/39.1177,-106.4453",
-			"properties": {
-			        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
-			```
+```json
+"id": "https://api.weather.gov/points/39.1177,-106.4453",
+"properties": {
+        "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+```
 		
 		</td>
 		</tr>
