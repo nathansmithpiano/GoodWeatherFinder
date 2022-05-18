@@ -66,23 +66,23 @@ The structure below does not show properties for each individual entity.  Rather
 								<p>i.e. https://api.weather.gov/offices/PUB</p>
 							</blockquote>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>temperature</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>temperature</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>dewpoint</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>dewpoint</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>relativeHumidity</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>relativeHumidity</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>apparentTemperature</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>apparentTemperature</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>windChill</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>windChill</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>skyCover</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>skyCover</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>windDirection</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>windDirection</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>windSpeed</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>windSpeed</b> <i>(multiple entities)</i></summary>
 						</details>
-						<details open><summary>location.point.properties.forecastGridData.<b>windGust</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.forecastGridData.<b>windGust</b> <i>(multiple entities)</i></summary>
 						</details>
 						<details open><summary>location.point.properties.forecastGridData.<b>weather</b> <i>(multiple entities)</i></summary>
 						</details>
