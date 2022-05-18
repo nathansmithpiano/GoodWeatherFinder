@@ -150,11 +150,9 @@ When `Point` is updated, `ForecastOffice` is also updated.
 <td>
 
 ```java
-
 public class Point {
 	private ForecastOffice forecastOffice;
 }
-
 ```
 
 </td>
@@ -178,6 +176,9 @@ public class Point {
 Each `Point` has two and only two `Forecast` - one normal and one hourly.  Each `Forecast` has one and only one `Point`.  
 When `Point` is updated, each `Forecast` is also updated.
 
+Each `Forecast` has either 14 (normal) or 156 (hourly) `Period`.  Each `Period` has one and only one `Forecast`.  
+When `Forecast` is updated, each `Period` is also updated.
+
 <table>
 <thead><tr>
 <th>Java</th>
@@ -188,11 +189,14 @@ When `Point` is updated, each `Forecast` is also updated.
 <td>
 
 ```java
-
 public class Point {
 	private List<Forecast> forecastList;
 }
-
+```
+```java
+public class Forecast {
+	private List<Period> periodList;
+}
 ```
 
 </td>
@@ -227,7 +231,7 @@ public class Point {
 ```java
 
 public class Point {
-	private List<Forecast> forecastList;
+	private ForecastGridData forecastGridData;
 }
 
 ```
@@ -237,8 +241,7 @@ public class Point {
 
 ```json
 "properties": {
-	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
-	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+	"forecastGridData": "https://api.weather.gov/gridpoints/PUB/33,107"
 }
 ```
 
@@ -407,7 +410,7 @@ public class Point {
 ```java
 
 public class Point {
-	private List<Forecast> forecastList;
+	private ForecastGridData forecastGridData;
 }
 
 ```
@@ -417,8 +420,7 @@ public class Point {
 
 ```json
 "properties": {
-	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
-	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
+	"forecastGridData": "https://api.weather.gov/gridpoints/PUB/33,107"
 }
 ```
 
