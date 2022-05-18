@@ -217,6 +217,20 @@ The structure below does not show properties for each individual entity.  Rather
 				<details open><summary>location.point.properties.<b>county</b> <i>(IRI, single entity)</i></summary>
 				</details>
 				<details open><summary>location.point.properties.<b>fireWeatherZone</b> <i>(IRI, single entity)</i></summary>
+					<details><summary>location.point.properties.fireWeatherZone.<b>geometry</b> <i>(single entity)</i></summary>
+						<blockquote>
+							<details open><summary>location.point.properties.fireWeatherZone.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
+							</details>
+						</blockquote>
+						<details open><summary>location.point.properties.forecastZone.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastZone.<b>timeZones</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastZone.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastZone.<b>timeZones</b> <i>(single entity)</i></summary>
+						</details>
+					</details>
 				</details>
 				<details open><summary>location.point.properties.<b>timeZone</b> <i>(single entity)</i></summary>
 				</details>
