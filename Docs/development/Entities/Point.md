@@ -46,7 +46,7 @@ public class Point {
 | --- | --- | --- |
 | `Location` | `Location` | `Point` `1:1` `Location` |
 | `Geometry` | `Point` | `Point` `1:1` `Geometry` |
-| `Geometry`.`Coordinates` | `Geometry` | `Geometry` `1:1` `Coordinates` |
+| `Geometry`.`Coordinates` | `Point`.`Geometry` | `Geometry` `1:1` `Coordinates` |
 
 ### Location
 
