@@ -53,9 +53,10 @@ private String propertiesId;
 <tr>
 <td>
 
-```java
+<pre>
+java
 private Geometry geometry;
-```
+</pre>
 </td>
 <td>
 
