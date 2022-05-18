@@ -45,6 +45,8 @@ public class Point {
 | Related Entity | Owner | Relationship |
 | --- | --- | --- |
 | `Location` | `Location` | `Point` `1:1` `Location` |
+| `Geometry` | `Point` | `Point` `1:1` `Geometry` |
+| `Geometry`.`Coordinates` | `Point` | `Point` `1:1` `Geometry` |
 
 ### Location
 
