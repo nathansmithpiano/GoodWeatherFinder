@@ -7,6 +7,12 @@ A point is found via its GPS coordinates (latitude and longitude) via the follow
 https://api.weather.gov/points/{latitude},{longitude}
 ```
 
+The JSON returned includes:
+
+- id and properties.@id: IRI; primary key & id for this **point**
+- geometry.coordinates: single set of coordinates; the latitude and longitude for this point and what's used in the IPI (IPI is somewhat less precise)
+- properties.cwa: County Warning Area; used in obtaining **forecast(s)**, **forecastGridData**, and **observationStations**
+
 <details><summary><b>JSON</b> <i>Requested May 17 2022</i></summary>
 
 ```json
