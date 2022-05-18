@@ -23,19 +23,16 @@
 		- 1.9: point.county (IRI)
 		- 1.10: point.fireWeatherZone (IRI)
 		- 1.11: point.timeZone
-<details open>
-	<summary>1. <b>location</b> <i>(single entity)</i></summary>
+<details open><summary>1. <b>location</b> <i>(single entity)</i></summary>
 	<blockquote>
-	<details open>
-		<summary>1.1: location.<b>point</b> <i>(single entity)</i></summary>
+	<details open><summary>1.1: location.<b>point</b> <i>(single entity)</i></summary>
 		<blockquote>
 		<details open>
 			<summary>1.1.1: location.point.<b>geometry</b> <i>(single entity)</i></summary>
 			<blockquote>
-			<details>
-				<summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
-			</blockquote>
-			</details>
+			<details><summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
+		</details>
+		</blockquote>
 		</details>
 		</blockquote>
 		<details>
@@ -54,8 +51,7 @@
 
 ### TEMPLATE
 <details>
-	<summary>
-	</summary>
+	<summary></summary>
 	<blockquote>
 	</blockquote>
 </details>
