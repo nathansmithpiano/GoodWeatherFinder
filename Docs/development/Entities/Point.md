@@ -72,12 +72,17 @@ When `Point` is updated, `Geometry` is also updated.
 public class Point {
 	private Geometry geometry;
 }
-```
-```java
+
 public class Geometry {
 	private String type;
 	private List<Coordinate> coordinateList;
 }
+
+public class Coordinates {
+	private double latitude;
+	private double longitude;
+}
+
 ```
 </td>
 <td>
