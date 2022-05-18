@@ -8,8 +8,10 @@ Example: Mt. Elbert (Colorado 14er)
 	<blockquote>
 		<details>
 			<summary>JSON</summary>
-			| Location | Mt. Elbert |
-			| Requested | May 17 2022 |
+			<ul>
+				<li>Location: Mt. Elbert (Colorado 14er)</li>
+				<li>Requested May 17 2022</li>
+			</ul>
 		</details>
 	</blockquote>
 </details>
