@@ -15,17 +15,21 @@ The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 <table>
 <tr>
 <td>
+
 ```java
 private String id; // ID and IRI for this Point
 private String propertiesId; // expected to be same as id | saved for verification later
 ```
+
 </td>
 <td>
+
 ```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
+
 </td>
 </tr>
 </table>
