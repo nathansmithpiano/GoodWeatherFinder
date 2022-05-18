@@ -45,23 +45,23 @@
 ### TEMPLATE
 <details open><summary>HEADER</summary>
 	<blockquote>
-		<details open><summary>1</summary>
+		<details open><summary>1.1</summary>
 			<blockquote>
-				<details open><summary>1.1</summary>
+				<details open><summary>1.1.1</summary>
 					<blockquote>
-						<details open><summary>1.1.1</summary>
+						<details open><summary>1.1.1.1</summary>
 							<blockquote>
-								<details open><summary>1.1.1.1</summary>
+								<details open><summary>1.1.1.1.1</summary>
 								</details>
 							</blockquote>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>1.2</summary>
+				<details open><summary>1.1.2</summary>
 					<blockquote>
-						<details open><summary>1.2.1</summary>
+						<details open><summary>1.1.2.1</summary>
 							<blockquote>
-								<details open><summary>1.2.1.1</summary>
+								<details open><summary>1.1.2.1.1</summary>
 								</details>
 							</blockquote>
 						</details>
