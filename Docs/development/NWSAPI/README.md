@@ -43,25 +43,23 @@
 </details>
 
 ### TEMPLATE
-<details open><summary>HEADER</summary>
+<details open><summary>location</summary>
 	<blockquote>
-		<details open><summary>1.1</summary>
+		<details open><summary>location.point</summary>
 			<blockquote>
-				<details open><summary>1.1.1</summary>
+				<details open><summary>location.point.geometry</summary>
 					<blockquote>
-						<details open><summary>1.1.1.1</summary>
-							<blockquote>
-								<details open><summary>1.1.1.1.1</summary>
-								</details>
-							</blockquote>
+						<details open><summary>location.point.geometry.coordinates</summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>1.1.2</summary>
+				<details open><summary>location.point.properties.forecastOffice</summary>
+				</details>
+				<details><summary>location.point.properties.forecast</summary>
 					<blockquote>
-						<details open><summary>1.1.2.1</summary>
+						<details><summary></summary>
 							<blockquote>
-								<details open><summary>1.1.2.1.1</summary>
+								<details><summary>location.point.properties.forecast.periods</summary>
 								</details>
 							</blockquote>
 						</details>
