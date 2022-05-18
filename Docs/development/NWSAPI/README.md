@@ -60,14 +60,15 @@
 						<details open><summary>location.point.properties.forecast.periods</summary>
 						</details>
 					</blockquote>
-				</details open>
+				</details>
 				<details open><summary>location.point.properties.forecastHourly</summary>
 					<blockquote>
 						<details open><summary>location.point.properties.forecast.periods</summary>
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.forecastGridData</summary></details open>
+				<details open><summary>location.point.properties.forecastGridData</summary>
+				</details>
 			</blockquote>
 		</details>
 	</blockquote>
