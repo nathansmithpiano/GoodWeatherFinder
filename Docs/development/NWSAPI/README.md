@@ -193,7 +193,7 @@ The structure below does not show properties for each individual entity.  Rather
 						</details>
 					</blockquote>
 				</details>
-				<details><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
+				<details open><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
 						<p>i.e. https://api.weather.gov/zones/forecast/COZ060</p>
 						<details><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
