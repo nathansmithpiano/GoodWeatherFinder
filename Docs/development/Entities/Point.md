@@ -55,8 +55,8 @@ public class Point {
 
 ### Geometry
 
-Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.
-Each `Geometry` is unique to `Point`.
+Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.  
+Each `Geometry` is unique to `Point`.  
 When `Point` is updated, `Geometry` is also updated.
 
 <table>
