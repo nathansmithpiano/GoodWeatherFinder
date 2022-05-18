@@ -62,6 +62,7 @@ private Geometry geometry;
 
 <pre>
 json
+{
 "geometry": {
     "type": "Point",
     "coordinates": [
