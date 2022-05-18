@@ -102,6 +102,7 @@ public class Coordinates {
 	private double longitude;
 }
 ```
+
 </td>
 <td>
 
@@ -114,6 +115,7 @@ public class Coordinates {
     ]
 }
 ```
+
 </td>
 </tr>
 </tbody>
@@ -151,9 +153,8 @@ Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has o
 ```java
 
 ```
+
 </td>
-</tr>
-<tr>
 <td>
 
 ```json
@@ -161,6 +162,7 @@ Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has o
 	"forecastOffice": "https://api.weather.gov/offices/PUB"
 }
 ```
+
 </td>
 </tr>
 </tbody>
