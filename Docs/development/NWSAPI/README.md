@@ -194,7 +194,7 @@ The structure below does not show properties for each individual entity.  Rather
 						</details>
 					</blockquote>
 				</details>
-				<details open><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
+				<details><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
 						<details><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
