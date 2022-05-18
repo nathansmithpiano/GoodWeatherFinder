@@ -3,10 +3,10 @@
 Each **Location** has at most one **Point**.  As such, **Point** is the starting point for obtaining datain in the NWS API. 
 
 A point is found via its GPS coordinates (latitude and longitude) via the following IRI:<br>
-	`https://api.weather.gov/points/{latitude},{longitude}`
+	`GET: https://api.weather.gov/points/{latitude},{longitude}`
 
 The following example is for Mt. Elbert, the highest peak in Colorado.<br>
-	`https://api.weather.gov/points/39.1177,-106.4453`
+	`GET: https://api.weather.gov/points/39.1177,-106.4453`
 
 <hr>
 
