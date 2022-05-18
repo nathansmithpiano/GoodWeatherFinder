@@ -49,8 +49,7 @@
 			<blockquote>
 				<details open><summary>location.point.geometry</summary>
 					<blockquote>
-						<details open><summary>location.point.geometry.coordinates</summary>
-						</details>
+						location.point.geometry.coordinates
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.forecastOffice</summary>
