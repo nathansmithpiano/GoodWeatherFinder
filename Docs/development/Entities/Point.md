@@ -1,7 +1,10 @@
 ## Entities: Point
 
-**Point** 1:1 **Location**
-Example: Mt. Elbert (Colorado 14er)
+**Point** is the starting point for data in the NWS API.  Each **Location** has at most one **Point**.
+A point is found via its GPS coordinates (latitude and longitude) via the following IRI:
+```
+https://api.weather.gov/points/{latitude},{longitude}
+```
 
 <details><summary><b>JSON</b> <i>Requested May 17 2022</i></summary>
 
