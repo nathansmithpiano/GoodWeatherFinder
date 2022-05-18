@@ -14,7 +14,7 @@ The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
 #### id
 
-The primary key and IRI `String`.
+The primary key and IRI `String`.<br>
 Included twice in the JSON: `id` and `properties.@id`.
 
 ```
