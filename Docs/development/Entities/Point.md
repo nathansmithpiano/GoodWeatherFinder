@@ -42,7 +42,11 @@ public class Point {
 </tbody>
 </table>
 
-### Relationships
+<hr>
+
+## Relationships
+
+### Geometry
 
 Each `Point` has at most one `Geometry`. That `Geometry` has at most one `Coordinates`.  
 When `Point` JSON is requested from the NWS API, `Geometry` is updated (replaced) with the current data.
