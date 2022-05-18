@@ -48,7 +48,7 @@ Each `Location` has at most one `Point`. Each `Point` has at most one `Location`
 
 ```java
 public class Point {
-	private Location location;
+  private Location location;
 }
 ```
 
