@@ -8,9 +8,7 @@ Each `Location` has at most one `Point`.  As such, `Point` is the starting point
 The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 `GET: https://api.weather.gov/points/39.1177,-106.4453`
 
-<hr>
-
-### Primary Key
+## Primary Key
 The primary key for `Point` is the IRI, included twice in the JSON: `id` and `properties.@id`.  
 Both are stored in the entity as it may be helpful for verification later.
 
@@ -41,8 +39,6 @@ public class Point {
 </tr>
 </tbody>
 </table>
-
-<hr>
 
 ## Relationships
 
