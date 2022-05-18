@@ -40,8 +40,39 @@ private String propertiesId;
 </tbody>
 </table>
 
+### Relationships
 
-<hr>
+
+
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
+
+```java
+private Geometry geometry;
+```
+</td>
+<td>
+
+```json
+"geometry": {
+    "type": "Point",
+    "coordinates": [
+        -106.4453,
+        39.117699999999999
+    ]
+}
+```
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ```java
 private String type; // GeoJSON type | i.e. Feature
