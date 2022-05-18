@@ -29,8 +29,7 @@
 			<blockquote>
 				<details open><summary>1.1.1: location.point.<b>geometry</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details><summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
-						</details>
+						<p>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></p>
 					</blockquote>
 				</details>
 				<details><summary>1.2: location.<b>forecastOffice</b> <i>(single entity)</i></summary>
@@ -43,8 +42,7 @@
 </details>
 
 ### TEMPLATE
-<details>
-	<summary></summary>
+<details><summary></summary>
 	<blockquote>
 	</blockquote>
 </details>
