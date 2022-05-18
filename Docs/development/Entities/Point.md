@@ -14,11 +14,15 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 
 <table>
 <thead><tr>
+<th></th>
 <th>Java</th>
 <th>JSON</th>
 </thead></tr>
 <tbody>
 <tr>
+<td>
+`primary key`
+</td>
 <td>
 
 ```java
