@@ -18,8 +18,7 @@ The primary key and IRI `String`.<br>
 Included twice in the JSON: `id` and `properties.@id`.
 
 ```java
-public class Point {
-	private String id; // ID and IRI for this Point
+private String id; // ID and IRI for this Point
 ```
 
 ```json
