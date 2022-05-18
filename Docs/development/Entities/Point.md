@@ -26,6 +26,21 @@ private String id; // ID and IRI for this Point
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
+<hr>
+
+```java
+private Geometry geometry; // single pair of Coordinates
+```
+
+```json
+"geometry": {
+    "type": "Point",
+    "coordinates": [
+        -106.4453,
+        39.117699999999999
+    ]
+}
+```
 
 | Property | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
