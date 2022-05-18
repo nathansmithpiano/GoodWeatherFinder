@@ -22,19 +22,25 @@ Both are stored in the entity as it may be helpful for verification later.
 <td>
 
 ```java
+
 public class Point {
 	private String id; 
 	private String propertiesId; 
 }
+
 ```
+
 </td>
 <td>
 
 ```json
+
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
     "@id": "https://api.weather.gov/points/39.1177,-106.4453"
+    
 ```
+
 </td>
 </tr>
 </tbody>
@@ -59,9 +65,11 @@ Each `Location` has one and only one `Point`. Each `Point` has one and only one 
 When `Point` is updated, it has no effect on `Location`.
 
 ```java
+
 public class Point {
 	private Location location;
 }
+
 ```
 
 </details>
@@ -84,27 +92,36 @@ When `Geometry` is updated, `Coordinates` is also updated.
 <td>
 
 ```java
+
 public class Point {
 	private Geometry geometry;
 }
+
 ```
+
 ```java
+
 public class Geometry {
 	private String type;
 	private List<Coordinate> coordinateList;
 }
+
 ```
+
 ```java
+
 public class Coordinates {
 	private double latitude;
 	private double longitude;
 }
+
 ```
 
 </td>
 <td>
 
 ```json
+
 "geometry": {
     "type": "Point",
     "coordinates": [
@@ -112,6 +129,7 @@ public class Coordinates {
         39.117699999999999
     ]
 }
+
 ```
 
 </td>
@@ -123,6 +141,7 @@ public class Coordinates {
 <summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
 
 ```geojson
+
 {
     "type": "Point",
     "coordinates": [
@@ -130,6 +149,7 @@ public class Coordinates {
         39.117699999999999
     ]
 }
+
 ```
 
 </details>
@@ -150,18 +170,22 @@ When `Point` is updated, `ForecastOffice` is also updated.
 <td>
 
 ```java
+
 public class Point {
 	private ForecastOffice forecastOffice;
 }
+
 ```
 
 </td>
 <td>
 
 ```json
+
 "properties": {
 	"forecastOffice": "https://api.weather.gov/offices/PUB"
 }
+
 ```
 
 </td>
@@ -175,6 +199,9 @@ public class Point {
 
 Each `Point` has two and only two `Forecast` - one normal and one hourly.  Each `Forecast` has one and only one `Point`.  
 When `Point` is updated, each `Forecast` is also updated.
+
+Each `Forecast` has one and only one `Geometry`. Each `Geometry` has one and only one `Forecast`.
+When `Forecast` is updated, `Geometry` is also updated.
 
 Each `Forecast` has either 14 (normal) or 156 (hourly) `Period`.  Each `Period` has one and only one `Forecast`.  
 When `Forecast` is updated, each `Period` is also updated.
@@ -191,29 +218,49 @@ When `Point` is updated, a total of 2 `Forecast` and 170 `Period` are also updat
 <td>
 
 ```java
+
 public class Point {
 	private List<Forecast> forecastList;
 }
+
 ```
+
 ```java
+
 public class Forecast {
 	private Geometry geometry;
 	private List<Period> periodList;
 }
+
+```
+
+```java
+
+public class Coordinates {
+	private double latitude;
+	private double longitude;
+}
+
 ```
 
 </td>
 <td>
 
 ##### Point
+
 ```json
+
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
 	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
+
 ```
+
 ##### Forecast
+
 ```json
+
 "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -247,6 +294,7 @@ public class Forecast {
 		{}
 	]
 }
+
 ```
 
 </td>
@@ -280,9 +328,11 @@ public class Point {
 <td>
 
 ```json
+
 "properties": {
 	"forecastGridData": "https://api.weather.gov/gridpoints/PUB/33,107"
 }
+
 ```
 
 </td>
@@ -315,10 +365,12 @@ public class Point {
 <td>
 
 ```json
+
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
 	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
+
 ```
 
 </td>
@@ -351,10 +403,12 @@ public class Point {
 <td>
 
 ```json
+
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
 	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
+
 ```
 
 </td>
@@ -423,10 +477,12 @@ public class Point {
 <td>
 
 ```json
+
 "properties": {
 	"forecast": "https://api.weather.gov/gridpoints/PUB/33,107/forecast",
 	"forecastHourly": "https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly"
 }
+
 ```
 
 </td>
@@ -459,9 +515,11 @@ public class Point {
 <td>
 
 ```json
+
 "properties": {
 	"forecastGridData": "https://api.weather.gov/gridpoints/PUB/33,107"
 }
+
 ```
 
 </td>
