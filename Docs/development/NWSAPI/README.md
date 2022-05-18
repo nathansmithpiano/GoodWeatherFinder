@@ -37,7 +37,7 @@ The structure below does not show properties for each individual entity.  Rather
 								<p>i.e. https://api.weather.gov/zones/fire/COZ220</p>
 							</blockquote>
 						</details>
-						<details><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
+						<details open><summary>location.point.properties.forecastOffice.<b>observationStations</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 								<p>i.e. https://api.weather.gov/stations/K04V</p>
 							</blockquote>
