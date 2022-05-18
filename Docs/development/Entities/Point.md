@@ -1,6 +1,7 @@
 ## Entities: Point
 
 **Point** is the starting point for data in the NWS API.  Each **Location** has at most one **Point**.
+
 A point is found via its GPS coordinates (latitude and longitude) via the following IRI:
 ```
 https://api.weather.gov/points/{latitude},{longitude}
