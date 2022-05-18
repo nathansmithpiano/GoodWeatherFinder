@@ -43,7 +43,7 @@
 </details>
 
 ### TEMPLATE
-<details open><summary>1</summary>
+<details open><summary><h3>1</h3></summary>
 	<blockquote>
 		<details open><summary>1.1</summary>
 			<blockquote>
