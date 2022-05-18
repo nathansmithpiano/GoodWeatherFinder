@@ -186,15 +186,29 @@ The structure below does not show properties for each individual entity.  Rather
 				</details>
 				<details open><summary>location.point.properties.<b>relativeLocation</b> <i>(single entity)</i></summary>
 					<blockquote>
-						<details><summary>location.point.properties.relativeLocation.<b>geometry</b> <i>(single entity)</i></summary>
+						<details open><summary>location.point.properties.relativeLocation.<b>geometry</b> <i>(single entity)</i></summary>
 							<blockquote>
-								<details open><summary>location.point.properties.relativeLocation.geometry.<b>coordinates</b> <i>(single entity)</i></summary>
+								<details open><summary>location.point.properties.relativeLocation.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
 								</details>
 							</blockquote>
 						</details>
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecastZone</b> <i>(IRI, single entity)</i></summary>
+					<blockquote>
+						<details><summary>location.point.properties.forecastZone.<b>geometry</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastZone.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastZone.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastZone.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
+						</details>
+						<details><summary>location.point.properties.forecastZone.<b>radarStation</b> <i>(single entity)</i></summary>
+						</details>
+					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>county</b> <i>(IRI, single entity)</i></summary>
 				</details>
