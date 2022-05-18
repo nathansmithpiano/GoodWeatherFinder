@@ -9,6 +9,7 @@ https://api.weather.gov/points/{latitude},{longitude}
 
 - id and properties.@id
 	- IRI; primary key & id for this **point**
+	- i.e. https://api.weather.gov/points/39.1177,-106.4453
 - geometry.coordinates: single set of coordinates; the latitude and longitude for this point and what's used in the IPI (IPI is somewhat less precise)
 - properties.cwa: County Warning Area; used in obtaining **forecast(s)**, **forecastGridData**, and **observationStations**
 
