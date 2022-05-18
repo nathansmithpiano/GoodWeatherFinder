@@ -57,13 +57,13 @@
 				</details>
 				<details open><summary>location.point.properties.forecast</summary>
 					<blockquote>
-						<details><summary>location.point.properties.forecast.periods</summary>
+						<details open><summary>location.point.properties.forecast.periods</summary>
 						</details>
 					</blockquote>
 				</details open>
 				<details open><summary>location.point.properties.forecastHourly</summary>
 					<blockquote>
-						<details><summary>location.point.properties.forecast.periods</summary>
+						<details open><summary>location.point.properties.forecast.periods</summary>
 						</details>
 					</blockquote>
 				</details>
