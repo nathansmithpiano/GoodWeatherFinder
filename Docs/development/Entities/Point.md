@@ -10,6 +10,7 @@ https://api.weather.gov/points/{latitude},{longitude}
 | Entity | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
 | id | id & properties.@id | String | IRI; primary key & id for this **point** | https://api.weather.gov/points/39.1177,-106.4453 |
+| type | type | String | GeoJSON @type | "Feature" |
 <hr>
 
 - id and properties.@id
