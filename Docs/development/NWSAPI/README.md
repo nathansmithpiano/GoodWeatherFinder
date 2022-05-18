@@ -63,6 +63,160 @@ The structure below does not show properties for each individual entity.  Rather
 					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>forecastGridData</b> <i>(IRI, single entity)</i></summary>
+					<blockquote>
+						<details open><summary>location.point.properties.forecastGridData.<b>geometry</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.geometry.<b>coordinates</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details><summary>location.point.properties.forecastGridData.<b>forecastOffice</b> <i>(URI, single entity)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>temperature</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.temperature.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>dewpoint</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.dewpoint.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>relativeHumidity</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.relativeHumidity.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>apparentTemperature</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.apparentTemperature.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>windChill</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.windChill.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>skyCover</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.skyCover.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>windDirection</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.windDirection.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>windSpeed</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.windSpeed.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>windGust</b> <i>(single entity)</i></summary>
+							<blockquote>
+								<details open><summary>location.point.properties.forecastGridData.windGust.<b>values</b> <i>(multiple entities)</i></summary>
+								</details>
+							</blockquote>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>weather</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>hazards</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>probabilityOfPrecipitation</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>quantitativePrecipitation</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>iceAccumulation</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>snowfallAmount</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>snowLevel</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>ceilingHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>visibility</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>transportWindSpeed</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>transportWindDirection</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>mixingHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>hainesIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>lightningActivityLevel</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>twentyFootWindSpeed</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>twentyFootWindDirection</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>waveHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>wavePeriod</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>waveDirection</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>primarySwellHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>primarySwellDirection</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>secondarySwellHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>secondarySwellDirection</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>wavePeriod2</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>windWaveHeight</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>dispersionIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>pressure</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>probabilityOfTropicalStormWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>probabilityOfHurricaneWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf15mphWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf25mphWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf35mphWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf45mphWinds</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf20mphWindGusts</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf30mphWindGusts</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf40mphWindGusts</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf50mphWindGusts</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>potentialOf60mphWindGusts</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>grasslandFireDangerIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>probabilityOfThunder</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>davisStabilityIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>atmosphericDispersionIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>lowVisibilityOccurrenceRiskIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>stability</b> <i>(multiple entities)</i></summary>
+						</details>
+						<details open><summary>location.point.properties.forecastGridData.<b>redFlagThreatIndex</b> <i>(multiple entities)</i></summary>
+						</details>
+					</blockquote>
 				</details>
 				<details open><summary>location.point.properties.<b>observationStations</b> <i>(IRI, single entity)</i></summary>
 				</details>
