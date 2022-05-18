@@ -2,7 +2,7 @@
 Primary Key: IRI (String)
 Also defined by its coordinates
 
-`Point` 1:1 `Location`
+`Point` has one and only one `Location`
 
 
 
