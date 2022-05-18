@@ -12,26 +12,29 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 
 ### Point
 
-| Java | JSON |
-| --- | --- |
-| ```java private String id;``` | ```json "id": "https://api.weather.gov/points/39.1177,-106.4453"``` |
-| `private String propertiesId` | "properties": {`<br>`"@id": "https://api.weather.gov/points/39.1177,-106.4453"` |
-
+<table>
+<thead><tr>
+<th>Java</th>
+<th>JSON</th>
+</thead></tr>
+<tbody>
+<tr>
+<td>
 ```java
-// ID and IRI for this Point
 private String id; 
-
-// expected to be same as id
 private String propertiesId; 
 ```
-
+</td>
+<td>
 ```json
 "id": "https://api.weather.gov/points/39.1177,-106.4453",
 "properties": {
         "@id": "https://api.weather.gov/points/39.1177,-106.4453"
 ```
-		
-|
+</td>
+</tr>
+</tbody>
+</table>
 
 
 
