@@ -1,6 +1,7 @@
 # Point
 
 Each `Location` has at most one `Point`. Each `Point` has at most one `Location`.  
+
 `Point` is the starting point for obtaining data in the **NWS API**. 
 
 `Point` JSON is obtained via its GPS coordinates (latitude and longitude) via the following IRI:<br>
