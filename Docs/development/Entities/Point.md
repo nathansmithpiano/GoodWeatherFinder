@@ -21,6 +21,12 @@ Included twice in the JSON: `id` and `properties.@id`.
 private String id;
 ```
 
+```
+"id": "https://api.weather.gov/points/39.1177,-106.4453",
+"properties": {
+        "@id": "https://api.weather.gov/points/39.1177,-106.4453" ...
+```
+
 | Property | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
 | `id` | `id`<br>`properties.@id` | `String` | `primary key`<br>`IRI` | `id = "https://api.weather.gov/points/39.1177,-106.4453";` |
