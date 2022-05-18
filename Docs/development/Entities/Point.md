@@ -52,7 +52,8 @@ public class Point {
 
 
 
-<details><summary><h3>Location</h3></summary>
+<details>
+<summary><h3>Location</h3></summary>
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.  
 When `Point` is updated, it has no effect on `Location`.
@@ -64,7 +65,8 @@ public class Point {
 ```
 
 </details>
-<details><summary><h3>Geometry</h3></summary>
+<details>
+<summary><h3>Geometry</h3></summary>
 
 Each `Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.  
 When `Point` is updated, that `Geometry` is also updated.
@@ -117,7 +119,8 @@ public class Coordinates {
 </tbody>
 </table>
 
-<details><summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
+<details>
+<summary>Click to show map of <code>Geometry</code> GeoJSON</summary>
 
 ```geojson
 {
@@ -131,7 +134,8 @@ public class Coordinates {
 
 </details>
 </details>
-<details open><summary><h3>ForecastOffice</h3></summary>
+<details open>
+<summary><h3>ForecastOffice</h3></summary>
 
 Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
 
