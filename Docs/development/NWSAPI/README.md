@@ -217,12 +217,12 @@ The structure below does not show properties for each individual entity.  Rather
 				<details open><summary>location.point.properties.<b>county</b> <i>(IRI, single entity)</i></summary>
 					<blockquote>
 						<p>i.e. https://api.weather.gov/zones/county/COC065</p>
-						<details><summary>location.point.properties.county.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
+						<details open><summary>location.point.properties.county.<b>forecastOffices</b> <i>(many IRI's, multiple entities)</i></summary>
 							<blockquote>
 								<p>i.e. https://api.weather.gov/offices/PUB</p>
 							</blockquote>
 						</details>
-						<details><summary>location.point.properties.county.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
+						<details open><summary>location.point.properties.county.<b>observationStations</b> <i>(many IRI's, multiple entities)</i></summary>
 							<blockquote>
 								<p>no example at this time </p>
 							</blockquote>
