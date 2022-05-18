@@ -42,7 +42,9 @@
 	</blockquote>
 </details>
 
-### TEMPLATE
+### Importing Data
+This is an overview of how NWS API JSON will translate to entities in the database.
+
 <details open><summary><b>location</b></summary>
 	<blockquote>
 		<details open><summary>location.<b>point</b> <i>(single entity)</i></summary>
