@@ -52,7 +52,7 @@ public class Point {
 
 
 
-<details open>
+<details>
 <summary><h3>Location</h3></summary>
 
 Each `Location` has one and only one `Point`. Each `Point` has one and only one `Location`.  
@@ -74,7 +74,6 @@ When `Point` is updated, that `Geometry` is also updated.
 
 The `Geometry` belonging to `Point` has at most one `Coordinates`.  
 When `Geometry` is updated, `Coordinates` is also updated.
-When `Point` is updated, `Geometry` is also updated.
 
 <table>
 <thead><tr>
