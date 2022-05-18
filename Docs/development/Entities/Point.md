@@ -19,6 +19,8 @@ Included twice in the JSON: `id` and `properties.@id`.
 
 ```java
 private String id; // ID and IRI for this Point
+
+private String propertiesId; // expected to match with id
 ```
 
 ```json
@@ -29,7 +31,7 @@ private String id; // ID and IRI for this Point
 <hr>
 
 ```java
-private String type; // GeoJSON type, i.e. Feature
+private String type; // GeoJSON type | i.e. Feature
 ```
 
 ```json
@@ -39,7 +41,7 @@ private String type; // GeoJSON type, i.e. Feature
 <hr>
 
 ```java
-private String cwa; // County Warning Area, used in IRIs for forecastOffice, forecast, forecastGridData, observationStation
+private String cwa; // County Warning Area | used in IRIs for forecastOffice, forecast, forecastGridData, observationStation
 ```
 
 ```json
