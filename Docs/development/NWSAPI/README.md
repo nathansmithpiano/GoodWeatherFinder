@@ -22,7 +22,7 @@ The structure below does not show properties for each individual entity.  Rather
 				<details open><summary>location.point.properties.<b>forecastOffice</b> <i>(single entity)</i></summary>
 					<blockquote>
 						<p>i.e. https://api.weather.gov/offices/PUB</p>
-						<details><summary>location.point.properties.forecastOffice.<b>counties</b> <i>(many IRI's, multiple entities)</summary>
+						<details open><summary>location.point.properties.forecastOffice.<b>counties</b> <i>(many IRI's, multiple entities)</summary>
 							<blockquote>
 								<p>i.e. https://api.weather.gov/zones/county/COC003</p>
 							</blockquote>
