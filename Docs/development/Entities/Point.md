@@ -44,7 +44,7 @@ private String propertiesId;
 
 
 
-<table>
+<table padding="0">
 <thead><tr>
 <th>Java</th>
 <th>JSON</th>
