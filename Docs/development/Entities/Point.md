@@ -63,7 +63,6 @@ public class Point {
 	private Location location;
 }
 ```
-
 </details>
 
 ### Geometry
