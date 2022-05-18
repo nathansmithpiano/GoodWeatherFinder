@@ -25,14 +25,19 @@
 		- 1.11: point.timeZone
 <details open>
 	<summary>1. <b>location</b> <i>(single entity)</i></summary>
-	<blockquote><details open>
+	<blockquote>
+	<details open>
 		<summary>1.1: location.<b>point</b> <i>(single entity)</i></summary>
-		<blockquote><details open>
+		<blockquote>
+		<details open>
 			<summary>1.1.1: location.point.<b>geometry</b> <i>(single entity)</i></summary>
-			<blockquote><details>
+			<blockquote>
+			<details>
 				<summary>1.1.1.1: location.point.geometry.<b>coordinate</b> <i>(single entity)</i></summary>
-			</blockquote></details>
+			</blockquote>
+			</details>
 		</details>
+		</blockquote>
 		<details>
 			<summary><b>1.2: location.FORECASTOFFICE</b> <i>(single entity)</i></summary>
 			<blockquote>
