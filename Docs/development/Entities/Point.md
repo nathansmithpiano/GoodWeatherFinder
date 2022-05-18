@@ -11,6 +11,7 @@ The following example is for Mt. Elbert, the highest peak in Colorado.<br>
 <hr>
 
 ### Primary Key
+The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.
 
 <table>
 <thead><tr>
@@ -38,7 +39,6 @@ private String propertiesId;
 </tbody>
 </table>
 
-The primary key is the IRI, included twice in the JSON: `id` and `properties.@id`.
 
 <hr>
 
