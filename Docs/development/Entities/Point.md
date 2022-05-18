@@ -69,7 +69,7 @@ public class Point {
 <details open>
 <summary><h3>Geometry</h3></summary>
 
-`Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.  
+Each `Point` has at most one `Geometry`. That `Geometry` is unique to `Point`.  
 When `Point` is updated, that `Geometry` is also updated.
 
 The `Geometry` belonging to `Point` has at most one `Coordinates`.  
