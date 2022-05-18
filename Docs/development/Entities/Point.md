@@ -47,6 +47,8 @@ public class Point {
 | `Location` | `Location` | `Point` `1:1` `Location` | `Unidirectional` |
 | `Geometry` | `Point` | `Point` `1:1` `Geometry` | `Unidirectional` |
 | `Geometry`.`Coordinates` | `Point`.`Geometry` | `Geometry` `1:1` `Coordinates` | `Unidirectional` |
+| `ForecastOffice` | `Point` | `Point` `1:1` `ForecastOffice` | `Unidirectional` |
+
 
 ### Location
 
