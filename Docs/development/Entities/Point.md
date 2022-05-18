@@ -2,8 +2,6 @@
 
 `Point` is the parent of all other entities and data in both **GoodWeatherFinder** and the **NWS API**. 
 
-Each `Location` has at most one `Point`. Each `Point` has at most one `Location`.  
-
 `Point` JSON is obtained via its GPS coordinates (latitude and longitude) via the following IRI:<br>
 `GET: https://api.weather.gov/points/{latitude},{longitude}`
 
@@ -43,6 +41,16 @@ public class Point {
 </table>
 
 ## Relationships
+
+### Location
+
+Each `Location` has at most one `Point`. Each `Point` has at most one `Location`.
+
+```java
+public class Point {
+	private Location location;
+}
+```
 
 ### Geometry
 
