@@ -69,6 +69,26 @@
 				</details>
 				<details open><summary>location.point.properties.forecastGridData</summary>
 				</details>
+				<details open><summary>location.point.properties.relativeLocation</summary>
+					<blockquote>
+						<details><summary>location.point.properties.relativeLocation.geometry</summary>
+							<blockquote>
+								<details open><summary>location.point.properties.relativeLocation.geometry.coordinates</summary>
+								</details>
+							</blockquote>
+						</details>
+					</blockquote>
+				</details>
+				<details open><summary>location.point.properties.forecastZone</summary>
+				</details>
+				<details open><summary>location.point.properties.county</summary>
+				</details>
+				<details open><summary>location.point.properties.fireWeatherZone</summary>
+				</details>
+				<details open><summary>location.point.properties.timeZone</summary>
+				</details>
+				<details open><summary>location.point.properties.radarStation</summary>
+				</details>
 			</blockquote>
 		</details>
 	</blockquote>
