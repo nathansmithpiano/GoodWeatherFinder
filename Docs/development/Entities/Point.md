@@ -12,7 +12,7 @@ https://api.weather.gov/points/{latitude},{longitude}
 
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
-#### id
+### Properties
 
 The primary key and IRI `String`.<br>
 Included twice in the JSON: `id` and `properties.@id`.
@@ -28,6 +28,18 @@ private String id; // ID and IRI for this Point
 ```
 <hr>
 
+<hr>
+```java
+private String type; // GeoJSON type, i.e. Feature
+```
+
+```json
+"properties": {
+	"@type": "wx:Point"
+```
+<hr>
+
+
 ```java
 private Geometry geometry; // single pair of Coordinates
 ```
@@ -41,6 +53,24 @@ private Geometry geometry; // single pair of Coordinates
     ]
 }
 ```
+<hr>
+```java
+
+```
+
+```json
+
+```
+<hr>
+
+```java
+
+```
+
+```json
+
+```
+<hr>
 
 | Property | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
