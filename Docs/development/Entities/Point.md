@@ -134,7 +134,7 @@ public class Coordinates {
 
 </details>
 </details>
-<details open>
+<details>
 <summary><h3>ForecastOffice</h3></summary>
 
 Each `Point` has one and only one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.  
