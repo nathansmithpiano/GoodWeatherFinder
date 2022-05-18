@@ -12,6 +12,16 @@ https://api.weather.gov/points/{latitude},{longitude}
 
 The following uses Mt. Elbert, the highest peak in Colorado, as an example.
 
+#### id
+
+The primary key and IRI `String`.
+
+Included twice in the JSON: `id` and `properties.@id`.
+
+```
+private String id;
+```
+
 | Property | JSON | Type | Description | Example |
 | --- | --- | --- | --- | --- |
 | `id` | `id`<br>`properties.@id` | `String` | `primary key`<br>`IRI` | `id = "https://api.weather.gov/points/39.1177,-106.4453";` |
