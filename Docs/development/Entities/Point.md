@@ -175,6 +175,8 @@ public class Point {
 <details open>
 <summary><h3>Forecast</h3></summary>
 
+Each `Point` has two and only two `Forecast` - one normal and one hourly.  Each `Forecast` has one and only one `Point`.  
+When `Point` is updated, each `Forecast` is also updated.
 
 </details>
 <details open>
