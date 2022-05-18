@@ -43,13 +43,13 @@
 </details>
 
 ### TEMPLATE
-<details><summary>1</summary>
+<details open><summary>1</summary>
 	<blockquote>
-		<details><summary>1.1</summary>
+		<details open><summary>1.1</summary>
 			<blockquote>
-				<details><summary>1.1.1</summary>
+				<details open><summary>1.1.1</summary>
 					<blockquote>
-						<details><summary>1.1.1.1</summary>
+						<details open><summary>1.1.1.1</summary>
 							<blockquote>
 							</blockquote>
 						</details>
@@ -57,11 +57,11 @@
 				</details>
 			</blockquote>
 		</details>
-		<details><summary>1.2</summary>
+		<details open><summary>1.2</summary>
 			<blockquote>
-				<details><summary>1.2.1</summary>
+				<details open><summary>1.2.1</summary>
 					<blockquote>
-						<details><summary>1.2.1.1</summary>
+						<details open><summary>1.2.1.1</summary>
 							<blockquote>
 							</blockquote>
 						</details>
