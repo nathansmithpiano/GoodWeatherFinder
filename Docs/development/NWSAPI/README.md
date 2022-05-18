@@ -67,6 +67,7 @@
 						</details>
 					</blockquote>
 				</details>
+				<details open><summary>location.point.properties.forecastGridData</summary></details open>
 			</blockquote>
 		</details>
 	</blockquote>
