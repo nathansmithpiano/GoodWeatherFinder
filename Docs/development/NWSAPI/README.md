@@ -52,14 +52,14 @@ The structure below does not show properties for each individual entity.  Rather
 		</details>
 	</blockquote>
 </details>
-<details><summary>Top 2</summary>
-	<blockquote>
-	</blockquote>
-</details>
+<hr>
+
+#### TEMPLATE
 <details><summary></summary>
 	<blockquote>
 	</blockquote>
 </details>
+<hr>
 
 ### [Endpoints](Endpoints/README.md)
 
