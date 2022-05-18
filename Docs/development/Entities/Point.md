@@ -55,6 +55,11 @@ private String propertiesId;
 
 ```java
 private Geometry geometry;
+
+public class Geometry {
+	private String type;
+	private List<Coordinate> coordinateList;
+}
 ```
 </td>
 <td>
