@@ -44,8 +44,6 @@ public class Point {
 
 ### Relationships
 
-Each `Point` entity contains several other entities or collections of entities.
-
 Each `Point` may have at most one `Geometry`.  That `Geometry` will have at most one `Coordinates`.
 
 <table padding="0">
