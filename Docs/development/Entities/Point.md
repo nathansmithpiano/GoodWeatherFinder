@@ -110,7 +110,7 @@ public class Geometry {
 
 </details>
 
-Each `Point` has 
+Each `Point` has one `ForecastOffice`.  That `ForecastOffice` has one or many `Point`.
 
 
 
