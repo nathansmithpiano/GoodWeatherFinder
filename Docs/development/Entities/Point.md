@@ -50,6 +50,8 @@ public class Point {
 | `ForecastOffice` | `Point` | `Point` `1:1` `ForecastOffice` | `Unidirectional` |
 
 
+
+
 <details open>
 <summary><h3>Location</h3></summary>
 
