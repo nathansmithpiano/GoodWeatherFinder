@@ -18,7 +18,7 @@ The primary key and IRI `String`.<br>
 Included twice in the JSON: `id` and `properties.@id`.
 
 ```
-#### Entity
+public class Point {
 private String id;
 ```
 
