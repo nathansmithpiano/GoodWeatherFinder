@@ -184,23 +184,23 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 
 <table>
-    <tr>
-        <th colspan="2">Location</th>
-    </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>geometry_id</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-            </table>
-        </td>
-        <td>
+<tr>
+    <th colspan="2">Location</th>
+</tr>
+<tr>
+    <td>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>geometry_id</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </td>
+<td>
 
 ```java
 public class Location {
@@ -228,12 +228,44 @@ public class Location {
             </tr>
         </table>
     </td>
-    <td>
+<td>
 
 ```java
 public class Geometry {
     @OneToMany(mappedBy = "geometry")
     private List<Coordinates> coordinatesList;
+}
+```
+
+</td>
+</tr>
+<tr>
+    <th colspan="2">Coordinates</th>
+</tr>
+<tr>
+    <td>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>geometry_id</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+            <tr>   
+                <td>3</td>
+                <td>2</td>
+                <td>39.118075</td>
+                <td>-106.445417</td>
+            </tr>
+        </table>
+    </td>
+<td>
+
+```java
+public class Coordinates {
+@ManyToOne
+@JoinColumn(name = "geometry_id")
+private Geometry geometry;
 }
 ```
 
