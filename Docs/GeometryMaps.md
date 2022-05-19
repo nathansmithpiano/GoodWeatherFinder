@@ -297,6 +297,22 @@
 ```
 
 
+# RelativeLocation
+local to `Point`
+
+```geojson
+
+{
+	"type": "Point",
+    "coordinates":
+		[
+			-106.318985,
+			39.103709000000002
+    	]
+}
+
+```
+
 
 # ForecastZone
 `https://api.weather.gov/zones/forecast/COZ060`
