@@ -69,8 +69,9 @@
 
 ```geojson
 
-{ "type": "MultiPoint",
-   "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+{
+  "type": "MultiPoint",
+  "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
 }
 
 ```
