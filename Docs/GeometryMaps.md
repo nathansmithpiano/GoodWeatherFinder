@@ -300,51 +300,6 @@
 # RelativeLocation
 local to `Point`
 
-```geojson
-
-{
-	"type": "Point",
-    "coordinates":
-		[
-			-106.318985,
-			39.103709000000002
-    	]
-}
-
-```
-
-```geojson
-
-{
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"id": 1,
-			"properties": {
-				"ID": 1,
-				"name": "RelativeLocation"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-106.318985,
-					39.103709000000002
-				]
-			},
-			"properties": {
-				"prop": "RelativeLocation"
-			},
-			"type": "LineString",
-			"coordinates": [
-				[-106.318985,39.103709000000002],
-				[-106.4453,39.117699999999999]
-			]
-		}
-	]
-}
-
-```
 
 ```geojson
 
@@ -391,7 +346,6 @@ local to `Point`
 }
 
 ```
-
 
 
 # ForecastZone
