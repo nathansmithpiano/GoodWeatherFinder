@@ -66,25 +66,6 @@
 ```
 
 
-
-```geojson
-
-{ "type": "FeatureCollection",
-    "features": [
-      { "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
-        "properties": {"prop0": "value0"}
-      },
-      { "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [103.0, 1.5]},
-        "properties": {"prop0": "value1"}
-      }
-   ]
-}
-
-```
-
-
 # ObservationStations (GridPoint)
 `https://api.weather.gov/gridpoints/PUB/33,107/stations`
 
