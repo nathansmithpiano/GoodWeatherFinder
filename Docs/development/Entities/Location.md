@@ -218,7 +218,7 @@ private Geometry geometry;
         <th colspan="2">Geometry</th>
     </tr>
     <tr>
-        <td valign="baseline">
+        <td>
             <table>
                 <tr>
                     <th>id</th>
@@ -230,7 +230,7 @@ private Geometry geometry;
                 </tr>
             </table>
         </td>
-        <td valign="baseline">
+        <td>
 
 ```java
 public class Geometry {
