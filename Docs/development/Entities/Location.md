@@ -31,9 +31,9 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
     <tr>
         <td><a href="#locationname">name<br>(name_id)</a></td>
-        <td><code>String</code></td>
+        <td><code>Name</code></td>
         <td>FK, NN, UQ, UN, required</td>
-        <td>Mount Elbert</td>
+        <td>`Name`</td>
         <td>
             <code>Location</code>
             <code>1:1</code>
@@ -150,8 +150,10 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 #### <a href="#location-entity">location.name</a>
 - Name for this location.
+- accessed
 - Stored within `Location` as a String, and not a `Name` entity.
 - Each location has one primary name.  This primary name is unique for all Locations.
+    - For this primary name, `Location` `1:1` `Name`.
 - Non-null, unique, and required.
 
 #### <a href="#location-entity">location.otherNamesList</a>
@@ -162,6 +164,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - If "Buffalo Mountain A" was deleted, we do not want "Buffalo Mountain" to be removed from the database.  Removing a `Location` should remove all the `Name` within its otherNamesList.  
     - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNamesList collections.  
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
+- For otherNamesList, `Location` `m:m` `Name`.
 
 #### <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
