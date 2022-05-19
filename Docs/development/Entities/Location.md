@@ -114,6 +114,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 #### location.name
 - Name for this location.
+- Duplicate names for different locations would be confusing, so name should be unique.
 - Non-null, unique, and required.
 
 #### location.geometry_id
@@ -123,12 +124,9 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - Special considerations:
     - `Location` cannot obtain any weather data without `Coordinates`, so `geometry_id` is required
     - No two locations should share the same coordinates, so for `Location`, `geometry_id` should be unique.
-    - Users could attempt to add a `location` with `coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `coordinates` are unique and to re-prompt.
-        - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `coordinates` could be obtained.
+    - Users could attempt to add a `Location` with `Coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `Coordinates` are unique and to re-prompt.
+        - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `Coordinates` could be obtained.
 - Non-null, unique, and required.
-
-#### location.name
-Unique name for `Location`.
 
 ### Related Entities
 
