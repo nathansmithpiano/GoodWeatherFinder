@@ -15,7 +15,6 @@
 ```
 
 
-
 # Forecast
 `https://api.weather.gov/gridpoints/PUB/33,107/forecast`
 
@@ -54,6 +53,55 @@
 						[
 						-106.4610958,
 						39.117267400000003
+						]
+					]
+				]
+			}
+		}
+	]
+}
+
+```
+
+
+# Forecast (hourly)
+`https://api.weather.gov/gridpoints/PUB/33,107/forecast/hourly`
+
+```geojson
+
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 1,
+			"properties": {
+			"ID": 0
+			},
+			"geometry": {
+			"type": "Polygon",
+			"coordinates":
+				[
+					[
+						[
+							-106.4610958,
+							39.117267400000003
+						],
+						[
+							-106.4586896,
+							39.095231600000005
+						],
+						[
+							-106.4302713,
+							39.097097800000007
+						],
+						[
+							-106.43267160000001,
+							39.119133800000007
+						],
+						[
+							-106.4610958,
+							39.117267400000003
 						]
 					]
 				]
