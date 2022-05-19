@@ -117,7 +117,6 @@ Coordinates
     </tr>
 </table>
 
-### Region
 <table>
     <tr><th>Mountain</th></tr>
     <tr>
