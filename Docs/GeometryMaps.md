@@ -322,7 +322,8 @@ local to `Point`
 			"type": "Feature",
 			"id": 1,
 			"properties": {
-				"ID": 1
+				"ID": 1,
+				"name": "RelativeLocation"
 			},
 			"geometry": {
 				"type": "Point",
