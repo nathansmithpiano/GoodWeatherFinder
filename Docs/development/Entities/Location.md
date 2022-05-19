@@ -9,7 +9,7 @@ Each `Location` is determined by a precise set of GPS coordinates (latitude and 
 
 Mount Elbert is the highest peak in Colorado and a popular, well-known destination.  As the initial database contains Colorado peaks above 13,000 and 14,000 feet, I have chosen this location as the example for this documentation.
 
-## Location
+## Location Entity
 
 > **Legend:** **PK** = Primary Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
 
