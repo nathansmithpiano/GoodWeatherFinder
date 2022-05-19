@@ -5,7 +5,7 @@ Each `Location` is determined by a precise set of GPS coordinates (latitude and 
 > ### Development
 > I began by listing data that may be relevant to a mountain summit.  Then, in the name of normalization, I reorganized that data into other entities.  `Location` and its other entities will all have their own tables in the database.
 
-### Mt. Elbert
+### Mount Elbert
 
 Mount Elbert is the highest peak in Colorado and a popular, well-known destination.  As the initial database contains Colorado peaks above 13,000 and 14,000 feet, I have chosen this location as the example for this documentation.
 
@@ -32,10 +32,22 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <th>Value</th>
     </tr>
     <tr>
-        <td>ID</td>
+        <td>id</td>
         <td><code>int</code></td>
         <td>PK, NN, AI, UQ, UN</td>
         <td>generated</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td><code>String</code></td>
+        <td>NN, required</td>
+        <td>Mount Elbert</td>
+    </tr>
+    <tr>
+        <td>otherNames</td>
+        <td><code>Set<String></code></td>
+        <td>NN, required</td>
+        <td>Mt. Elbert</td>
     </tr>
 </table>
 
