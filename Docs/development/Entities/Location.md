@@ -14,17 +14,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 > **Legend:
 > ** **PK** = Primary Key | **FK** = Foreign Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
 
-
-| Property | Type | Characteristics | Value |
-| --- | --- | --- | --- |
-| ID | `int` | PK, NN, AI, UQ, UN | generated |
-| Name | `String` | NN, required | Mt. Elbert |
-| `Geometry` | Entity (single) | NN, UN, required | Foreign Key `int` |
-| `Category` | Entity (Collection) | NN, UN, required | Foreign Key `int` |
-| `Activity` | Entity (Collection) | optional | Foreign Key `int` |
-| `Mountain` | Entity (single) | optional | owned by `Mountain` |
-| `Region` | Entity (Collection) | optional | Foreign Key `int` |
-
 <table>
     <tr>
         <th>Property</th>
