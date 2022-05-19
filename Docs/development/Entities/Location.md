@@ -24,8 +24,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | Country | United States |
 | State | Colorado |
 | County | Lake County, Colorado |
-| Mountain Range | Rocky Mountains |
-| Forest | San Isabel National Forest |
+| `Region` | Entity (Collection) | optional | Foreign Key `int` |
 | Activity | Hiking |
 | Activity | Climbing |
 | Activity | Mountaineering |
@@ -106,7 +105,45 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
 </table>
 
-### MountainRange
+### Region
+<table>
+    <tr>
+        <th>ID</th>
+        <th>parent_id</th>
+        <th>Type</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>null</td>
+        <td>Mountain Range</td>
+        <td>Rocky Mountains</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>Mountain Range</td>
+        <td>Southern Rocky Mountains</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>2</td>
+        <td>Mountain Range</td>
+        <td>Sawatch</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>3</td>
+        <td>Mountain Range</td>
+        <td>Elbert Massif</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>null</td>
+        <td>National Forest</td>
+        <td>San Isabel National Forest</td>
+    </tr>
+</table>
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
