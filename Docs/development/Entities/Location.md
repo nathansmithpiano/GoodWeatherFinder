@@ -144,13 +144,3 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <td><b>San Isabel National Forest</b></td>
     </tr>
 </table>
-
-| Property | Type | Characteristics | Value |
-| --- | --- | --- | --- |
-| ID | `int` | PK, AI, UQ, UN | generated |
-| Name | `String` | NN, UQ, required | Elbert Massif |
-| Parent | `MountainRange` | optional | Foreign Key `int` |
-| Name | `String` | NN, UQ, required | Rocky Mountains |
-| Name | `String` | NN, UQ, required | Southern Rocky Mountains |
-| Name | `String` | NN, UQ, required | Sawatch |
-| Name | `String` | NN, UQ, required | Elbert Massif |
