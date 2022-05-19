@@ -80,26 +80,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
 </table>
 
-### Geometry
-
-| Type | coordinate_id |
-| --- | --- |
-| Location | generated |
-
-| Property | Type | Characteristics | Value |
-| --- | --- | --- | --- |
-| ID | `int` | PK, AI, UQ, UN | generated |
-| Type | `String` | NN, required | Location |
-| `Coordinate` | Entity (Collection) | NN, required, UN | Foreign Key `int` |
-
-### Coordinates
-
-| Property | Type | Characteristics | Value |
-| --- | --- | --- | --- |
-| ID | `int` | PK, AI, UQ, UN | generated |
-| latitude | double | NN, required | 39.118075 |
-| longitude | double | NN, required | -106.445417 |
-
 ### Mountain
 
 | Property | Value |
