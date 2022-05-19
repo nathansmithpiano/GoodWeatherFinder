@@ -334,21 +334,12 @@ local to `Point`
 			"properties": {
 				"prop": "RelativeLocation"
 			},
-			"type": "Feature",
-			"id": 2,
-			"properties": {
-				"ID": 2
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[-106.318985,39.103709000000002],
-					[-106.4453,39.117699999999999]
-				]
-			},
-			"properties": {
-				"prop": "to Point"
-			}
+
+			"type": "LineString",
+			"coordinates": [
+				[-106.318985,39.103709000000002],
+				[-106.4453,39.117699999999999]
+			]
 		}
 	]
 }
