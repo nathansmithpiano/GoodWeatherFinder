@@ -8131,19 +8131,26 @@ local to `Point`
 
 {
 	"type": "FeatureCollection",
-	"features": [
+	"features":
+	[
 		{
 			"type": "Feature",
 			"id": 1,
 			"properties": {
-			"ID": 0
+				"ID": 0
 			},
 			"geometry": {
-			"type": "Polygon",
-			"coordinates":
-				[
+				"type": "Polygon",
+				"coordinates": [
 					[
-						COORDINATES
+						[
+							longitude,
+							latitude
+						],
+						[
+							longitude,
+							latitude
+						]
 					]
 				]
 			}
@@ -8160,11 +8167,10 @@ local to `Point`
 
 {
 	"type": "Point",
-    "coordinates":
-		[
-            -106.4453,
-            39.117699999999999
-    	]
+    "coordinates": [
+        -106.4453,
+        39.117699999999999
+	]
 }
 
 ```
