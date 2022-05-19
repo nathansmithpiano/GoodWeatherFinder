@@ -8123,7 +8123,7 @@ local to `Point`
 
 # Template
 `IRI`
-<code>
+```
 ```geojson
 
 {
@@ -8149,4 +8149,4 @@ local to `Point`
 }
 
 ```
-</code>
+```
