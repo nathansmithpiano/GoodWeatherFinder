@@ -215,7 +215,7 @@ private Geometry geometry;
 
 <table>
     <tr>
-        <th colspan="2">Location</th>
+        <th colspan="2">Geometry</th>
     </tr>
     <tr>
         <td valign="baseline">
