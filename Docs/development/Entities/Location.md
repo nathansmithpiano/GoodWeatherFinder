@@ -245,22 +245,6 @@ public class Geometry {
     <th colspan="2">Coordinates</th>
 </tr>
 <tr>
-    <td align=center>
-        <table>
-            <tr>
-                <th>id</th>
-                <th>geometry_id</th>
-                <th>Latitude</th>
-                <th>Longitude</th>
-            </tr>
-            <tr>   
-                <td>3</td>
-                <td>2</td>
-                <td>39.118075</td>
-                <td>-106.445417</td>
-            </tr>
-        </table>
-    </td>
 <td>
 
 ```java
@@ -271,6 +255,22 @@ public class Coordinates {
 }
 ```
 
+</td>
+<td align=center>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>geometry_id</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+        <tr>   
+            <td>3</td>
+            <td>2</td>
+            <td>39.118075</td>
+            <td>-106.445417</td>
+        </tr>
+    </table>
 </td>
 </tr>
 
