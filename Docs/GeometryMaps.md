@@ -81,7 +81,7 @@
 			"ID": 0
 			},
 			"geometry": {
-			"type": "Polygon",
+			"type": "MultiPoint",
 			"coordinates":
 				[
 					[
