@@ -95,22 +95,28 @@ Coordinates
     </tr>
 </table>
 
-
-### Mountain
 <table>
+    <tr><th>Mountain</th></tr>
     <tr>
-        <th>Name</th>
-        <th>Abbreviation</th>
-        <th>Elevation</th>
-        <th><code>Region</code></th>
-    </tr>
-    <tr>
-        <td>Mount Elbert</td>
-        <td>Mt. Elbert</td>
-        <td>4389.12</td>
-        <td><code>Region</code></td>
+        <td>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Abbreviation</th>
+                    <th>Elevation</th>
+                    <th><code>Region</code></th>
+                </tr>
+                <tr>
+                    <td>Mount Elbert</td>
+                    <td>Mt. Elbert</td>
+                    <td>4389.12</td>
+                    <td><code>Region</code></td>
+                </tr>
+            </table>
+        </td>
     </tr>
 </table>
+
 
 ### Region
 <table>
