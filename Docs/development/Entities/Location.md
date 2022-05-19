@@ -203,9 +203,11 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <td>
 
 ```java
-@OneToOne
-@JoinColumn(name = "geometry_id")
-private Geometry geometry;
+public class Location {
+    @OneToOne
+    @JoinColumn(name = "geometry_id")
+    private Geometry geometry;
+}
 ```
 
 </td>
@@ -222,7 +224,7 @@ private Geometry geometry;
             </tr>
             <tr>
                 <td>2</td>
-                <td>"Point"</td>
+                <td>Point</td>
             </tr>
         </table>
     </td>
@@ -230,8 +232,8 @@ private Geometry geometry;
 
 ```java
 public class Geometry {
-@OneToMany(mappedBy = "geometry")
-private List<Coordinates> coordinatesList;
+    @OneToMany(mappedBy = "geometry")
+    private List<Coordinates> coordinatesList;
 }
 ```
 
