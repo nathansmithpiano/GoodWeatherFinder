@@ -216,7 +216,7 @@ public class Location {
     <th colspan="2">Geometry</th>
 </tr>
 <tr>
-    <td style="text-align:center">
+    <td align=center>
         <table>
             <tr>
                 <th>id</th>
@@ -243,7 +243,7 @@ public class Geometry {
     <th colspan="2">Coordinates</th>
 </tr>
 <tr>
-    <td style="text-align:center">
+    <td align=center>
         <table>
             <tr>
                 <th>id</th>
