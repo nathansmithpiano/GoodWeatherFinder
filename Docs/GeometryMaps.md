@@ -8123,6 +8123,9 @@ local to `Point`
 
 # Template
 `IRI`
+
+### Multiple Features
+
 ```
 ```geojson
 
@@ -8149,6 +8152,8 @@ local to `Point`
 }
 
 ```
+
+### Single Feature
 
 ```
 ```geojson
