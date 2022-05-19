@@ -275,7 +275,7 @@ public class Coordinates {
 </table>
 
 
-#### location.categoryList
+#### location.categoryList <a href="#location-entity">🔝</a>
 
 <table>
     <tr>
