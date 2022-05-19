@@ -69,9 +69,17 @@
 
 ```geojson
 
-{
-  "type": "MultiPoint",
-  "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+{ "type": "FeatureCollection",
+    "features": [
+      { "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+        "properties": {"prop0": "value0"}
+      },
+      { "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [103.0, 1.5]},
+        "properties": {"prop0": "value1"}
+      }
+   ]
 }
 
 ```
