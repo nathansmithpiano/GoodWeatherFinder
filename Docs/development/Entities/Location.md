@@ -263,9 +263,9 @@ public class Geometry {
 
 ```java
 public class Coordinates {
-@ManyToOne
-@JoinColumn(name = "geometry_id")
-private Geometry geometry;
+    @ManyToOne
+    @JoinColumn(name = "geometry_id")
+    private Geometry geometry;
 }
 ```
 
