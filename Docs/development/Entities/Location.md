@@ -22,13 +22,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | `Geometry` | Entity (single) | NN, UN, required | Foreign Key `int` |
 | `Mountain` | Entity (single) | optional | owned by `Mountain` |
 | `Region` | Entity (Collection) | optional | Foreign Key `int` |
-| Activity | Hiking |
-| Activity | Climbing |
-| Activity | Mountaineering |
-| Activity | Trail Running |
-| Activity | Camping |
-| Activity | Backpacking |
-| Activity | Skiing/Snowboarding (Backcountry) |
+| `Activity` | Entity (Collection) | optional | Foreign Key `int` |
 
 ### Category
 
