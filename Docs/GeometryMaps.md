@@ -2729,7 +2729,7 @@
 			},
 			"geometry": {
 			"type": "Polygon",
-			"coordinates": 
+			"coordinates":
 				[
 					[
 						[
@@ -4028,7 +4028,7 @@
 		                    -106.3711929,
 		                    39.361213599999999
 		                ]
-					]	
+					]
 				]
 			}
 		}
@@ -4054,7 +4054,7 @@
 			},
 			"geometry": {
 			"type": "Polygon",
-			"coordinates": 
+			"coordinates":
 				[
 					[
 						[
@@ -7713,7 +7713,7 @@
 		                    -106.3711929,
 		                    39.361213599999999
 		                ]
-					]	
+					]
 				]
 			}
 		}
@@ -7723,8 +7723,8 @@
 ```
 
 
-# Template
-`https://api.weather.gov/zones/county/COC065`
+# Forecast
+`https://api.weather.gov/gridpoints/PUB/33,107/forecast`
 
 ```geojson
 
@@ -7739,11 +7739,59 @@
 			},
 			"geometry": {
 			"type": "Polygon",
-			"coordinates": 
+			"coordinates":
+				[
+					[
+						[
+						-106.4610958,
+						39.117267400000003
+						],
+						[
+						-106.4586896,
+						39.095231600000005
+						],
+						[
+						-106.4302713,
+						39.097097800000007
+						],
+						[
+						-106.43267160000001,
+						39.119133800000007
+						],
+						[
+						-106.4610958,
+						39.117267400000003
+						]
+					]
+				]
+			}
+		}
+	]
+}
+
+
+```
+# Template
+`IRI`
+
+```geojson
+
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 1,
+			"properties": {
+			"ID": 0
+			},
+			"geometry": {
+			"type": "Polygon",
+			"coordinates":
 				[
 					[
 						COORDINATES
-					]	
+					]
 				]
 			}
 		}
@@ -7751,5 +7799,3 @@
 }
 
 ```
-
-
