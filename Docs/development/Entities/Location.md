@@ -150,7 +150,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 #### <a href="#location-entity">location.name_id</a>
 - Name for this location.
-- accessed via location.name_id `@JoinColumn`
+- `@JoinColumn` via location.name_id.
 - Stored within `Location` as a `Name` entity.
 - Each location has one primary name.  This primary name is unique for all Locations.
     - For this primary name, `Location` `1:1` `Name`.
@@ -169,6 +169,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 #### <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
+- `@JoinColumn` via location.geometry_id.
 - `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`
 - `Geometry` `1:1` `Coordinates`
 - Special considerations:
