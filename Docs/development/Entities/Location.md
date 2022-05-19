@@ -167,7 +167,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - For otherNamesList, `Location` `m:m` `Name`.
 - Optional.
 
-#### location.geometry_id</a>
+#### location.geometry_id <a href="#location-entity">🔝</a>
 - Foreign key for this location's geometry.
 - `@JoinColumn` via location.geometry_id.
 - `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`.
