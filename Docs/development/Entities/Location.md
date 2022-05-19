@@ -3,6 +3,8 @@
 Each `Location` is determined by a precise set of GPS coordinates (latitude and longitude).
 
 > ### Development
+>
+> I began by listing data that may be relevant to a mountain summit.  Then, in the name of normalization, I reorganized that data into other entities.  Location and its other entities will all have their own tables in the database.
 
 ### Mt. Elbert
 
