@@ -11,14 +11,14 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 ### Location
 
-> **Legend:** **PK** = Primary Key   |   **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
+> **Legend:** **PK** = Primary Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
 
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
 | ID | `int` | PK, NN, AI, UQ, UN | generated |
 | Name | `String` | NN, required | Mt. Elbert |
-| `Type` | Entity (Collection) | NN, UN, required | Foreign Key `int` |
+| `Category` | Entity (Collection) | NN, UN, required | Foreign Key `int` |
 | `Geometry` | Entity (single) | NN, UN, required | Foreign Key `int` |
 | `Mountain` | Entity (single) | optional | owned by `Mountain` |
 | Country | United States |
@@ -26,9 +26,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | County | Lake County, Colorado |
 | Mountain Range | Rocky Mountains |
 | Forest | San Isabel National Forest |
-| Category | Mountain |
-| Category | Summit |
-| Category | Colorado 14er |
 | Activity | Hiking |
 | Activity | Climbing |
 | Activity | Mountaineering |
@@ -37,54 +34,48 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | Activity | Backpacking |
 | Activity | Skiing/Snowboarding (Backcountry) |
 
-### Type
+### Category
 
-| Property | Type | Characteristics | Value |
-| --- | --- | --- | --- |
-| ID | `int` | Primary Key, auto incremented, unique, unsigned | generated |
-| Name | `String` | required, non-null | Mountain Summit |
+| Name |
+| --- |
+| Mountain |
+| Summit |
+| Colorado 14er |
 
 ### Geometry
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
-| ID | `int` | Primary Key, auto incremented, unique, unsigned | generated |
-| Type | `String` | required, non-null | Location |
-| `Coordinate` | Entity (Collection) | required, non-null, unsigned | Foreign Key `int` |
+| ID | `int` | PK, AI, UQ, UN | generated |
+| Type | `String` | NN, required | Location |
+| `Coordinate` | Entity (Collection) | NN, required, UN | Foreign Key `int` |
 
 ### Coordinates
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
-| ID | `int` | Primary Key, auto incremented, unique, unsigned | generated |
-| latitude | double | required, non-null | 39.118075 |
-| longitude | double | required, non-null | -106.445417 |
+| ID | `int` | PK, AI, UQ, UN | generated |
+| latitude | double | NN, required | 39.118075 |
+| longitude | double | NN, required | -106.445417 |
 
 ### Mountain
 
 | Property | Value |
 | --- | --- |
-| ID | `int` | Primary Key, auto incremented, unique, unsigned | generated |
-| Name | `String` | required, non-null, unique | Mount Elbert |
-| Abbreviation | `String` | required, non-null, unique | Mt. Elbert |
-| `MountainRange` | Entity (single) | required, non-null | Foreign Key `int` |
-| Elevation | `double` | required, non-null, unsigned | 4389.12 |
-| Prominence |
-
-### MountainRange
-
-| Property | Value |
-| --- | --- |
-| Primary Key | TODO |
+| ID | `int` | PK, AI, UQ, UN | generated |
+| Name | `String` | NN, UQ, required | Mount Elbert |
+| Abbreviation | `String` | NN, UQ, required | Mt. Elbert |
+| `MountainRange` | Entity (single) | NN, required | Foreign Key `int` |
+| Elevation | `double` | NN, required, UN | 4389.12 |
 
 ### MountainRange
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
-| ID | `int` | Primary Key, auto incremented, unique, unsigned | generated |
-| Name | `String` | required, non-null, unique | Elbert Massif |
-| Parent | `MountainRange` | --- | Foreign Key `int` |
-| Name | `String` | required, non-null, unique | Rocky Mountains |
-| Name | `String` | required, non-null, unique | Southern Rocky Mountains |
-| Name | `String` | required, non-null, unique | Sawatch |
-| Name | `String` | required, non-null, unique | Elbert Massif |
+| ID | `int` | PK, AI, UQ, UN | generated |
+| Name | `String` | NN, UQ, required | Elbert Massif |
+| Parent | `MountainRange` | optional | Foreign Key `int` |
+| Name | `String` | NN, UQ, required | Rocky Mountains |
+| Name | `String` | NN, UQ, required | Southern Rocky Mountains |
+| Name | `String` | NN, UQ, required | Sawatch |
+| Name | `String` | NN, UQ, required | Elbert Massif |
