@@ -233,9 +233,10 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 <tr>
 <td>
 
-<pre><code>
+```
 System.out.println("foo");
 </code></pre>
+```
 
 </td>
 <td>
