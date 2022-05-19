@@ -118,7 +118,7 @@ Coordinates
 </table>
 
 <table>
-    <tr><th>Mountain</th></tr>
+    <tr><th>Region</th></tr>
     <tr>
         <td>
             <table>
