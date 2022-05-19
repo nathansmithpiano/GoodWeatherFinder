@@ -200,21 +200,16 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
                 </tr>
             </table>
         </td>
-        <td valign="baseline">
-            <table>
-                <tr>
-                    <th>Name</th>
-                </tr>
-                <tr><td>Hiking</td></tr>
-                <tr><td>Climbing</td></tr>
-                <tr><td>Mountaineering</td></tr>
-                <tr><td>Trail Running</td></tr>
-                <tr><td>Camping</td></tr>
-                <tr><td>Backpacking</td></tr>
-                <tr><td>Skiing/Snowboarding (Backcountry)</td></tr>
-            </table>
-        </td>
-    </tr>
+<td valign="baseline">
+
+```java
+@OneToOne
+@JoinColumn(name = "geometry_id")
+private Geometry geometry;
+```
+
+</td>
+</tr>
 </table>
 
 
