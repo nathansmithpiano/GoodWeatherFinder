@@ -18,13 +18,49 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | --- | --- | --- | --- |
 | ID | `int` | PK, NN, AI, UQ, UN | generated |
 | Name | `String` | NN, required | Mt. Elbert |
-| `Category` | Entity (Collection) | NN, UN, required | Foreign Key `int` |
 | `Geometry` | Entity (single) | NN, UN, required | Foreign Key `int` |
+| `Category` | Entity (Collection) | NN, UN, required | Foreign Key `int` |
+| `Activity` | Entity (Collection) | optional | Foreign Key `int` |
 | `Mountain` | Entity (single) | optional | owned by `Mountain` |
 | `Region` | Entity (Collection) | optional | Foreign Key `int` |
-| `Activity` | Entity (Collection) | optional | Foreign Key `int` |
 
 ### Related Entities
+
+<table>
+<tr>
+<th>Geometry</th>
+<th>
+Coordinates
+</th>
+</tr>
+<tr>
+<td>
+<table>
+<tr>
+<th>Type</th>
+<th><code>Coordinates</code></th>
+</tr>
+<tr>
+<td>Location</td>
+<td><code>Coordinates</code></td>
+</table>
+</td>
+<td>
+<table>
+<tr>
+<th>Latitude</th>
+<th>Longitude</th>
+<th><code>Geometry</code></th>
+</tr>
+<tr>
+<td>39.118075</td>
+<td>-106.445417</td>
+<td><code>Geometry</code></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
 
 <table>
     <tr>
@@ -59,41 +95,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
 </table>
 
-<table>
-    <tr>
-        <th>Geometry</th>
-        <th>
-            Coordinates
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>Type</th>
-                    <th><code>Coordinates</code></th>
-                </tr>
-                <tr>
-                    <td>Location</td>
-                    <td><code>Coordinates</code></td>
-            </table>
-        </td>
-        <td>
-            <table>
-                <tr>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                    <th><code>Geometry</code></th>
-                </tr>
-                <tr>
-                    <td>39.118075</td>
-                    <td>-106.445417</td>
-                    <td><code>Geometry</code></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
 
 ### Mountain
 <table>
