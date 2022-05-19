@@ -116,8 +116,13 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - Non-null, unique, and required.
 - **location.geometry_id**
     - Foreign key for this location's geometry.
-    - Geometry contains a coordinateList, which for a Location contains 1 and only 1 `Coordinates`
+    - `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`
     - `Geometry` `1:1` `Coordinates`
+    - Special considerations:
+        - `Location` cannot obtain any weather data without `Coordinates`, so `geometry_id` is required
+        - No two locations should share the same coordinates, so for `Location`, `geometry_id` should be unique.
+        - Users could attempt to add a `location` with `coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `coordinates` are unique and to re-prompt.
+            - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `coordinates` could be obtained. 
     - Non-null, unique, and required.
 
 #### location.name
