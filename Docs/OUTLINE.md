@@ -1,13 +1,30 @@
+
+
+Point 1:1 Geometry
+Point m:1 ForecastOffice
+Point m:1 GridPoint
+Point m:1 RelativeLocation
+- ForecastZone
+- CountyZone
+- FireWeatherZone
+- TimeZone
+- RadarStation
+
+GridPoint
+- Forecast
+- ForecastHourly
+- ForecastGridData
+- ObservationStations
+
+
+
+
 ## Point
 Primary Key: IRI (String)
 Also defined by its coordinates
 
 Each `Point` has one and only one `Location`.
-- DB: `point.location_id`
-- Entity: `point.location`
-	
 Each `Point` has one and only one `Geometry`.
-
 Each `Point`.`Geometry` has one and only one `Coordinates`.
 
 ## Location
