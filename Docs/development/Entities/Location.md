@@ -167,7 +167,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - For otherNamesList, `Location` `m:m` `Name`.
 - Optional.
 
-#### location.geometry_id <a href="#location-entity">🔝</a>
+#### location.geometry_id</a>
 - Foreign key for this location's geometry.
 - `@JoinColumn` via location.geometry_id.
 - `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`.
@@ -183,39 +183,40 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 ### Related Entities
 
 <table>
-<tr>
-<th>Geometry</th>
-<th>
-Coordinates
-</th>
-</tr>
-<tr>
-<td>
-<table>
-<tr>
-<th>Type</th>
-<th><code>Coordinates</code></th>
-</tr>
-<tr>
-<td>Location</td>
-<td><code>Coordinates</code></td>
-</table>
-</td>
-<td>
-<table>
-<tr>
-<th>Latitude</th>
-<th>Longitude</th>
-<th><code>Geometry</code></th>
-</tr>
-<tr>
-<td>39.118075</td>
-<td>-106.445417</td>
-<td><code>Geometry</code></td>
-</tr>
-</table>
-</td>
-</tr>
+    <tr>
+        <th>Geometry</th>
+        <th>
+            Coordinates
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th><code>Coordinates</code></th>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td><code>Coordinates</code></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th><code>Geometry</code></th>
+                </tr>
+                <tr>
+                    <td>39.118075</td>
+                    <td>-106.445417</td>
+                    <td><code>Geometry</code></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 </table>
 
 <table>
