@@ -8149,3 +8149,17 @@ local to `Point`
 }
 
 ```
+
+```
+```geojson
+
+{
+	"type": "Point",
+    "coordinates":
+		[
+            -106.4453,
+            39.117699999999999
+    	]
+}
+
+```
