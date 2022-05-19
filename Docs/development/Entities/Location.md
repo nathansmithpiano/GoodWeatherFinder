@@ -282,20 +282,8 @@ public class Coordinates {
     <tr>
         <th colspan="2">Geometry</th>
     </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>Type</th>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>"Point"</td>
-                </tr>
-            </table>
-        </td>
-        <td>
+    <tr>    
+<td>
 
 ```java
 public class Geometry {
@@ -304,6 +292,18 @@ public class Geometry {
 }
 ```
 
+</td>
+<td>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>"Point"</td>
+        </tr>
+    </table>
 </td>
 </tr>
 </table>
