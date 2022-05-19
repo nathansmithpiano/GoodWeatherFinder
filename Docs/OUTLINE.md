@@ -65,12 +65,17 @@ Returns glossary terms
 # Point
 
 #### /points/{point}
-Returns metadata about a given latitude/longitude point
+Returns metadata about a given latitude/longitude point  
+**Used by**
+- `Point` *Primary Key*
+- `Location` *location.point*
 
 # ForecastOffice
 
 #### /offices/{officeId}
-Returns metadata about a NWS forecast office
+Returns metadata about a NWS forecast office  
+**Used by**
+- `Point` *point.forecastOffice*
 
 #### /offices/{officeId}/headlines/{headlineId}
 Returns a specific news headline for a given NWS office
@@ -81,16 +86,24 @@ Returns a list of news headlines for a given NWS office
 # GridPoint
 
 #### /gridpoints/{wfo}/{x},{y}
-Returns raw numerical forecast data for a 2.5km grid area
+Returns raw numerical forecast data for a 2.5km grid area  
+**Used by**
+- `Point` *point.forecastGridData*
 
 #### /gridpoints/{wfo}/{x},{y}/forecast
-Returns a textual forecast for a 2.5km grid area
+Returns a textual forecast for a 2.5km grid area  
+**Used by**
+- `Point` *point.forecast*
 
 #### /gridpoints/{wfo}/{x},{y}/forecast/hourly
-Returns a textual hourly forecast for a 2.5km grid area
+Returns a textual hourly forecast for a 2.5km grid area  
+**Used by**
+- `Point` *point.forecastHourly*
 
 #### /gridpoints/{wfo}/{x},{y}/stations
-Returns a list of observation stations usable for a given 2.5km grid area
+Returns a list of observation stations usable for a given 2.5km grid area  
+**Used by**
+- `Point` *point.observationStations*
 
 # ObservationStations
 
@@ -126,7 +139,12 @@ Returns a list of zones
 Returns a list of zones of a given type
 
 #### /zones/{type}/{zoneId}
-Returns metadata about a given zone
+Returns metadata about a given zone  
+**Used by**
+- `Point` *point.forecastZone*
+    - confusing, is `forecastZone` a Zone type or is this the same as /zones/{type}/{zoneId}/forecast ?
+- `Point` *point.county*
+- `Point` *point.fireWeatherZone*
 
 #### /zones/{type}/{zoneId}/forecast
 Returns the current zone forecast for a given zone
