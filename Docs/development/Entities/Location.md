@@ -226,7 +226,7 @@ private Geometry geometry;
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Point</td>
+                    <td>"Point"</td>
                 </tr>
             </table>
         </td>
