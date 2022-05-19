@@ -199,7 +199,7 @@ public class Location {
 ```
 
 </td>
-<td align=center>
+<td>
     <table>
         <tr>
             <th>id</th>
