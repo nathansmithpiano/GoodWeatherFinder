@@ -11,7 +11,8 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 ## Location Entity
 
-> **Legend:** **PK** = Primary Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
+> **Legend:
+> ** **PK** = Primary Key | **FK** = Foreign Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
 
 
 | Property | Type | Characteristics | Value |
@@ -34,20 +35,26 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     <tr>
         <td>id</td>
         <td><code>int</code></td>
-        <td>PK, NN, AI, UQ, UN</td>
+        <td>PK, NN, AI, UQ, UN, required</td>
         <td>generated</td>
     </tr>
     <tr>
         <td>name</td>
         <td><code>String</code></td>
-        <td>NN, required</td>
+        <td>NN, UQ, required</td>
         <td>Mount Elbert</td>
     </tr>
     <tr>
         <td>otherNames</td>
         <td><code>Set<String></code></td>
-        <td>NN, required</td>
+        <td>optional</td>
         <td>Mt. Elbert</td>
+    </tr>
+    <tr>
+        <td>geometry_id</td>
+        <td><code>int</code></td>
+        <td>FK, NN, UN, required</td>
+        <td><code>Geometry</code></td>
     </tr>
 </table>
 
