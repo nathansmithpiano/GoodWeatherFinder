@@ -256,7 +256,7 @@ public class Coordinates {
 ```
 
 </td>
-<td align=center>
+<td>
     <table>
         <tr>
             <th>id</th>
