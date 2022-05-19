@@ -42,11 +42,30 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | Summit |
 | Colorado 14er |
 
+<table>
+    <tr>
+        <th>
+            Geometry
+        </th>
+        <th>
+            Coordinates
+        </th>
+    </tr>
+    <tr>
+        <td>
+            | Type | coordinate_id |
+            | --- | --- |
+            | Location | generated |
+        </td>
+        <td>
+
+        </td>
+    </tr>
+</table>
+
 ### Geometry
 
-| Type | coordinate_id |
-| --- | --- |
-| Location | generated |
+
 
 | Property | Type | Characteristics | Value |
 | --- | --- | --- | --- |
