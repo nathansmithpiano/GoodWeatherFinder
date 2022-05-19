@@ -167,7 +167,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - For otherNamesList, `Location` `m:m` `Name`.
 - Optional.
 
-#### location.geometry_id</a>
+#### location.geometry_id <a href="#location-entity">🔝</a>
 - Foreign key for this location's geometry.
 - `@JoinColumn` via location.geometry_id.
 - `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`.
@@ -179,9 +179,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - Users could attempt to add a `Location` with `Coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `Coordinates` are unique and to re-prompt.
         - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `Coordinates` could be obtained.
 - Non-null, unique, and required.
-
-### Related Entities
-
 
 <table>
 <tr>
@@ -277,6 +274,8 @@ public class Coordinates {
 
 </table>
 
+
+#### location.categoryList <a href="#location-entity">🔝</a>
 
 <table>
     <tr>
