@@ -346,6 +346,47 @@ local to `Point`
 
 ```
 
+{
+	"type": "FeatureCollection",
+    "features": [
+		{	"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-106.4453,
+					39.117699999999999
+	    		]
+			},
+			"properties": {
+				"prop": "Point"
+			}
+	    },
+		{	"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-106.318985,
+					39.103709000000002
+	    		]
+			},
+			"properties": {
+				"prop": "RelativeLocation"
+			}
+	    },
+		{	"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[-106.318985,39.103709000000002],
+					[-106.4453,39.117699999999999]
+				]
+			},
+			"properties": {
+				"prop": "Point to RelativeLocation"
+			}
+	    }
+	]
+}
 
 
 
