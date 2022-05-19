@@ -18,7 +18,7 @@ ForecastOffice m:m ForecastOffice
 Forecast Office ?:m ObservationStation
 
 GridPoint m:1 ForecastOffice
-
+GridPoint m:m ObservationStation
 
 
 
