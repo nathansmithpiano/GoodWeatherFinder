@@ -233,8 +233,10 @@ private Geometry geometry;
         <td valign="baseline">
 
 ```java
-@OneToMany(mappedBy = "geometry")
-private List<Coordinates> coordinatesList;
+public class Geometry {
+    @OneToMany(mappedBy = "geometry")
+    private List<Coordinates> coordinatesList;
+}
 ```
 
 </td>
