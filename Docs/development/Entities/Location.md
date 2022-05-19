@@ -155,6 +155,10 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - Non-null, unique, and required.
 
 #### <a href="#location-entity">location.otherNamesList</a>
+- Additional names for this location.
+    - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
+- While primary name must be unique, other names are not.  Duplicates may exist within the database.
+    - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  If "Buffalo Mountain A" was deleted, we do not want "Buffalo Mountain" to be removed from the database.  Removing a `Location` should remove all the `Name` within its otherNamesList.  Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNamesList collections.  Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 
 #### <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
