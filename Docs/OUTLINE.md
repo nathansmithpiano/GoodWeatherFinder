@@ -3,18 +3,21 @@
 Point 1:1 Geometry
 Point m:1 ForecastOffice
 Point m:1 GridPoint
+Point m:2 Forecast
+Point m:1 GridPoint
+Point m:m ObservationStation
 Point m:1 RelativeLocation
 Point m:1 ForecastZone
-- CountyZone
-- FireWeatherZone
-- TimeZone
-- RadarStation
+Point m:1 County
+Point m:1 FireWeatherZone
+Point m:1 TimeZone
+Point m:1 RadarStation
 
-GridPoint
-- Forecast
-- ForecastHourly
-- ForecastGridData
-- ObservationStations
+ForecastOffice m:m County
+ForecastOffice m:m ForecastOffice
+Forecast Office ?:m ObservationStation
+
+GridPoint m:1 ForecastOffice
 
 
 
@@ -76,6 +79,10 @@ Returns metadata about a given latitude/longitude point
 Returns metadata about a NWS forecast office  
 **Used by**
 - `Point` *point.forecastOffice*
+- `ForecastZone` *forecastZone.forecastOffices[]*
+- `GridPoint` *gridPoint.forecastOffice*
+- `County` *county.forecastOffices[]*
+- `FireWeatherZone` *fireWeatherZone.observationStations[]*
 
 #### /offices/{officeId}/headlines/{headlineId}
 Returns a specific news headline for a given NWS office
@@ -104,6 +111,7 @@ Returns a textual hourly forecast for a 2.5km grid area
 Returns a list of observation stations usable for a given 2.5km grid area  
 **Used by**
 - `Point` *point.observationStations*
+??? Point ObservationStations
 
 # ObservationStations
 
@@ -111,7 +119,11 @@ Returns a list of observation stations usable for a given 2.5km grid area
 Returns a list of observation stations.
 
 #### /stations/{stationId}
-Returns metadata about a given observation station
+Returns metadata about a given observation station  
+**Used by**
+- `ForecastZone` *forecastZone.observationStations[]*
+- `ForecastOffice` *forecastOffice.approvedObservationStations*
+- `County` *county.observationStations[]*
 
 #### /stations/{stationId}/observations
 Returns a list of observations for a given station
@@ -145,6 +157,10 @@ Returns metadata about a given zone
     - confusing, is `forecastZone` a Zone type or is this the same as /zones/{type}/{zoneId}/forecast ?
 - `Point` *point.county*
 - `Point` *point.fireWeatherZone*
+- `FireWeatherZone` *Primary Key*
+- `ForecastOffice` *forecastOffice.responsibleCounties*
+- `ForecastOffice` *forecastOffice.responsibleForecastZones*
+- `ForecastOffice` *forecastOffice.responsibleFireZones*
 
 #### /zones/{type}/{zoneId}/forecast
 Returns the current zone forecast for a given zone
