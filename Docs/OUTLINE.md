@@ -2,12 +2,18 @@
 Primary Key: IRI (String)
 Also defined by its coordinates
 
-`Point` has one and only one `Location`
-
-
+Each `Point` has one and only one `Location`.
+	- DB: `point.location_id`
+	- Entity: `point.location`
+Each `Point` has one and only one `Geometry`.
+Each `Point`.`Geometry` has one and only one `Coordinates`.
 
 ## Location
-`Location` 1:1 `Point`
+Each `Location` has one and only one `Point`.
+
+## Geometry
+`Geometry` may have one or many `Coordinates`.
+`Geometry` does not need to know about its `Point`.
 
 # Alert
 
