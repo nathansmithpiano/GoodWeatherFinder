@@ -212,22 +212,11 @@ public class Location {
 
 </td>
 </tr>
+
 <tr>
     <th colspan="2">Geometry</th>
 </tr>
 <tr>
-    <td align=center>
-        <table>
-            <tr>
-                <th>id</th>
-                <th>Type</th>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Point</td>
-            </tr>
-        </table>
-    </td>
 <td>
 
 ```java
@@ -238,7 +227,20 @@ public class Geometry {
 ```
 
 </td>
+<td align=center>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Point</td>
+        </tr>
+    </table>
+</td>
 </tr>
+
 <tr>
     <th colspan="2">Coordinates</th>
 </tr>
