@@ -313,6 +313,8 @@ local to `Point`
 
 ```
 
+```geojson
+
 {
 	"type": "FeatureCollection",
 	"features": [
@@ -350,6 +352,8 @@ local to `Point`
 		}
 	]
 }
+
+```
 
 
 
