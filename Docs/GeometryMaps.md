@@ -313,6 +313,47 @@ local to `Point`
 
 ```
 
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": 1,
+			"properties": {
+				"ID": 1
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-106.318985,
+					39.103709000000002
+				]
+			},
+			"properties": {
+				"prop": "RelativeLocation"
+			},
+			"type": "Feature",
+			"id": 2,
+			"properties": {
+				"ID": 2
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[-106.318985,39.103709000000002],
+					[-106.4453,39.117699999999999]
+				]
+			},
+			"properties": {
+				"prop": "to Point"
+			}
+		}
+	]
+}
+
+
+
+
 
 # ForecastZone
 `https://api.weather.gov/zones/forecast/COZ060`
