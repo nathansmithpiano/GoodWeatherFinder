@@ -9,7 +9,7 @@ Each `Location` is determined by a precise set of GPS coordinates (latitude and 
 
 Mount Elbert is the highest peak in Colorado and a popular, well-known destination.  As the initial database contains Colorado peaks above 13,000 and 14,000 feet, I have chosen this location as the example for this documentation.
 
-### Location
+## Location
 
 > **Legend:** **PK** = Primary Key | **NN** = Non Null | **AI** = Auto Incremented | **UQ** = Unique | **UN** = Unsigned
 
@@ -74,18 +74,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
 </table>
 
-### TEMPLATE
-<table>
-    <tr>
-        <th></th>
-        <th></th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
 ### Mountain
 <table>
     <tr>
@@ -139,5 +127,17 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <td><b>null</b></td>
         <td><b>National Forest</b></td>
         <td><b>San Isabel National Forest</b></td>
+    </tr>
+</table>
+
+### TEMPLATE
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
     </tr>
 </table>
