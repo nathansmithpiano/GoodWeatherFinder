@@ -369,6 +369,18 @@ local to `Point`
 {
 	"type": "FeatureCollection",
 	"features": [
+		{	"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-106.4453,
+					39.117699999999999
+				]
+			},
+			"properties": {
+				"prop": "Point"
+			}
+		},
 		{
 			"type": "Feature",
 			"id": 1,
