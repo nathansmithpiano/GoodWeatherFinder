@@ -199,7 +199,7 @@ public class Location {
 ```
 
 </td>
-<td>
+<td valign="baseline">
     <table>
         <tr>
             <th>id</th>
@@ -227,7 +227,7 @@ public class Geometry {
 ```
 
 </td>
-<td>
+<td valign="baseline">
     <table>
         <tr>
             <th>id</th>
