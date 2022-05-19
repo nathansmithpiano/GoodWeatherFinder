@@ -4,7 +4,7 @@ Point 1:1 Geometry
 Point m:1 ForecastOffice
 Point m:1 GridPoint
 Point m:1 RelativeLocation
-- ForecastZone
+Point m:1 ForecastZone
 - CountyZone
 - FireWeatherZone
 - TimeZone
