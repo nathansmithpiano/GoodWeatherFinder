@@ -114,7 +114,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 [back to table](#location-entity)
 
-### location.name <a href="#location-entity"><img src="../../../Media/table_icon_vecteezy.png" /></a>
+### location.name <a href="#location-entity"><img src="~/Docs/Media/table_icon_vecteezy.png" /></a>
 - Name for this location.
 - Duplicate names for different locations would be confusing, so name should be unique.
 - Non-null, unique, and required.
