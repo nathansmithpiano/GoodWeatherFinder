@@ -245,7 +245,7 @@ public class Geometry {
 
 <table>
     <tr>
-        <th colspan="2">Location</th>
+        <th colspan="2">Coordinates</th>
     </tr>
     <tr>
         <td>
@@ -278,85 +278,6 @@ public class Coordinates {
 </tr>
 </table>
 
-
-
-<table>
-    <tr>    
-        <th>Location</th>
-        <th>Geometry</th>
-        <th>Coordinates</th>
-    </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>geometry_id</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>Type</th>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Point</td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>geometry_id</th>
-                    <th>Latitude</th>
-                    <th>Longitude</th>
-                </tr>
-                <tr>   
-                    <td>3</td>
-                    <td>2</td>
-                    <td>39.118075</td>
-                    <td>-106.445417</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-<tr>
-<td>
-
-```java
-@OneToOne
-@JoinColumn(name = "geometry_id")
-private Geometry geometry;
-```
-
-</td>
-<td>
-
-```java
-@OneToMany(mappedBy = "geometry")
-private List<Coordinates> coordinatesList;
-```
-
-</td>
-<td>
-
-```java
-@ManyToOne
-@JoinColumn(name = "geometry_id")
-private Geometry geometry;
-```
-
-</td>
-</tr>
-</table>
 
 <table>
     <tr>
