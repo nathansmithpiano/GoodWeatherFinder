@@ -165,6 +165,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNamesList collections.  
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For otherNamesList, `Location` `m:m` `Name`.
+- Optional.
 
 #### <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
