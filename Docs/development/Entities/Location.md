@@ -102,13 +102,13 @@ Coordinates
         <th>Name</th>
         <th>Abbreviation</th>
         <th>Elevation</th>
-        <th><code>MountainRange</code></th>
+        <th><code>Region</code></th>
     </tr>
     <tr>
         <td>Mount Elbert</td>
         <td>Mt. Elbert</td>
         <td>4389.12</td>
-        <td><code>MountainRange</code></td>
+        <td><code>Region</code></td>
     </tr>
 </table>
 
