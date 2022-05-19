@@ -212,11 +212,60 @@ private Geometry geometry;
 </tr>
 </table>
 
+
+<table>
+    <tr>
+        <th colspan="2">Geometry</th>
+        <th colspan="2">Coordinates</th>
+    </tr>
+    <tr>
+        <td valign="baseline">
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>geometry_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </td>
+        <td valign="baseline">
+
 ```java
-@OneToOne
+@OneToMany(mappedBy = "geometry")
+private List<Coordinates> coordinatesList;
+```
+
+</td>
+        <td valign="baseline">
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>geometry_id</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                </tr>
+                <tr>   
+                    <td>3</td>
+                    <td>2</td>
+                    <td>39.118075</td>
+                    <td>-106.445417</td>
+                </tr>
+            </table>
+        </td>
+        <td valign="baseline">
+
+```java
+@ManyToOne
 @JoinColumn(name = "geometry_id")
 private Geometry geometry;
 ```
+
+</td>
+</tr>
+</table>
 
 <table>
     <tr>    
