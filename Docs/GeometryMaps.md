@@ -334,7 +334,6 @@ local to `Point`
 			"properties": {
 				"prop": "RelativeLocation"
 			},
-
 			"type": "LineString",
 			"coordinates": [
 				[-106.318985,39.103709000000002],
