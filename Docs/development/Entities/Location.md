@@ -31,9 +31,9 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     </tr>
     <tr>
         <td><a href="#locationname">name<br>(name_id)</a></td>
-        <td><code>Name</code></td>
+        <td><code>String</code></td>
         <td>FK, NN, UQ, UN, required</td>
-        <td><code>Name</code></td>
+        <td><code>Mount Elbert</code></td>
         <td>
             <code>Location</code>
             <code>1:1</code>
@@ -134,8 +134,11 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 #### <a href="#location-entity">location.name</a>
 - Name for this location.
-- Duplicate names for different locations would be confusing, so name should be unique.
+- Stored within `Location` as a String, and not a `Name` entity.
+- Each location has one primary name.  This primary name is unique for all Locations.
 - Non-null, unique, and required.
+
+#### <a href="#location-entity">location.otherNamesList</a>
 
 #### <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
