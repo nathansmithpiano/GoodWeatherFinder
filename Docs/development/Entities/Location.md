@@ -132,16 +132,16 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <td>Sawatch</td>
     </tr>
     <tr>
-        <th>4</th>
-        <th>3</th>
-        <th>Mountain Range</th>
-        <th>Elbert Massif</th>
+        <td><b>4</b></td>
+        <td><b>3</b></td>
+        <td><b>Mountain Range</b></td>
+        <td><b>Elbert Massif</b></td>
     </tr>
     <tr>
-        <th>5</th>
-        <th>null</th>
-        <th>National Forest</th>
-        <th>San Isabel National Forest</td>
+        <td><b>5</b></td>
+        <td><b>null</b></td>
+        <td><b>National Forest</b></td>
+        <td><b>San Isabel National Forest</b></td>
     </tr>
 </table>
 
