@@ -47,7 +47,11 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         <td><a href="#locationlocationnames">otherNamesList</a></td>
         <td><code>List<Name></code></td>
         <td>optional</td>
-        <td><code>name</code></td>
+        <td>
+            <code>Name</code>, ...
+            <br>
+            <code>Name</code>
+        </td>
         <td>
             <code>Location></code>
             <code>m:m></code>
