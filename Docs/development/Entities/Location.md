@@ -17,7 +17,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 | Name | `String` | required, non-null | Mt. Elbert |
 | `Type` | Entity (Collection) | required, non-null, unsigned | Foreign Key `int` |
 | `Geometry` | Entity (single) | required, non-null, unsigned | Foreign Key `int` |
-| Elevation | 14,400 ft |
+| `Mountain` | Entity (single) | optional | owned by `Mountain` |
 | Country | United States |
 | State | Colorado |
 | County | Lake County, Colorado |
