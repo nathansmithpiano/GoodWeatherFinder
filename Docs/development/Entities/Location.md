@@ -210,6 +210,35 @@ private Geometry geometry;
 
 </td>
 </tr>
+<tr>
+    <th colspan="2">Geometry</th>
+</tr>
+<tr>
+    <td>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>"Point"</td>
+            </tr>
+        </table>
+    </td>
+    <td>
+
+```java
+public class Geometry {
+@OneToMany(mappedBy = "geometry")
+private List<Coordinates> coordinatesList;
+}
+```
+
+</td>
+</tr>
+
+
 </table>
 
 
