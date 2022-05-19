@@ -200,7 +200,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
                 </tr>
             </table>
         </td>
-<td valign="baseline">
+        <td valign="baseline">
 
 ```java
 @OneToOne
@@ -208,8 +208,8 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 private Geometry geometry;
 ```
 
-</td>
-</tr>
+        </td>
+    </tr>
 </table>
 
 
