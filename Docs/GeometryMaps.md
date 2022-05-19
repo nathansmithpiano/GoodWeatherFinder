@@ -66,6 +66,16 @@
 ```
 
 
+
+```geojson
+
+{ "type": "MultiPoint",
+   "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+}
+
+```
+
+
 # ObservationStations (GridPoint)
 `https://api.weather.gov/gridpoints/PUB/33,107/stations`
 
