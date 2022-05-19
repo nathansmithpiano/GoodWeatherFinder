@@ -233,11 +233,12 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     <tr>
         <td>
 
-            ```
+            <pre>
+                <code class="language-java">
+                    System.out.println("foo");
+                </code>
+            </pre>
 
-            Geometry geometry;
-
-            ```
 
 
         </td>
