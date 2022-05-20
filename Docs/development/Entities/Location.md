@@ -728,6 +728,10 @@ public class Category {
             <td>6</td>
             <td>National Forest</td>
         </tr>
+        <tr>
+            <td>7</td>
+            <td>Colorado</td>
+        </tr>
     </table>
 </td>
 </tr>
