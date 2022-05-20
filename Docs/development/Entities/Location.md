@@ -448,9 +448,9 @@ public class Name {
         <td>3</td>
         <td>Mt. Elbert</td>
         <td rowspan="3">
-            [Mt. Elbert,<br>
-            Other Nickname,<br>
-            Traditional Name]
+            [ "Mt. Elbert",<br>
+            "Other Nickname",<br>
+            "Traditional Name" ]
         </td>
     </tr>
     <tr>
