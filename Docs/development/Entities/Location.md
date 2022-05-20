@@ -774,19 +774,23 @@ public class Category {
 
 ## <a href="#location-entity">location.regions</a>
 - `Region` is a way of grouping locations based on geographical characteristics.
+- Each `Location` can have one or many `Region`.
+    - Mount Elbert is part of the Elbert Massif, Sawatch Range, Southern Rocky Mountains, Rocky Mountains, and Colorado.
 - A mountain like Mount Elbert has one primary Mountain Range, and that Mountain Range has several parent ranges.
     - Example of parent/child relationships in `Region`:
         - The *Elbert Massif* is a child of the *Sawatch* range.
-        - The *Sawatch* range is a child of *Rocky Mountains (CO)*.
-        - *Rocky Mountains (CO)* is a child of the *Southern Rocky Mountains*.
+        - The *Sawatch* range is a child of *Southern Rocky Mountains*.
         - *Southern Rocky Mountains* is a child of the *Rocky Mountains*.
+        - Some of these are in the *Colorado* `Region`.
+            - Some of these `Region` are in the `Category` *Mountain Range*, while *Colorado* is in the `Category` *State*.  To determine all the mountain summits in Colorado, a user would search `Location``Category` of *Summit* and `Region``State` of *Colorado*.
     - Unlike `Category`, hierarchy is important for `Region`.
         - For example, a user may want to consider other locations nearby, or they may be interested in a more broad area.
         - *Rocky Mountains (CO)* would contain many thousands of locations, while *Elbert Massif* would only contain a dozen or so. A parent contains all of its children.
-            - [ ] Enable searching all children of a range by aggregating all successive parents.
-    - A `Location` could be attached to several different geographical groupings.  Rather than having an ever-expanding number of tables with very similar data, each `Region` is given one or many `Category`.
+            - [ ] Enable searching all children of a `Region` by aggregating all successive parents, with or without additional parameters like `Category`.
+    - A `Location` could be attached to several different geographical groupings.  Rather than having an ever-expanding number of tables with very similar data, each `Region` is given one `Category`.
         - A `Region``Category` would be set at a high level and unlikely to change at the user level.  Unlike with other entities, i.e. `Location.otherNames`, it is unlikely that a `Region``Category` would ever be deleted.
         - Each `Location` can have many `Region` in its `location.regions`, but should only have one of each `Category` for `Region`.
+            - For example, Mount Elbert is assigned the *Elbert Massif*, not all of the parent ranges.  The `Region` itself has a parent, which has a parent, and so on.
             - [ ] Assure that a location has at most one of each `Region``Category` in its `location.regions`.
             - [ ] Only display the `Region` for each `Region``Category`, and display nothing about that `Region``Category` if `Location.regions` for that `Region``Category` is empty or null.
 - Like `Location`, `Region` has one primary `Name` and a collection of `Region.otherNames`.
@@ -795,9 +799,14 @@ public class Category {
     - Join tables `region_category` and `region_name`.
     - As in the above example for `Location` "Buffalo Mountain", duplicate Name.name and Category.name may exist.
         - - [ ] verify orphan removal via JUnit5 tests
-- For `Region.categories`, **`Region` `1:m` `Category`**.
+- **`Location` `m:m` `Region`**
+    - Join table `location_region`.
+    - `Location` can only have one of each `Region``Category`.
+        - Build this within the application rather than database structure.
+- For `Region.categories`, **`Region` `1:1` `Category`**.
     - For both, **Unidirectional**, `Region` is **owner**.
-    - At least one `Region``Category` is **required**.
+    - Join table `region_category`.
+    - **required**.
 - For `Region.name`, **`Region` `1:1` `Name`**.
     - **Unidirectional**, `Region` is **owner**.
     - **Required**, **unique**, **non-null**
@@ -1046,10 +1055,6 @@ public class Name {
         <tr>
             <td>7</td>
             <td>Southern Rocky Mountains</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Rocky Mountains (CO)</td>
         </tr>
         <tr>
             <td>9</td>
