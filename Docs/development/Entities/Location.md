@@ -283,6 +283,8 @@ public class Location {
 
 ```java
 public class Name {
+    private int id;
+    private int location_id;
     private String name;
 }
 ```
