@@ -743,6 +743,7 @@ public class Category {
 ```java
 public class Region {
     private int id;
+    private Region parent;
     private List<Category> categories;
 }
 ```
