@@ -406,18 +406,20 @@ public class Name {
 <table>
 <!-- Location Merged -->
     <tr>
-        <th><code>Location</code><br>id</th>
-        <th><code>Location</code><br>name_id</th>
+        <th><code>Location</code><br>name</th>
         <th><code>Join Table</code><br>location_id</th>
         <th><code>Join Table</code><br>name_id</th>
-        <th><code>Name</code><br>name</th>
+        <th><code>Location</code><br>otherNames</th>
     </tr>
     <tr>
-        <td>1</td>
-        <td>2</td>
-        <td></td>
-        <td></td>
         <td>Mount Elbert</td>
+        <td>1</td>
+        <td>3, 4, 5</td>
+        <td>
+            Mt. Elbert<br>
+            Other Nickname<br>
+            Traditional Name
+        </td>
     </tr>
 </table>
 
