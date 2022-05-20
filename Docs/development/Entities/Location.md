@@ -756,11 +756,13 @@ public class Category {
                     <th><code>Location</code><br>name</th>
                     <th><code>Region</code><br>name</th>
                     <th><code>Region</code><br>parent</th>
+                    <th><code>Region</code><br>categories</th>
                 </tr>
                 <tr>
                     <td>Mount Elbert</td>
                     <td>Elbert Massif</td>
                     <td>Sawatch</td>
+                    <td>Mountain Range, Colorado</td>
                 </tr>
             </table>
         </td>
