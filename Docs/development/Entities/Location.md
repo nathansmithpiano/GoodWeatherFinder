@@ -439,13 +439,13 @@ public class Location {
     </tr>
 
 <tr>
-    <th colspan="2">Category</th>
+    <th colspan="2">Activity</th>
 </tr>
 <tr>
 <td>
 
 ```java
-public class Category {
+public class Activity {
 
 }
 ```
