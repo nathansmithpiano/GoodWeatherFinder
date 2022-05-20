@@ -258,6 +258,7 @@ public class Location {
 
 ```java
 public class Location {
+    private int id;
     private List<Name> otherNames;
 }
 ```
