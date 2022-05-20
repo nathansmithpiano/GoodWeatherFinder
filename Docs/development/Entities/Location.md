@@ -651,7 +651,9 @@ public class Category {
         <th colspan="3">Region</th>
     </tr>
     <tr>
-        
+        <td>one</td>
+        <td>one</td>
+        <td>one</td>
     </tr>
     <tr>
         <!-- Table Headers -->
