@@ -208,7 +208,7 @@ public class Location {
 
 <!-- Join Table message -->
 > ❗ There should be no record for  
-> `Location.name` (primary name)
+> `Location.name` (primary name)  
 > in the join table
 
 </td>
