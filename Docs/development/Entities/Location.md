@@ -206,13 +206,7 @@ public class Location {
         </tr>
     </table>
 <!-- Join Table message -->
-
-```diff
-! There should be no record
-! for `Location.name` (primary name)
-! in the join table
-```
-
+<p>❗ There should be no record for `Location.name` (primary name) in the join table</p>
 </td>
 </tr>
 <tr>
