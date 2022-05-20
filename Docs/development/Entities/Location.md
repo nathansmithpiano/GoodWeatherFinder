@@ -783,7 +783,7 @@ public class Region {
             <table>
                 <tr>
                     <th>region_id</th>
-                    <th>category_id</th>
+                    <th>name_id</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -798,15 +798,15 @@ public class Region {
     </tr>
 
 <tr>
-    <!-- Category Header -->
-    <th colspan="2">Category</th>
+    <!-- Names Header -->
+    <th colspan="2">Names</th>
 </tr>
 <tr>
-<!-- Category Code -->
+<!-- Name Code -->
 <td>
 
 ```java
-public class Category {
+public class Name {
     private int id;
     private String name;
 }
