@@ -821,11 +821,11 @@ public class Name {
             <th>Name</th>
         </tr>
         <tr>
-            <td>5</td>
+            <td>6</td>
             <td>Mountain Range</td>
         </tr>
         <tr>
-            <td>6</td>
+            <td>7</td>
             <td>National Forest</td>
         </tr>
     </table>
