@@ -779,7 +779,7 @@ public class Category {
 public class Region {
     private int id;
     private Region parent;
-    private List<Category> categories;
+    private List<Name> otherNames;
 }
 ```
 
