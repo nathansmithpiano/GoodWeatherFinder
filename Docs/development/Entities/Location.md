@@ -437,6 +437,7 @@ public class Name {
         <th><code>Name</code><br>name</th>
         <th><code>Join Table</code><br>location_id</th>
         <th><code>Join Table</code><br>name_id</th>
+        <th><code>`Name`</code><br>name</th>
     </tr>
     <tr>
         <td>1</td>
