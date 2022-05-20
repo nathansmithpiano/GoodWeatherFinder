@@ -422,16 +422,17 @@ public class Location {
 
 ## <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
-- `@JoinColumn` via location.geometry_id.
-- `Geometry` contains a coordinateList, which for a `Location` contains 1 and only 1 `Coordinates`.
+- `@JoinColumn` via `location.geometry_id`.
+- `Geometry` contains a coordinateList, which for a `Location` contains one and only one `Coordinates`.
     - For `Geometry` and `Coordinate`, `@JoinColumn` via `coordinates.geometry_id`.
-- `Geometry` `1:1` `Coordinates`.
+    - For other entities, such as `RelativeLocation`, a `Geometry` has many `Coordinates`.
+    - **`Geometry` `1:m` `Coordinates`**.
 - Special considerations:
     - `Location` cannot obtain any weather data without `Coordinates`, so `location.geometry_id` is required.
     - No two locations should share the same coordinates, so for `location.geometry_id` should be unique.
     - Users could attempt to add a `Location` with `Coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `Coordinates` are unique and to re-prompt.
         - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `Coordinates` could be obtained.
-- Non-null, unique, and required.
+- **Non-null**, **unique**, and **required**.
 
 <table>
 <tr>
