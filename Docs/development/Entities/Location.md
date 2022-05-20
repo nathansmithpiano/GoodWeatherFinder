@@ -750,18 +750,22 @@ public class Category {
         <th>Merged <code>Region</code> and <code>Category</code></th>
     </tr>
     <tr>
-        <table>
-            <tr>
-                <th><code>Region</code><br>id</th>
-                <th><code>Name</code><br>id</th>
-                <th><code>Name</code><br>name</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>6</td>
-                <td>Rocky Mountains</td>
-            </tr>
-        </table>
+        <td>
+            <table>
+                <tr>
+                    <th><code>Region</code><br>id</th>
+                    <th><code>Name</code><br>id</th>
+                    <th><code>Name</code><br>name</th>
+                    <th><code>Region</code><br>parent_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>6</td>
+                    <td>Rocky Mountains</td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </td>
     </tr>
 </table>
 
