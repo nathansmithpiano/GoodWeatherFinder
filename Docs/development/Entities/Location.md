@@ -362,18 +362,6 @@ public class Category {
 
 ## <a href="#location-entity">location.activityList</a>
 
-<table>
-    <tr>
-        <th>Name</th>
-    </tr>
-    <tr><td>Hiking</td></tr>
-    <tr><td>Climbing</td></tr>
-    <tr><td>Mountaineering</td></tr>
-    <tr><td>Trail Running</td></tr>
-    <tr><td>Camping</td></tr>
-    <tr><td>Backpacking</td></tr>
-    <tr><td>Skiing/Snowboarding (Backcountry)</td></tr>
-</table>
 
 <table>
     <tr>
