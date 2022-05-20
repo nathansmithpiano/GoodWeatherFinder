@@ -657,9 +657,10 @@ public class Location {
             <table>
                 <tr>
                     <th>id</th>
+                    <th>name</th>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>Mount Elbert</td>
                 </tr>
             </table>
         </td>
