@@ -747,6 +747,16 @@ public class Category {
 
 <table>
     <tr>
+        <table>
+            <tr>
+                <th>Region</th>
+            </tr>
+            <tr>
+            
+            </tr>
+        </table>
+    </tr>
+    <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
         <th>Join Table</th>
@@ -775,21 +785,25 @@ public class Region {
                 <tr>
                     <td>1</td>
                     <td>null</td>
+                    <td>6</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>1</td>
+                    <td>7</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>2</td>
+                    <td>8</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>3</td>
+                    <td>9</td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    <td>6</td>
                     <td>null</td>
                 </tr>
             </table>
