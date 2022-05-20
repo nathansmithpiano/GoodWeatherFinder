@@ -979,20 +979,20 @@ public class Category {
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
+                <td>6</td>
                     <td>San Isabel National Forest</td>
-                    <td>6</td>
                     <td>null</td>
                     <td>National Forest</td>
                 </tr>
                 <tr>
-                    <td>Colorado</td>
                     <td>7</td>
+                    <td>Colorado</td>
                     <td>United States</td>
                     <td>State</td>
                 </tr>
                 <tr>
-                    <td>United States</td>
                     <td>8</td>
+                    <td>United States</td>
                     <td>null</td>
                     <td>Country</td>
                 </tr>
