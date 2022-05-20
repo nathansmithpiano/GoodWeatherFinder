@@ -293,7 +293,6 @@ public class Coordinates {
                 <tr><td>Colorado 14er</td></tr>
             </table>
         </td>
-
     </tr>
 </table>
 
