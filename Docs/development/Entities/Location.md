@@ -673,6 +673,9 @@ public class Region {
                 <tr>
                     <td>1</td>
                 </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
             </table>
         </td>
         <td rowspan="3">
@@ -687,7 +690,7 @@ public class Region {
                     <td>5</td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>2</td>
                     <td>6</td>
                 </tr>
             </table>
@@ -755,6 +758,7 @@ public class Region {
                 <tr>
                     <th>id</th>
                     <th>parent_id</th>
+                    <th>name_id</th>
                 </tr>
                 <tr>
                     <td>1</td>
