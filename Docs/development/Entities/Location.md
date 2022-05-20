@@ -252,7 +252,6 @@ public class Location {
 <table>
 <tr>
     <th colspan="2">Location</th>
-    <th colspan="2">Name</th>
 </tr>
 <tr>
 <td>
@@ -276,6 +275,10 @@ public class Location {
         </tr>
     </table>
 </td>
+<tr>
+    <th colspan="2">Name</th>
+</tr>
+<tr>
 <td>
 
 ```java
