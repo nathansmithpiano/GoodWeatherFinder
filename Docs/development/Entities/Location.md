@@ -265,7 +265,7 @@ public class Location {
 <table>
 <tr>
     <th colspan="2">Location</th>
-    <th colspan="2">Join Table</th>
+    <th>Join Table</th>
 </tr>
 <tr>
 <td>
