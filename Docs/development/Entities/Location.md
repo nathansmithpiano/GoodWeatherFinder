@@ -465,7 +465,7 @@ public class Location {
     <table>
         <tr>        
             <th>id</th>
-            <th>name</th>
+            <th><code>Name.name</code></th>
             <th>elevation</th>
         </tr>
         <tr>
