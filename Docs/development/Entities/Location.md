@@ -297,12 +297,14 @@ public class Location {
 <td rowspan="3">
     <table>
         <tr>        
-            <th>id</th>
+            <th>location_id</th>
             <th>name_id</th>
         </tr>
         <tr>
             <td>1</td>
-            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
         </tr>
     </table>
 </td>
@@ -328,27 +330,22 @@ public class Name {
     <table>
         <tr>        
             <th>id</th>
-            <th>location_id</th>
             <th>name</th>
         </tr>
         <tr>
             <td>2</td>
-            <td>1</td>
             <td>Mount Elbert</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>1</td>
             <td>Mt. Elbert</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>1</td>
             <td>Other Nickname</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>1</td>
             <td>Traditional name</td>
         </tr>
     </table>
