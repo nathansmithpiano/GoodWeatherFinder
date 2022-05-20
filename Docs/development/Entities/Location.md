@@ -753,11 +753,13 @@ public class Category {
         <td>
             <table>
                 <tr>
+                    <th><code>Location</code><br>name</th>
                     <th><code>Region</code><br>id</th>
                     <th><code>Name</code><br>name</th>
-                    <th><code>Region</code><br><code>Name</code><br>parent</th>
+                    <th><code>Region</code><br>parent</th>
                 </tr>
                 <tr>
+                    <td>Mount Elbert</td>
                     <td>1</td>
                     <td>Rocky Mountains</td>
                     <td>6</td>
