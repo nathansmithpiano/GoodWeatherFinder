@@ -408,14 +408,16 @@ public class Name {
     <tr>
         <th><code>Location</code><br>id</th>
         <th><code>Location</code><br>name_id</th>
+        <th><code>Join Table</code><br>location_id</th>
+        <th><code>Join Table</code><br>name_id</th>
         <th><code>Name</code><br>name</th>
-        <th><code>Name</code><br>otherNames</th>
     </tr>
     <tr>
         <td>1</td>
         <td>2</td>
+        <td></td>
+        <td></td>
         <td>Mount Elbert</td>
-        <td>Mt. Elbert, Other Nickname, Traditional Name</td>
     </tr>
 </table>
 
