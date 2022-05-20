@@ -912,17 +912,17 @@ public class Category {
             <th>applies_to</th>
         </tr>
         <tr>
-            <td>5</td>
+            <td>11</td>
             <td>Mountain Range</td>
             <td>"Region"</td>
         </tr>
         <tr>
-            <td>6</td>
+            <td>12</td>
             <td>National Forest</td>
             <td>"Region"</td>
         </tr>
         <tr>
-            <td>7</td>
+            <td>13</td>
             <td>Colorado</td>
             <td>"Region"</td>
         </tr>
