@@ -154,7 +154,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 <table>
 <tr>
     <th colspan="2">Location</th>
-    <th colspan="2">Name</th>
+    <th colspan="2">Names</th>
 </tr>
 <tr>
 <td>
@@ -163,6 +163,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 public class Location {
     private int id;
 
+    @OneToOne
     @JoinColumn(name = "name_id")
     private Name name;
 }
@@ -251,19 +252,20 @@ public class Location {
         - - [ ] Use business logic to prevent a user from setting a `Name` as its `Location.name` and within its `List<Name> otherNames`.
 - While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
-    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
+    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Names` table to be deleted from the database.
     - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Name.name`, "Buffalo Mountain" should be deleted.
         - This seems possible via `orphanRemoval = true` on the `Location` side
             - - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For `Location.otherNames`, `Location` `1:m` `Name`.
 - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
-    - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
+    - Also, other entities, such as `Region`, may also use the `Names` table for a collection of names.
 - Optional - a location may only have one name and `List<Name> otherNames` may be empty
 
 <table>
 <tr>
     <th colspan="2">Location</th>
+    <th colspan="2">Join Table</th>
 </tr>
 <tr>
 <td>
