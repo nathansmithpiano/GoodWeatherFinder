@@ -207,7 +207,7 @@ public class Location {
     </table>
 
 <!-- Join Table message -->
-> ❗ There should be no record for  
+> [ ] There should be no record for  
 > `Location.name` (primary name)  
 > in the join table
 
