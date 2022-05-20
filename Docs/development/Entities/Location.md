@@ -983,7 +983,7 @@ public class Category {
                 </tr>
                 <tr>
                     <td>Colorado</td>
-                    <td>null</td>
+                    <td>United States</td>
                     <td>State</td>
                 </tr>
                 <tr>
