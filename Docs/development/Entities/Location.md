@@ -209,8 +209,8 @@ public class Location {
 
 ```diff
 ! There should be no record
-for `Location.name` (primary name)
-in the join table
+! for `Location.name` (primary name)
+! in the join table
 ```
 
 </td>
