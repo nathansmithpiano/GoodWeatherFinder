@@ -401,7 +401,7 @@ public class Name {
 </tr>
 </table>
 
-### Merged `Location` and `Name` (`Location.otherNames`)
+### Merged `Location`, `Name`, and `Name` for `Location.otherNames`
 
 <table>
 <!-- Location Merged -->
