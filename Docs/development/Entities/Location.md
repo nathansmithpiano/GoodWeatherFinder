@@ -528,6 +528,20 @@ public class Activity {
 
 ## <a href="#location-entity">location.typeList</a>
 
+REDO THIS with generic entity `Type` that holds additional information
+
+THINK
+- River
+- Lake
+- Beach
+- Stadium/Arena
+- Ski Resort
+- Golf Course
+- Park
+- Pool
+- Concert/Venue
+
+
 <table>
     <tr><th>Mountain</th></tr>
     <tr>
