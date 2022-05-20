@@ -313,6 +313,18 @@ public class Location {
 ```java
 public class Location {
     private int id;
+
+    @OneToOne
+    @JoinColumn(name = "name_id")
+    private Name name;
+
+    @OneToMany
+    @JoinTable(
+        name = "location_name",
+        joinColumns =
+            @JoinColumn(name = "location_id"),
+        inverseJoinColumns =
+            @JoinColumn(name = "name_id") )
     private List<Name> otherNames;
 }
 ```
