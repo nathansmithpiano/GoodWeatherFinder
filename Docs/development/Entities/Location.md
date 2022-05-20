@@ -731,6 +731,102 @@ public class Category {
 </table>
 
 <table>
+    <tr>
+        <!-- Table Headers -->
+        <th colspan="2">Region</th>
+        <th>Join Table</th>
+    </tr>
+    <tr>
+<!-- Region Code -->
+<td>
+
+```java
+public class Region {
+    private int id;
+    private List<Category> categories;
+}
+```
+
+</td>
+        <td>
+            <!-- Region Table -->
+            <table>
+                <tr>
+                    <th>id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="3">
+            <!-- Join Table -->
+            <table>
+                <tr>
+                    <th>region_id</th>
+                    <th>category_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>6</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+<tr>
+    <!-- Category Header -->
+    <th colspan="2">Category</th>
+</tr>
+<tr>
+<!-- Category Code -->
+<td>
+
+```java
+public class Category {
+    private int id;
+    private String name;
+}
+```
+
+</td>
+<td>
+    <!-- Category Table -->
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Mountain Range</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>National Forest</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+
+<table>
     <tr><th>Region</th></tr>
     <tr>
         <td>
