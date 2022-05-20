@@ -546,11 +546,10 @@ public class Coordinates {
 - Rather than having different tables for `Mountain`, `Trailhead`, `Parking Lot`, `Lake`, `Beach` etc, `Category` provides a way to group these things together.
 - `Region` also uses `Category` in the same way.
 - While it would be possible to make `Category` optional, this could lead to confusion, especially as the data scales, so for business reasons, `Category` is **required**.
-- **Unidirectional**, `Location` and `Region` are owners.
+- **Unidirectional**, `Location` is **owner**.
     - `Category` does not need to know about the entities which use it.
     - Seperate join tables are necessary.
         - **`Location` `m:m` `Category`**
-        - **`Region` `m:m` `Category`**
 
 <table>
     <tr>
@@ -614,7 +613,8 @@ public class Location {
 
 ```java
 public class Category {
-
+    private int id;
+    private String name;
 }
 ```
 
