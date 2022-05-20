@@ -971,7 +971,7 @@ public class Category {
                     <th><code>Region</code><br>categories</th>
                 </tr>
                 <tr>
-                    <td rowspan="3">Mount Elbert</td>
+                    <td rowspan="4">Mount Elbert</td>
                     <td>Elbert Massif</td>
                     <td>Sawatch</td>
                     <td>Mountain Range</td>
