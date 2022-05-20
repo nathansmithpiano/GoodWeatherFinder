@@ -203,12 +203,10 @@ public class Name {
     <table>
         <tr>        
             <th>id</th>
-            <th>location_id</th>
             <th>name</th>
         </tr>
         <tr>
             <td>2</td>
-            <td>1</td>
             <td>Mount Elbert</td>
         </tr>
     </table>
