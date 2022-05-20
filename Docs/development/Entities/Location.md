@@ -966,28 +966,33 @@ public class Category {
             <table>
                 <tr>
                     <th><code>Location</code><br>name</th>
+                    <th><code>Region</code><br>id</th>
                     <th><code>Region</code><br>name</th>
                     <th><code>Region</code><br>parent</th>
                     <th><code>Region</code><br>categories</th>
                 </tr>
                 <tr>
                     <td rowspan="4">Mount Elbert</td>
+                    <td>5</td>
                     <td>Elbert Massif</td>
                     <td>Sawatch</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
                     <td>San Isabel National Forest</td>
+                    <td>6</td>
                     <td>null</td>
                     <td>National Forest</td>
                 </tr>
                 <tr>
                     <td>Colorado</td>
+                    <td>7</td>
                     <td>United States</td>
                     <td>State</td>
                 </tr>
                 <tr>
                     <td>United States</td>
+                    <td>8</td>
                     <td>null</td>
                     <td>Country</td>
                 </tr>
