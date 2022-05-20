@@ -753,21 +753,27 @@ public class Region {
             <table>
                 <tr>
                     <th>id</th>
+                    <th>parent_id</th>
                 </tr>
                 <tr>
                     <td>1</td>
+                    <td>null</td>
                 </tr>
                 <tr>
                     <td>2</td>
+                    <td>1</td>
                 </tr>
                 <tr>
                     <td>3</td>
+                    <td>2</td>
                 </tr>
                 <tr>
                     <td>4</td>
+                    <td>3</td>
                 </tr>
                 <tr>
                     <td>5</td>
+                    <td>null</td>
                 </tr>
             </table>
         </td>
