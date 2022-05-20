@@ -250,27 +250,19 @@ public class Name {
 ### Merged `Location`
 
 <table>
-    <!-- Location Merged -->
+<!-- Location Merged -->
     <tr>
-        <th>Merged <code>Location</code></th>
+        <th><code>Location</code><br>id</th>
+        <th><code>Location</code><br>name_id</th>
+        <th><code>Name</code><br>name</th>
     </tr>
     <tr>
-        <td>
-            <table>
-                <tr>
-                    <th><code>Location</code><br>id</th>
-                    <th><code>Location</code><br>name_id</th>
-                    <th><code>Name</code><br>name</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>Mount Elbert</td>
-                </tr>
-            </table>
-        </td>
+        <td>1</td>
+        <td>2</td>
+        <td>Mount Elbert</td>
     </tr>
 </table>
+
 
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
