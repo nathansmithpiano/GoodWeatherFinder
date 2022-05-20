@@ -249,8 +249,7 @@ public class Name {
 
 ### Merged `Location`
 
-<table>
-<!-- Location Merged -->
+<table> <!-- Location Merged -->
     <tr>
         <th><code>Location</code><br>id</th>
         <th><code>Location</code><br>name_id</th>
