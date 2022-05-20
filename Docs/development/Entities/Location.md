@@ -151,6 +151,40 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - For this primary name, `Location` `1:1` `Name`.
 - Non-null, unique, and required.
 
+<table>
+<tr>
+    <th colspan="2">Location</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Location {
+    private Double elevation;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>        
+            <th>id</th>
+            <th>elevation</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4389.12</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+
+## <a href="#location-entity">location.elevation</a>
+- Elevation for this location, in meters.
+- Optional - relevant for some locations but not others.
+    - i.e. elevation is important for a mountain summit but not for a beach
+
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
