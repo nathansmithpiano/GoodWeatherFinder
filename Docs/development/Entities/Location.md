@@ -247,6 +247,8 @@ public class Name {
 </tr>
 </table>
 
+### Merged `Location`
+
 <table>
     <!-- Location Merged -->
     <tr>
