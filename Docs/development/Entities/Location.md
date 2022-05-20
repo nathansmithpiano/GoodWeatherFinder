@@ -254,7 +254,7 @@ public class Location {
         - This seems possible via `orphanRemoval = true` on the `Location` side
             - - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
-- For otherNames, `Location` `1:m` `Name`.
+- For `Location.otherNames`, `Location` `1:m` `Name`.
 - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
     - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
 - Optional - a location may only have one name and `List<Name> otherNames` may be empty
