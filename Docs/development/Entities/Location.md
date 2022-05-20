@@ -311,6 +311,8 @@ public class Coordinates {
     </tr>
 </table>
 
+## <a href="#location-entity">location.activityList</a>
+
 <table>
     <tr><th>Mountain</th></tr>
     <tr>
@@ -332,6 +334,8 @@ public class Coordinates {
         </td>
     </tr>
 </table>
+
+## <a href="#location-entity">location.regionList</a>
 
 <table>
     <tr><th>Region</th></tr>
@@ -379,7 +383,10 @@ public class Coordinates {
     </tr>
 </table>
 
-### TEMPLATE
+## <a href="#location-entity">location.typeList</a>
+
+
+#### TEMPLATE
 <table>
     <tr>
         <th></th>
