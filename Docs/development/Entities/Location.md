@@ -303,9 +303,7 @@ public class Coordinates {
 
 ```java
 public class Location {
-    @OneToOne
-    @JoinColumn(name = "geometry_id")
-    private Geometry geometry;
+
 }
 ```
 
@@ -331,9 +329,8 @@ public class Location {
 <td>
 
 ```java
-public class Geometry {
-    @OneToMany(mappedBy = "geometry")
-    private List<Coordinates> coordinatesList;
+public class Category {
+
 }
 ```
 
