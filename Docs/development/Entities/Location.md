@@ -321,10 +321,8 @@ public class Location {
     @OneToMany
     @JoinTable(
         name = "location_name",
-        joinColumns =
-            @JoinColumn(name = "location_id"),
-        inverseJoinColumns =
-            @JoinColumn(name = "name_id") )
+        joinColumns = @JoinColumn(name = "location_id"),
+        inverseJoinColumns = @JoinColumn(name = "name_id") )
     private List<Name> otherNames;
 }
 ```
