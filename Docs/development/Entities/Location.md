@@ -312,11 +312,9 @@ public class Location {
     <table>
         <tr>
             <th>id</th>
-            <th>geometry_id</th>
         </tr>
         <tr>
             <td>1</td>
-            <td>2</td>
         </tr>
     </table>
 </td>
