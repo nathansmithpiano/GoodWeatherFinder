@@ -752,7 +752,7 @@ public class Category {
     <tr>
         <table>
             <tr>
-                <th>id<br><code>Region</code></th>
+                <th><code>Region</code><br>id</th>
             </tr>
             <tr>
             </tr>
