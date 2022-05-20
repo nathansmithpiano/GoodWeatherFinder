@@ -435,9 +435,12 @@ public class Location {
 
 <table>
 <tr>
+    <!-- Location Header -->
     <th colspan="2">Location</th>
 </tr>
 <tr>
+
+<!-- Location Code -->
 <td>
 
 ```java
@@ -450,6 +453,7 @@ public class Location {
 
 </td>
 <td>
+    <!-- Location Table -->
     <table>
         <tr>
             <th>id</th>
@@ -464,9 +468,11 @@ public class Location {
 </tr>
 
 <tr>
+    <!-- Geometry Header -->
     <th colspan="2">Geometry</th>
 </tr>
 <tr>
+<!-- Geometry Code -->
 <td>
 
 ```java
@@ -478,6 +484,7 @@ public class Geometry {
 
 </td>
 <td>
+    <!-- Geometry Table -->
     <table>
         <tr>
             <th>id</th>
@@ -492,9 +499,11 @@ public class Geometry {
 </tr>
 
 <tr>
+    <!-- Coordinates Header -->
     <th colspan="2">Coordinates</th>
 </tr>
 <tr>
+<!-- Coordinates Code -->
 <td>
 
 ```java
@@ -507,6 +516,7 @@ public class Coordinates {
 
 </td>
 <td>
+    <!-- Coordinates Table -->
     <table>
         <tr>
             <th>id</th>
