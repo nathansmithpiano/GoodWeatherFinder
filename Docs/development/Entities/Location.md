@@ -313,27 +313,7 @@ public class Coordinates {
 
 ## <a href="#location-entity">location.activityList</a>
 
-<table>
-    <tr><th>Mountain</th></tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Abbreviation</th>
-                    <th>Elevation</th>
-                    <th><code>Region</code></th>
-                </tr>
-                <tr>
-                    <td>Mount Elbert</td>
-                    <td>Mt. Elbert</td>
-                    <td>4389.12</td>
-                    <td><code>Region</code></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+
 
 ## <a href="#location-entity">location.regionList</a>
 
@@ -385,6 +365,27 @@ public class Coordinates {
 
 ## <a href="#location-entity">location.typeList</a>
 
+<table>
+    <tr><th>Mountain</th></tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Abbreviation</th>
+                    <th>Elevation</th>
+                    <th><code>Region</code></th>
+                </tr>
+                <tr>
+                    <td>Mount Elbert</td>
+                    <td>Mt. Elbert</td>
+                    <td>4389.12</td>
+                    <td><code>Region</code></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 
 #### TEMPLATE
 <table>
