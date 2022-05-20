@@ -754,15 +754,13 @@ public class Category {
             <table>
                 <tr>
                     <th><code>Location</code><br>name</th>
-                    <th><code>Region</code><br>id</th>
-                    <th><code>Name</code><br>name</th>
+                    <th><code>Region</code><br>name</th>
                     <th><code>Region</code><br>parent</th>
                 </tr>
                 <tr>
                     <td>Mount Elbert</td>
-                    <td>1</td>
-                    <td>Rocky Mountains</td>
-                    <td>6</td>
+                    <td>Elbert Massif</td>
+                    <td>Sawatch</td>
                 </tr>
             </table>
         </td>
