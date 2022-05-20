@@ -518,10 +518,12 @@ public class Location {
     <table>
         <tr>
             <th>id</th>
+            <th>name</th>
             <th>geometry_id</th>
         </tr>
         <tr>
             <td>1</td>
+            <td>Mount Elbert</td>
             <td>2</td>
         </tr>
     </table>
