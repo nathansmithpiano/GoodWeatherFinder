@@ -723,6 +723,41 @@ public class Category {
 </tr>
 </table>
 
+### Merged `Location`
+
+<table><!-- Location Merged -->
+    <tr>
+        <th><code>Location</code><br>id</th>
+        <th><code>Location</code><br><code>Name</code></th>
+        <th><code>Join Table</code><br>location_id</th>
+        <th><code>Join Table</code><br>category_id</th>
+        <th><code>Category</code><br>name</th>
+        <th><code>Location</code><br>categories</th>
+    </tr>
+    <tr>
+        <td rowspan="3">1</td>
+        <td rowspan="3">Mount Elbert</td>
+        <td>1</td>
+        <td>2</td>
+        <td>Mountain</td>
+        <td rowspan="3">
+            [ "Mountain",<br>
+            "Summit",<br>
+            "Colorado 14er" ]
+        </td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>3</td>
+        <td>Summit</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>4</td>
+        <td>Colorado 14er</td>
+    </tr>
+</table>
+
 
 ## <a href="#location-entity">location.regions</a>
 
