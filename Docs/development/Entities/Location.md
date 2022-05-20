@@ -649,6 +649,13 @@ public class Category {
 <table>
     <tr>
         <table>
+            <tr>
+                <th>Region</th>
+            </tr>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+            </tr>
         </table>
     </tr>
     <tr>
