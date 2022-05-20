@@ -290,6 +290,7 @@ public class Location {
         </tr>
     </table>
 </td>
+<!-- Join Table -->
 <td rowspan="3">
     <table>
         <tr>        
