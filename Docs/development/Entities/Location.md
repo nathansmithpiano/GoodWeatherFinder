@@ -650,7 +650,7 @@ public class Category {
     <tr>
         <table>
             <tr>
-                <th>Region</th>
+                <th colspan="2">Region</th>
             </tr>
             <tr>
                 <td>one</td>
