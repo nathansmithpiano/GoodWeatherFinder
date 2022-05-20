@@ -831,18 +831,6 @@ public class Region {
                     <th>name</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>Rocky Mountains</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Southern Rocky Mountains</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Rocky Mountains (CO)</td>
-                </tr>
-                <tr>
                     <td>4</td>
                     <td>Sawatch</td>
                 </tr>
@@ -869,11 +857,11 @@ public class Region {
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>5</td>
+                    <td>11</td>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>7</td>
+                    <td>13</td>
                 </tr>
                 <tr>
                     <td>2</td>
