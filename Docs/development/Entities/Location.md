@@ -205,10 +205,12 @@ public class Location {
             <td>5</td>
         </tr>
     </table>
+    
 <!-- Join Table message -->
-❗ There should be no record for  
-`Location.name` (primary name)  
-in the join table
+> ❗ There should be no record for
+> `Location.name` (primary name)
+> in the join table
+
 </td>
 </tr>
 <tr>
