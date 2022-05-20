@@ -722,16 +722,12 @@ public class Category {
             <th>Name</th>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Mountain</td>
+            <td>5</td>
+            <td>Mountain Range</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Summit</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Colorado 14er</td>
+            <td>6</td>
+            <td>National Forest</td>
         </tr>
     </table>
 </td>
