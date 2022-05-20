@@ -390,11 +390,29 @@ public class Name {
         </tr>
         <tr>
             <td>5</td>
-            <td>Traditional name</td>
+            <td>Traditional Name</td>
         </tr>
     </table>
 </td>
 </tr>
+</table>
+
+### Merged `Location`
+
+<table>
+<!-- Location Merged -->
+    <tr>
+        <th><code>Location</code><br>id</th>
+        <th><code>Location</code><br>name_id</th>
+        <th><code>Name</code><br>name</th>
+        <th><code>Name</code><br>otherNames</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>Mount Elbert</td>
+        <td>Mt. Elbert, Other Nickname, Traditional Name</td>
+    </tr>
 </table>
 
 
