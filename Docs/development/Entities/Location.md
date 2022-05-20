@@ -44,7 +44,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         </td>
     </tr>
     <tr>
-        <td><a href="#locationlocationnames">otherNamesList</a></td>
+        <td><a href="#locationlocationnames">otherNames</a></td>
         <td>List<<code>Name</code>></td>
         <td>optional</td>
         <td>
@@ -75,7 +75,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         </td>
     </tr>
     <tr>
-        <td><a href="#locationcategorylist">categoryList</a></td>
+        <td><a href="#locationcategories">categories</a></td>
         <td>List<<code>Category</code>></td>
         <td>optional</td>
         <td>
@@ -157,15 +157,15 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
     - For this primary name, `Location` `1:1` `Name`.
 - Non-null, unique, and required.
 
-## <a href="#location-entity">location.otherNamesList</a>
+## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
 - While primary name must be unique, other names are not.  Duplicates may exist within the database.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
-    - If "Buffalo Mountain A" was deleted, we do not want "Buffalo Mountain" to be removed from the database.  Removing a `Location` should remove all the `Name` within its otherNamesList.  
-    - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNamesList collections.  
+    - If "Buffalo Mountain A" was deleted, we do not want "Buffalo Mountain" to be removed from the database.  Removing a `Location` should remove all the `Name` within its otherNames.  
+    - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNames collections.  
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
-- For otherNamesList, `Location` `m:m` `Name`.
+- For otherNames, `Location` `m:m` `Name`.
 - Optional.
 
 ## <a href="#location-entity">location.geometry_id</a>
@@ -220,7 +220,7 @@ public class Location {
 ```java
 public class Geometry {
     @OneToMany(mappedBy = "geometry")
-    private List<Coordinates> coordinatesList;
+    private List<Coordinates> coordinates;
 }
 ```
 
@@ -274,7 +274,7 @@ public class Coordinates {
 </table>
 
 
-## <a href="#location-entity">location.categoryList</a>
+## <a href="#location-entity">location.categories</a>
 
 
 <table>
