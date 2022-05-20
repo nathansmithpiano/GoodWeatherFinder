@@ -291,7 +291,7 @@ public class Location {
     </table>
 </td>
 <tr>
-    <th colspan="2">Name</th>
+    <th colspan="2">Names</th>
 </tr>
 <tr>
 <td>
