@@ -216,10 +216,12 @@ public class Name {
     - i.e. elevation is important for a mountain summit but not for a beach
 
 <table>
+<!-- Header -->
 <tr>
     <th colspan="2">Location</th>
 </tr>
 <tr>
+<!-- Location Code -->
 <td>
 
 ```java
@@ -230,6 +232,7 @@ public class Location {
 ```
 
 </td>
+<!-- Location Table -->
 <td>
     <table>
         <tr>        
