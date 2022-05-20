@@ -754,10 +754,12 @@ public class Category {
             <tr>
                 <th><code>Region</code><br>id</th>
                 <th><code>Name</code><br>id</th>
+                <th><code>Name</code><br>name</th>
             </tr>
             <tr>
                 <td>1</td>
                 <td>6</td>
+                <td>Rocky Mountains</td>
             </tr>
         </table>
     </tr>
