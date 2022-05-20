@@ -247,6 +247,29 @@ public class Name {
 </tr>
 </table>
 
+<table>
+    <!-- Location Merged -->
+    <tr>
+        <th>Merged <code>Location</code></th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th><code>Location</code><br>id</th>
+                    <th><code>Location</code><br>name_id</th>
+                    <th><code>Name</code><br>name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>Mount Elbert</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
