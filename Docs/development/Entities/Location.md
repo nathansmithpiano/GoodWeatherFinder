@@ -855,6 +855,10 @@ public class Region {
                     <td>7</td>
                     <td>Colorado</td>
                 </tr>
+                <tr>
+                    <td>8</td>
+                    <td>United States</td>
+                </tr>
             </table>
         </td>
         <td rowspan="3">
@@ -879,6 +883,10 @@ public class Region {
                 <tr>
                     <td>7</td>
                     <td>13</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>14</td>
                 </tr>
             </table>
         </td>
@@ -938,6 +946,11 @@ public class Category {
             <td>State</td>
             <td>"Region"</td>
         </tr>
+        <tr>
+            <td>14</td>
+            <td>Country</td>
+            <td>"Region"</td>
+        </tr>
     </table>
 </td>
 </tr>
@@ -972,6 +985,11 @@ public class Category {
                     <td>Colorado</td>
                     <td>null</td>
                     <td>State</td>
+                </tr>
+                <tr>
+                    <td>United States</td>
+                    <td>null</td>
+                    <td>Country</td>
                 </tr>
             </table>
         </td>
