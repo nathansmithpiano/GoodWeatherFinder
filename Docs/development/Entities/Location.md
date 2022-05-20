@@ -424,8 +424,8 @@ public class Location {
 - Foreign key for this location's geometry.
 - `@JoinColumn` via `location.geometry_id`.
 - `Geometry` contains a coordinateList, which for a `Location` contains one and only one `Coordinates`.
-    - For `Geometry` and `Coordinate`, `@JoinColumn` via `coordinates.geometry_id`.
     - For other entities, such as `RelativeLocation`, a `Geometry` has many `Coordinates`.
+    - For `Geometry` and `Coordinate`, `@JoinColumn` via `coordinates.geometry_id`.
     - **`Geometry` `1:m` `Coordinates`**.
 - Special considerations:
     - `Location` cannot obtain any weather data without `Coordinates`, so `location.geometry_id` is required.
