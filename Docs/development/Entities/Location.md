@@ -323,7 +323,7 @@ public class Location {
 </tr>
 
 <tr>
-    <th colspan="2">Geometry</th>
+    <th colspan="2">Category</th>
 </tr>
 <tr>
 <td>
