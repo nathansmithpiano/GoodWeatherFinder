@@ -278,11 +278,11 @@ public class Coordinates {
 
 
 <table>
-<tr>
-    <th colspan="2">Location</th>
-    <th>Join Table</th>
-</tr>
-<tr>
+    <tr>
+        <th colspan="2">Location</th>
+        <th>Join Table</th>
+    </tr>
+    <tr>
 <td>
 
 ```java
@@ -292,19 +292,37 @@ public class Location {
 ```
 
 </td>
-<td>
-    <table>
-        <tr>
-            <th>id</th>
-        </tr>
-        <tr>
-            <td>1</td>
-        </tr>
-    </table>
-</td>
-<td rowspan="3">
-</td>
-</tr>
+        <td>
+            <table>
+                <tr>
+                    <th>id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="3">
+            <table>
+                <tr>
+                    <th>location_id</th>
+                    <th>category_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 
 <tr>
     <th colspan="2">Category</th>
