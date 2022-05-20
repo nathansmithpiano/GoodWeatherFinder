@@ -247,7 +247,7 @@ public class Location {
     - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNames collections.  
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For otherNames, `Location` `m:m` `Name`.
-- Optional - a location may only have one name and `List<Name>` may be empty
+- Optional - a location may only have one name and `List<Name> otherNames` may be empty
 
 <table>
 <tr>
