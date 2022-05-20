@@ -207,9 +207,9 @@ public class Location {
     </table>
 
 <!-- Join Table message -->
-> [x] There should be no record for  
-> `Location.name` (primary name)  
-> in the join table
+[ ] There should be no record for  
+`Location.name` (primary name)  
+in the join table
 
 </td>
 </tr>
