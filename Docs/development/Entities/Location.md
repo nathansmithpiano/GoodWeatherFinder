@@ -252,7 +252,7 @@ public class Location {
     - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
     - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Name.name`, "Buffalo Mountain" should be deleted.
         - This seems possible via `orphanRemoval = true` on the `Location` side
-            - [] confirm via JUnit5 tests
+            - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For otherNames, `Location` `1:m` `Name`.
 - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
