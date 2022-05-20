@@ -150,7 +150,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - Each location has one primary name.  This primary name is unique for all Locations.
 - For this primary name, **`Location` `1:1` `Name`**.
 - **Unidirectional**, `Location` is **owner**.
-    - `Names` does not need to know about its `Location`, `Region`, or other relationships.
+    - `Name` does not need to know about its `Location`, `Region`, or other relationships.
 - **Non-null**, **unique**, and **required**.
 
 <table>
@@ -216,8 +216,8 @@ in the join table.
 </td>
 </tr>
 <tr>
-    <!-- Names Header -->
-    <th colspan="2">Names</th>
+    <!-- Name Header -->
+    <th colspan="2">Name</th>
 </tr>
 <tr>
 <!-- Name Code -->
@@ -231,7 +231,7 @@ public class Name {
 ```
 
 </td>
-<!-- Names Table -->
+<!-- Name Table -->
 <td>
     <table>
         <tr>        
@@ -275,16 +275,16 @@ public class Name {
         - - [ ] Use business logic to prevent a user from setting a `Name` as its `Location.name` and within its `List<Name> otherNames`.
 - While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
-    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Names` table to be deleted from the database.
+    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
     - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Name.name`, "Buffalo Mountain" should be deleted.
         - This seems possible via `orphanRemoval = true` on the `Location` side
             - - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For `Location.otherNames`, **`Location` `1:m` `Name`**.
 - **Unidirectional**, `Location` is **owner**.
-    - `Names` does not need to know about its `Location`, `Region`, or other relationships.
+    - `Name` does not need to know about its `Location`, `Region`, or other relationships.
     - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
-    - Also, other entities, such as `Region`, may also use the `Names` table for a collection of names.
+    - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
 - **Optional** - a location may only have one name and `List<Name> otherNames` may be empty or **null**.
 
 <table>
@@ -357,9 +357,9 @@ be used within any
 
 </td>
 
-<!-- Names Header -->
+<!-- Name Header -->
 <tr>
-    <th colspan="2">Names</th>
+    <th colspan="2">Name</th>
 </tr>
 <tr>
 <!-- Name Code -->
@@ -373,7 +373,7 @@ public class Name {
 ```
 
 </td>
-<!-- Names Table -->
+<!-- Name Table -->
 <td>
     <table>
         <tr>        
@@ -401,7 +401,7 @@ public class Name {
 </tr>
 </table>
 
-### Merged `Location` and `Names`
+### Merged `Location` and `Name`
 
 <table>
 <!-- Location Merged -->
@@ -426,6 +426,24 @@ public class Name {
         <td>1</td>
         <td>5</td>
         <td>Traditional Name</td>
+    </tr>
+</table>
+
+<table>
+<!-- Location Merged -->
+    <tr>
+        <th><code>Location</code><br>id</th>
+        <th><code>Location</code><br>name_id</th>
+        <th><code>Join Table</code><br>location_id</th>
+        <th><code>Join Table</code><br>name_id</th>
+        <th><code>Name</code><br>name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td>Mount Elbert</td>
     </tr>
 </table>
 
@@ -892,8 +910,8 @@ public class Region {
     </tr>
 
 <tr>
-    <!-- Names Header -->
-    <th colspan="2">Names</th>
+    <!-- Name Header -->
+    <th colspan="2">Name</th>
 </tr>
 <tr>
 <!-- Name Code -->
