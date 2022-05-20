@@ -432,7 +432,7 @@ public class Location {
     - No two locations should share the same coordinates, so for `location.geometry_id` should be unique.
     - Users could attempt to add a `Location` with `Coordinates` lacking precision, i.e. 39, -106. Before submitting a new location, it is necessary to confirm the `Coordinates` are unique and to re-prompt.
         - When submitting a location, a map could appear to confirm the location, and a user could drag the point to correct precision.  From the map, more precise `Coordinates` could be obtained.
-- Unidirectional, `Geometry` is **owner**.
+- **Unidirectional**, `Geometry` is **owner**.
     - `Coordinates` does not need to know about its `Geometry`.
     - **`Geometry` `1:m` `Coordinates`**.
 - **Non-null**, **unique**, and **required**.
