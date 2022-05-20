@@ -848,7 +848,7 @@ public class Region {
                 </tr>
             </table>
         </td>
-        <td rowspan="7">
+        <td rowspan="6">
             <!-- Join Table -->
             <table>
                 <tr>
