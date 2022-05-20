@@ -148,9 +148,9 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - `@JoinColumn` via location.name_id.
 - Stored within `Location` as a `Name` entity.
 - Each location has one primary name.  This primary name is unique for all Locations.
-    - For this primary name, **`Location` `1:1` `Name`**.
-    - **Unidirectional**, `Location` is owner.
-        - `Names` does not need to know about its `Location`, `Region`, or other relationships.
+- For this primary name, **`Location` `1:1` `Name`**.
+- **Unidirectional**, `Location` is **owner**.
+    - `Names` does not need to know about its `Location`, `Region`, or other relationships.
 - **Non-null**, **unique**, and **required**.
 
 <table>
@@ -260,7 +260,7 @@ public class Name {
             - - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For `Location.otherNames`, **`Location` `1:m` `Name`**.
-- **Unidirectional**, `Location` is owner.
+- **Unidirectional**, `Location` is **owner**.
     - `Names` does not need to know about its `Location`, `Region`, or other relationships.
     - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
     - Also, other entities, such as `Region`, may also use the `Names` table for a collection of names.
