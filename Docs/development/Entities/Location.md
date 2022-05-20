@@ -414,7 +414,11 @@ public class Name {
     <tr>
         <td>Mount Elbert</td>
         <td>1</td>
-        <td>3, 4, 5</td>
+        <td>
+            3<br>
+            4<br>
+            5
+        </td>
         <td>
             Mt. Elbert<br>
             Other Nickname<br>
