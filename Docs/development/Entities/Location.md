@@ -264,10 +264,12 @@ public class Location {
 
 <table>
 <tr>
+    <!-- Top row headers -->
     <th colspan="2">Location</th>
     <th>Join Table</th>
 </tr>
 <tr>
+<!-- Location Code -->
 <td>
 
 ```java
@@ -278,6 +280,7 @@ public class Location {
 ```
 
 </td>
+<!-- Location Table -->
 <td>
     <table>
         <tr>        
@@ -303,10 +306,12 @@ public class Location {
         </tr>
     </table>
 </td>
+<!-- Names Header -->
 <tr>
     <th colspan="2">Names</th>
 </tr>
 <tr>
+<!-- Name Code -->
 <td>
 
 ```java
@@ -318,6 +323,7 @@ public class Name {
 ```
 
 </td>
+<!-- Names Table -->
 <td>
     <table>
         <tr>        
