@@ -750,7 +750,13 @@ public class Category {
         <th>Merged <code>Region</code> and <code>Category</code></th>
     </tr>
     <tr>
-        <td>data</td>
+        <table>
+            <tr>
+                <th>id<br>region</th>
+            </tr>
+            <tr>
+            </tr>
+        </table>
     </tr>
 </table>
 
