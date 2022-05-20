@@ -447,7 +447,11 @@ public class Name {
         <td>1</td>
         <td>3</td>
         <td>Mt. Elbert</td>
-        <td rowspan="3">[Mt. Elbert]</td>
+        <td rowspan="3">
+            [Mt. Elbert,<br>
+            Other Nickname,<br>
+            Traditional Name]
+        </td>
     </tr>
     <tr>
         <td>1</td>
