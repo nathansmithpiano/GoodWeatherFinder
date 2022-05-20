@@ -299,6 +299,8 @@ public class Location {
 - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
     - Also, other entities, such as `Region`, may also use the `Names` table for a collection of names.
 - Optional - a location may only have one name and `List<Name> otherNames` may be empty
+- Unidirectional, `Location` is owner.
+    - `Names` does not need to know about its `Location`, `Region`, or other relationships.
 
 <table>
 <tr>
