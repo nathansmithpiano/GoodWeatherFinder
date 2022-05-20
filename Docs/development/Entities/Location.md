@@ -828,12 +828,35 @@ public class Region {
             <table>
                 <tr>
                     <th>id</th>
+                    <th>name</th>
                 </tr>
                 <tr>
                     <td>1</td>
+                    <td>Rocky Mountains</td>
                 </tr>
                 <tr>
                     <td>2</td>
+                    <td>Southern Rocky Mountains</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rocky Mountains (CO)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sawatch</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Elbert Massif</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>San Isabel National Forest</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Colorado</td>
                 </tr>
             </table>
         </td>
