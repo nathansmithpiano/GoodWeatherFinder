@@ -205,6 +205,13 @@ public class Location {
             <td>5</td>
         </tr>
     </table>
+<!-- Join Table message -->
+
+```diff
+! no record for a `Location.name` (primary name)
+in the join table
+```
+
 </td>
 </tr>
 <tr>
