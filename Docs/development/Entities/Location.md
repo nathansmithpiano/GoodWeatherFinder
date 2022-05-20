@@ -290,7 +290,7 @@ public class Location {
         </tr>
     </table>
 </td>
-<td>
+<td rowspan="3">
     <table>
         <tr>        
             <th>id</th>
