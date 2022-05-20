@@ -103,23 +103,6 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         </td>
     </tr>
     <tr>
-        <td><a href="#locationactivities">activities</a></td>
-        <td>List<<code>Activity</code>></td>
-        <td>optional</td>
-        <td>
-            <code>Activity</code>, ...
-            <br>
-            <code>Activity</code>
-        </td>
-        <td>
-            <code>Location</code>
-            <code>m:m</code>
-            <code>Activity</code>
-            <br>
-            <code>join table</code>
-        </td>
-    </tr>
-    <tr>
         <td><a href="#locationregions">regions</a></td>
         <td>List<<code>Region</code>></td>
         <td>optional</td>
@@ -132,6 +115,23 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
             <code>Location</code>
             <code>m:m</code>
             <code>Region</code>
+            <br>
+            <code>join table</code>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="#locationactivities">activities</a></td>
+        <td>List<<code>Activity</code>></td>
+        <td>optional</td>
+        <td>
+            <code>Activity</code>, ...
+            <br>
+            <code>Activity</code>
+        </td>
+        <td>
+            <code>Location</code>
+            <code>m:m</code>
+            <code>Activity</code>
             <br>
             <code>join table</code>
         </td>
@@ -599,6 +599,97 @@ public class Location {
                 <tr>
                     <td>1</td>
                     <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+<tr>
+    <!-- Category Header -->
+    <th colspan="2">Category</th>
+</tr>
+<tr>
+<!-- Category Code -->
+<td>
+
+```java
+public class Category {
+
+}
+```
+
+</td>
+<td>
+    <!-- Category Table -->
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mountain</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Summit</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Colorado 14er</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+
+<table>
+    <tr>
+        <!-- Table Headers -->
+        <th colspan="2">Region</th>
+        <th>Join Table</th>
+    </tr>
+    <tr>
+<!-- Location Code -->
+<td>
+
+```java
+public class Region {
+    private int id;
+    private List<Category> categories;
+}
+```
+
+</td>
+        <td>
+            <!-- Region Table -->
+            <table>
+                <tr>
+                    <th>id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="3">
+            <!-- Join Table -->
+            <table>
+                <tr>
+                    <th>region_id</th>
+                    <th>category_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>7</td>
                 </tr>
             </table>
         </td>
