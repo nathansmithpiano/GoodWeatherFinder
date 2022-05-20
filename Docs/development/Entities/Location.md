@@ -148,8 +148,10 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 - `@JoinColumn` via location.name_id.
 - Stored within `Location` as a `Name` entity.
 - Each location has one primary name.  This primary name is unique for all Locations.
-    - For this primary name, `Location` `1:1` `Name`.
-- Non-null, unique, and required.
+    - For this primary name, **`Location` `1:1` `Name`**.
+    - **Unidirectional**, `Location` is owner.
+        - `Names` does not need to know about its `Location`, `Region`, or other relationships.
+- **Non-null**, **unique**, and **required**.
 
 <table>
 <tr>
@@ -209,7 +211,7 @@ public class Location {
 <!-- Join Table message -->
 - [x] There should be no record for  
 `Location.name` (primary name)  
-in the join table
+in the join table.
 
 </td>
 </tr>
