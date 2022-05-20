@@ -648,6 +648,10 @@ public class Category {
 
 <table>
     <tr>
+        <table>
+        </table>
+    </tr>
+    <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
         <th>Join Table</th>
