@@ -860,16 +860,8 @@ public class Region {
                     <td>11</td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>13</td>
-                </tr>
-                <tr>
                     <td>5</td>
                     <td>11</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>13</td>
                 </tr>
                 <tr>
                     <td>6</td>
