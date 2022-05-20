@@ -291,6 +291,18 @@ public class Location {
     </table>
 </td>
 <tr>
+    <table>
+        <tr>        
+            <th>id</th>
+            <th>name_id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+</tr>
+<tr>
     <th colspan="2">Names</th>
 </tr>
 <tr>
