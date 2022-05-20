@@ -438,24 +438,26 @@ public class Name {
         <th><code>Join Table</code><br>location_id</th>
         <th><code>Join Table</code><br>name_id</th>
         <th><code>`Name`</code><br>name</th>
+        <th><code>`Location`</code><br>otherNames</th>
     </tr>
     <tr>
-        <td rowspan="4">1</td>
-        <td rowspan="4">2</td>
-        <td rowspan="4">Mount Elbert</td>
+        <td rowspan="3">1</td>
+        <td rowspan="3">2</td>
+        <td rowspan="3">Mount Elbert</td>
         <td>1</td>
         <td>3</td>
-        <td></td>
+        <td>Mt. Elbert</td>
+        <td rowspan="3">[Mt. Elbert]</td>
     </tr>
     <tr>
         <td>1</td>
         <td>4</td>
-        <td></td>
+        <td>Other Nickname</td>
     </tr>
     <tr>
         <td>1</td>
         <td>5</td>
-        <td></td>
+        <td>Traditional Name</td>
     </tr>
 </table>
 
