@@ -542,6 +542,15 @@ public class Coordinates {
 
 ## <a href="#location-entity">location.categories</a>
 
+- `Category` is a generic way to organize locations.
+- Rather than having different tables for `Mountain`, `Trailhead`, `Parking Lot`, `Lake`, `Beach` etc, `Category` provides a way to group these things together.
+- `Region` also uses `Category` in the same way.
+- While it would be possible to make `Category` optional, this could lead to confusion, especially as the data scales, so for business reasons, `Category` is **required**.
+- **Unidirectional**, `Location` and `Region` are owners.
+    - `Category` does not need to know about the entities which use it.
+    - Seperate join tables are necessary.
+        - **`Location` `m:m` `Category`**
+        - **`Region` `m:m` `Category`**
 
 <table>
     <tr>
@@ -553,7 +562,7 @@ public class Coordinates {
 
 ```java
 public class Location {
-
+    private List<Category> categories;
 }
 ```
 
@@ -626,8 +635,8 @@ public class Category {
 </tr>
 </table>
 
-## <a href="#location-entity">location.activities</a>
 
+## <a href="#location-entity">location.activities</a>
 
 <table>
     <tr>
