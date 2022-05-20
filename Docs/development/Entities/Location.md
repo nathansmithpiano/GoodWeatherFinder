@@ -153,10 +153,12 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 
 <table>
 <tr>
-    <!-- Location Header -->
+    <!-- Top row headers -->
     <th colspan="2">Location</th>
+    <th>Join Table</th>
 </tr>
 <tr>
+<!-- Location Code -->
 <td>
 
 ```java
@@ -170,6 +172,7 @@ public class Location {
 ```
 
 </td>
+<!-- Location table -->
 <td>
     <table>
         <tr>        
@@ -182,12 +185,34 @@ public class Location {
         </tr>
     </table>
 </td>
+<!-- Join Table -->
+<td rowspan="3">
+    <table>
+        <tr>        
+            <th>location_id</th>
+            <th>name_id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+    </table>
+</td>
 </tr>
 <tr>
     <!-- Names Header -->
     <th colspan="2">Names</th>
 </tr>
 <tr>
+<!-- Name Code -->
 <td>
 
 ```java
@@ -198,6 +223,7 @@ public class Name {
 ```
 
 </td>
+<!-- Names Table -->
 <td>
     <table>
         <tr>        
