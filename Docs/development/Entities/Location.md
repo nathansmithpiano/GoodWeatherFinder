@@ -162,7 +162,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 ```java
 public class Location {
     private int id;
-    
+
     @JoinColumn(name = "name_id")
     private Name name;
 }
@@ -247,12 +247,16 @@ public class Location {
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
-- While primary name must be unique, other names are not.  Duplicates may exist within the database.
+- While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
-    - If "Buffalo Mountain A" was deleted, we do not want "Buffalo Mountain" to be removed from the database.  Removing a `Location` should remove all the `Name` within its otherNames.  
-    - Various `Location` would not share the same "Buffalo Mountain" `Name` within their otherNames collections.  
+    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
+    - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Name.name`, "Buffalo Mountain" should be deleted.
+        - This seems possible via `orphanRemoval = true` on the `Location` side
+            - [] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
-- For otherNames, `Location` `m:m` `Name`.
+- For otherNames, `Location` `1:m` `Name`.
+- A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
+    - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
 - Optional - a location may only have one name and `List<Name> otherNames` may be empty
 
 <table>
