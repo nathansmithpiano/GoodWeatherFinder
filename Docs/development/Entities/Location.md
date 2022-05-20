@@ -624,7 +624,10 @@ public class Coordinates {
 
 - `Category` is a generic way to organize locations.
 - Rather than having different tables for `Mountain`, `Trailhead`, `Parking Lot`, `Lake`, `Beach` etc, `Category` provides a way to group these things together.
+- Each `Category` is set at a high level and unlikely to be deleted.  An administrator may update or perhaps remove a `Category`, but this would be rare.
 - `Region` also uses `Category` in the same way.
+    - As `Category` is used by multiple other entities, `Category` is given a property `String` of `Category.appliesTo`, which matches with the name of the entity the category applies to.
+    - A `Category` with the same name may exist if its `appliesTo` for a different entity. Duplicates should not exist for both properties.
 - While it would be possible to make `Category` optional, this could lead to confusion, especially as the data scales, so for business reasons, `Category` is **required**.
 - **Unidirectional**, `Location` is **owner**.
     - `Category` does not need to know about the entities which use it.
@@ -704,19 +707,23 @@ public class Category {
     <table>
         <tr>
             <th>id</th>
-            <th>Name</th>
+            <th>name</th>
+            <th>applies_to</th>
         </tr>
         <tr>
             <td>2</td>
             <td>Mountain</td>
+            <td>"Location"</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Summit</td>
+            <td>"Location"</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Colorado 14er</td>
+            <td>"Location"</td>
         </tr>
     </table>
 </td>
@@ -760,6 +767,27 @@ public class Category {
 
 
 ## <a href="#location-entity">location.regions</a>
+- `Region` is a way of grouping locations based on geographical characteristics.
+- A mountain like Mount Elbert has one primary Mountain Range, and that Mountain Range has several parent ranges.
+    - Example of parent/child relationships in `Region`:
+        - The *Elbert Massif* is a child of the *Sawatch* range.
+        - The *Sawatch* range is a child of *Rocky Mountains (CO)*.
+        - *Rocky Mountains (CO)* is a child of the *Southern Rocky Mountains*.
+        - *Southern Rocky Mountains* is a child of the *Rocky Mountains*.
+    - Unlike `Category`, hierarchy is important for `Region`.
+        - For example, a user may want to consider other locations nearby, or they may be interested in a more broad area.
+        - *Rocky Mountains (CO)* would contain many thousands of locations, while *Elbert Massif* would only contain a dozen or so. A parent contains all of its children.
+            - [ ] Enable searching all children of a range by aggregating all successive parents.
+    - A `Location` could be attached to several different geographical groupings.  Rather than having an ever-expanding number of tables with very similar data, each `Region` is given one or many `Category`.
+        - A `Region``Category` would be set at a high level and unlikely to change at the user level.  Unlike with other entities, i.e. `Location.otherNames`, it is unlikely that a `Region``Category` would ever be deleted.
+        - Each `Location` can have many `Region` in its `location.regions`, but should only have one of each `Category` for `Region`.
+            - [ ] Assure that a location has at most one of each `Region``Category` in its `location.regions`.
+            - [ ] Only display the `Region` for each type, and display nothing about that `RegionType` if `Location.regions` for that `RegionType` is empty or null.
+- Like `Location`, `Region` has one primary `Name` and a collection of `Region.otherNames`.
+    - Limiting a `Location`, `Region`, or other entities to only one name would reduce the ability to search - in the application, other resources, search engines, and so on. This also allows for multi-language data and searching.
+-
+
+
 
 <table>
     <tr>
@@ -842,18 +870,22 @@ public class Category {
         <tr>
             <th>id</th>
             <th>Name</th>
+            <th>applies_to</th>
         </tr>
         <tr>
             <td>5</td>
             <td>Mountain Range</td>
+            <td>"Region"</td>
         </tr>
         <tr>
             <td>6</td>
             <td>National Forest</td>
+            <td>"Region"</td>
         </tr>
         <tr>
             <td>7</td>
             <td>Colorado</td>
+            <td>"Region"</td>
         </tr>
     </table>
 </td>
