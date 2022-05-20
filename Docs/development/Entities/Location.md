@@ -744,6 +744,7 @@ public class Activity {
 </tr>
 </table>
 
+
 ## <a href="#location-entity">location.regions</a>
 
 <table>
@@ -792,43 +793,6 @@ public class Activity {
     </tr>
 </table>
 
-## <a href="#location-entity">location.typeList</a>
-
-REDO THIS with generic entity `Type` that holds additional information
-
-THINK
-- River
-- Lake
-- Beach
-- Stadium/Arena
-- Ski Resort
-- Golf Course
-- Park
-- Pool
-- Concert/Venue
-
-
-<table>
-    <tr><th>Mountain</th></tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Abbreviation</th>
-                    <th>Elevation</th>
-                    <th><code>Region</code></th>
-                </tr>
-                <tr>
-                    <td>Mount Elbert</td>
-                    <td>Mt. Elbert</td>
-                    <td>4389.12</td>
-                    <td><code>Region</code></td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
 
 #### TEMPLATE
 <table>
