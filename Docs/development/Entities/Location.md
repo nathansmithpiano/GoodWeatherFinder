@@ -747,6 +747,15 @@ public class Category {
 
 <table>
     <tr>
+        <th>Merged <code>Region</code> and <code>Category</code></th>
+    </tr>
+    <tr>
+        <td>data</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
         <th>Join Table</th>
