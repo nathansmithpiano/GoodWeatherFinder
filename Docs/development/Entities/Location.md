@@ -208,7 +208,8 @@ public class Location {
 <!-- Join Table message -->
 
 ```diff
-! no record for a `Location.name` (primary name)
+! There should be no record
+for `Location.name` (primary name)
 in the join table
 ```
 
