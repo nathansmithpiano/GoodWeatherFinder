@@ -351,13 +351,14 @@ public class Location {
             <td>5</td>
         </tr>
     </table>
-</td>
 
 <!-- Join Table message -->
 - [x] A `Location`'s primary name  
 (`Location.name`) should not  
 be used within any  
 `Location.otherNames`
+
+</td>
 
 <!-- Names Header -->
 <tr>
