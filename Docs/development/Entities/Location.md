@@ -582,6 +582,7 @@ public class Location {
             </table>
         </td>
         <td rowspan="3">
+            <!-- Join Table -->
             <table>
                 <tr>
                     <th>location_id</th>
@@ -619,7 +620,7 @@ public class Category {
 
 </td>
 <td>
-    <!-- Join Table -->
+    <!-- Category Table -->
     <table>
         <tr>
             <th>id</th>
