@@ -280,6 +280,7 @@ public class Coordinates {
 <table>
 <tr>
     <th colspan="2">Location</th>
+    <th>Join Table</th>
 </tr>
 <tr>
 <td>
@@ -300,6 +301,8 @@ public class Location {
             <td>1</td>
         </tr>
     </table>
+</td>
+<td rowspan="3">
 </td>
 </tr>
 
