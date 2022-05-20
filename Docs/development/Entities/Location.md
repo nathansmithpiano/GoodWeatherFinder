@@ -375,6 +375,105 @@ public class Category {
     <tr><td>Skiing/Snowboarding (Backcountry)</td></tr>
 </table>
 
+<table>
+    <tr>
+        <th colspan="2">Location</th>
+        <th>Join Table</th>
+    </tr>
+    <tr>
+<td>
+
+```java
+public class Location {
+
+}
+```
+
+</td>
+        <td>
+            <table>
+                <tr>
+                    <th>id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="3">
+            <table>
+                <tr>
+                    <th>location_id</th>
+                    <th>category_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+<tr>
+    <th colspan="2">Category</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Category {
+
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Hiking</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Climbing</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mountaineering</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Trail Running</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Camping</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Backpacking</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Skiing/Snowboarding (Backcountry)</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+
 ## <a href="#location-entity">location.regionList</a>
 
 <table>
