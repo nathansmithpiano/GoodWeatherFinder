@@ -271,8 +271,6 @@ public class Coordinates {
     </table>
 </td>
 </tr>
-
-
 </table>
 
 
@@ -294,6 +292,98 @@ public class Coordinates {
             </table>
         </td>
     </tr>
+</table>
+
+<table>
+<tr>
+    <th colspan="2">Location</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Location {
+    @OneToOne
+    @JoinColumn(name = "geometry_id")
+    private Geometry geometry;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>geometry_id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+<tr>
+    <th colspan="2">Geometry</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Geometry {
+    @OneToMany(mappedBy = "geometry")
+    private List<Coordinates> coordinatesList;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Point</td>
+        </tr>
+    </table>
+</td>
+</tr>
+
+<tr>
+    <th colspan="2">Coordinates</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Coordinates {
+    @ManyToOne
+    @JoinColumn(name = "geometry_id")
+    private Geometry geometry;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>geometry_id</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+        </tr>
+        <tr>   
+            <td>3</td>
+            <td>2</td>
+            <td>39.118075</td>
+            <td>-106.445417</td>
+        </tr>
+    </table>
+</td>
+</tr>
 </table>
 
 ## <a href="#location-entity">location.activityList</a>
