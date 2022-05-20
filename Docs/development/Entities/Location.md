@@ -281,7 +281,6 @@ public class Coordinates {
 <table>
     <tr>
         <th>Category</th>
-        <th>Activity</th>
     </tr>
     <tr>
         <td>
@@ -294,7 +293,7 @@ public class Coordinates {
                 <tr><td>Colorado 14er</td></tr>
             </table>
         </td>
-        
+
     </tr>
 </table>
 
