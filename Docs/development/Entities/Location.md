@@ -660,6 +660,7 @@ public class Location {
                     <th>name</th>
                 </tr>
                 <tr>
+                    <td>1</td>
                     <td>Mount Elbert</td>
                 </tr>
             </table>
