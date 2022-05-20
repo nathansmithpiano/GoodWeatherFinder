@@ -753,9 +753,11 @@ public class Category {
         <table>
             <tr>
                 <th><code>Region</code><br>id</th>
+                <th><code>Name</code><br>id</th>
             </tr>
             <tr>
                 <td>1</td>
+                <td>6</td>
             </tr>
         </table>
     </tr>
