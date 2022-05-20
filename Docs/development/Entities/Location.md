@@ -554,20 +554,24 @@ public class Coordinates {
 
 <table>
     <tr>
+        <!-- Table Headers -->
         <th colspan="2">Location</th>
         <th>Join Table</th>
     </tr>
     <tr>
+<!-- Location Code -->
 <td>
 
 ```java
 public class Location {
+    private int id;
     private List<Category> categories;
 }
 ```
 
 </td>
         <td>
+            <!-- Location Table -->
             <table>
                 <tr>
                     <th>id</th>
@@ -600,9 +604,11 @@ public class Location {
     </tr>
 
 <tr>
+    <!-- Category Header -->
     <th colspan="2">Category</th>
 </tr>
 <tr>
+<!-- Category Code -->
 <td>
 
 ```java
@@ -613,6 +619,7 @@ public class Category {
 
 </td>
 <td>
+    <!-- Join Table -->
     <table>
         <tr>
             <th>id</th>
