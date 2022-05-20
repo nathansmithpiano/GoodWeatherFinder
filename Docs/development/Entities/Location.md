@@ -412,18 +412,20 @@ public class Name {
         <th><code>Location</code><br>otherNames</th>
     </tr>
     <tr>
-        <td>Mount Elbert</td>
+        <td rowspan="3">Mount Elbert</td>
         <td>1</td>
-        <td>
-            3<br>
-            4<br>
-            5
-        </td>
-        <td>
-            Mt. Elbert<br>
-            Other Nickname<br>
-            Traditional Name
-        </td>
+        <td>3</td>
+        <td>Mt. Elbert</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>4</td>
+        <td>Other Nickname</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>5</td>
+        <td>Traditional Name</td>
     </tr>
 </table>
 
