@@ -746,7 +746,6 @@ public class Category {
 </table>
 
 <table>
-    
     <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
@@ -794,7 +793,7 @@ public class Region {
                     <td>9</td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>5</td>
                     <td>null</td>
                 </tr>
             </table>
