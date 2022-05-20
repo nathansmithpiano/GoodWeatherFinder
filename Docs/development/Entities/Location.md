@@ -822,11 +822,27 @@ public class Name {
         </tr>
         <tr>
             <td>6</td>
-            <td>Mountain Range</td>
+            <td>Rocky Mountains</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>National Forest</td>
+            <td>Southern Rocky Mountains</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Rocky Mountains (CO)</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Sawatch</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Elbert Massif</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>San Isabel National Forest</td>
         </tr>
     </table>
 </td>
