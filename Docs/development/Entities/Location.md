@@ -191,10 +191,12 @@ public class Name {
     <table>
         <tr>        
             <th>id</th>
+            <th>location_id</th>
             <th>name</th>
         </tr>
         <tr>
             <td>2</td>
+            <td>1</td>
             <td>Mount Elbert</td>
         </tr>
     </table>
@@ -246,6 +248,74 @@ public class Location {
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
 - For otherNames, `Location` `m:m` `Name`.
 - Optional.
+
+<table>
+<tr>
+    <th colspan="2">Location</th>
+    <th colspan="2">Name</th>
+</tr>
+<tr>
+<td>
+
+```java
+public class Location {
+    private List<Name> otherNames;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>        
+            <th>id</th>
+            <th>name_id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+</td>
+<td>
+
+```java
+public class Name {
+    private String name;
+}
+```
+
+</td>
+<td>
+    <table>
+        <tr>        
+            <th>id</th>
+            <th>location_id</th>
+            <th>name</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>1</td>
+            <td>Mount Elbert</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>1</td>
+            <td>Mt. Elbert</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>1</td>
+            <td>Other Nickname</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>1</td>
+            <td>Traditional name</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
 
 ## <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
