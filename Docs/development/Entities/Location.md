@@ -247,6 +247,8 @@ public class Location {
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
+    - `Location.name_id` corresponds to its primary name.  The join table links a `Location` with its `otherNames`.
+        - - [ ] Use business logic to prevent a user from setting a `Name` as its `Location.name` and within its `List<Name> otherNames`.
 - While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
     - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
