@@ -803,7 +803,7 @@ public class Category {
     - Join table `location_region`.
     - `Location` can only have one of each `Region``Category`.
         - Build this within the application rather than database structure.
-- For `Region.categories`, **`Region` `1:1` `Category`**.
+- For `Region.category`, **`Region` `1:1` `Category`**.
     - For both, **Unidirectional**, `Region` is **owner**.
     - Join table `region_category`.
     - **required**.
@@ -958,10 +958,20 @@ public class Category {
                     <th><code>Region</code><br>categories</th>
                 </tr>
                 <tr>
-                    <td>Mount Elbert</td>
+                    <td rowspan="3">Mount Elbert</td>
                     <td>Elbert Massif</td>
                     <td>Sawatch</td>
-                    <td>Mountain Range, Colorado</td>
+                    <td>Mountain Range</td>
+                </tr>
+                <tr>
+                    <td>San Isabel National Forest</td>
+                    <td>null</td>
+                    <td>National Forest</td>
+                </tr>
+                <tr>
+                    <td>Colorado</td>
+                    <td>null</td>
+                    <td>State</td>
                 </tr>
             </table>
         </td>
