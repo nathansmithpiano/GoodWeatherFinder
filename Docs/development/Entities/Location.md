@@ -427,6 +427,7 @@ public class Location {
     - For other entities, such as `RelativeLocation`, a `Geometry` has many `Coordinates`.
     - For `Geometry` and `Coordinate`, `@JoinColumn` via `coordinates.geometry_id`.
     - **`Geometry` `1:m` `Coordinates`**.
+    - `Location` does not directly relate to `Coordinates` as `Geometry.type` is necessary when producing maps via [leafly](https://www.leafly.com/).
 - Special considerations:
     - `Location` cannot obtain any weather data without `Coordinates`, so `location.geometry_id` is required.
     - No two locations should share the same coordinates, so for `location.geometry_id` should be unique.
