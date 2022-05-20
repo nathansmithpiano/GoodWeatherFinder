@@ -109,7 +109,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
         </td>
     </tr>
     <tr>
-        <td><a href="#locationregionlist">regionList</a></td>
+        <td><a href="#locationregions">regions</a></td>
         <td>List<<code>Region</code>></td>
         <td>optional</td>
         <td>
@@ -478,7 +478,7 @@ public class Activity {
 </tr>
 </table>
 
-## <a href="#location-entity">location.regionList</a>
+## <a href="#location-entity">location.regions</a>
 
 <table>
     <tr><th>Region</th></tr>
