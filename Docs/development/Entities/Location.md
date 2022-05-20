@@ -856,21 +856,38 @@ public class Region {
                     <th>category_id</th>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>4</td>
                     <td>11</td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>4</td>
                     <td>13</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>6</td>
+                    <td>5</td>
+                    <td>11</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>7</td>
+                    <td>5</td>
+                    <td>13</td>
                 </tr>
+                <tr>
+                    <td>6</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>13</td>
+                </tr>
+
             </table>
         </td>
     </tr>
