@@ -247,44 +247,6 @@ public class Name {
 </tr>
 </table>
 
-## <a href="#location-entity">location.elevation</a>
-- Elevation for this location, in meters.
-- **Optional** - relevant for some locations but not others. May be **null**.
-    - i.e. elevation is important for a mountain summit but not for a beach
-
-<table>
-<!-- Header -->
-<tr>
-    <th colspan="2">Location</th>
-</tr>
-<tr>
-<!-- Location Code -->
-<td>
-
-```java
-public class Location {
-    private int id;
-    private Double elevation;
-}
-```
-
-</td>
-<!-- Location Table -->
-<td>
-    <table>
-        <tr>        
-            <th>id</th>
-            <th>elevation</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>4389.12</td>
-        </tr>
-    </table>
-</td>
-</tr>
-</table>
-
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
@@ -417,6 +379,46 @@ public class Name {
 </td>
 </tr>
 </table>
+
+
+## <a href="#location-entity">location.elevation</a>
+- Elevation for this location, in meters.
+- **Optional** - relevant for some locations but not others. May be **null**.
+    - i.e. elevation is important for a mountain summit but not for a beach
+
+<table>
+<!-- Header -->
+<tr>
+    <th colspan="2">Location</th>
+</tr>
+<tr>
+<!-- Location Code -->
+<td>
+
+```java
+public class Location {
+    private int id;
+    private Double elevation;
+}
+```
+
+</td>
+<!-- Location Table -->
+<td>
+    <table>
+        <tr>        
+            <th>id</th>
+            <th>elevation</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4389.12</td>
+        </tr>
+    </table>
+</td>
+</tr>
+</table>
+
 
 ## <a href="#location-entity">location.geometry_id</a>
 - Foreign key for this location's geometry.
