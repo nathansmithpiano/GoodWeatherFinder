@@ -404,7 +404,7 @@ public class Location {
             <table>
                 <tr>
                     <th>location_id</th>
-                    <th>category_id</th>
+                    <th>activity_id</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -417,6 +417,22 @@ public class Location {
                 <tr>
                     <td>1</td>
                     <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>8</td>
                 </tr>
             </table>
         </td>
