@@ -276,23 +276,6 @@ public class Coordinates {
 
 ## <a href="#location-entity">location.categoryList</a>
 
-<table>
-    <tr>
-        <th>Category</th>
-    </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>Name</th>
-                </tr>
-                <tr><td>Mountain</td></tr>
-                <tr><td>Summit</td></tr>
-                <tr><td>Colorado 14er</td></tr>
-            </table>
-        </td>
-    </tr>
-</table>
 
 <table>
 <tr>
