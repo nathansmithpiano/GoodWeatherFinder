@@ -643,6 +643,9 @@ public class Category {
 </tr>
 </table>
 
+
+## <a href="#location-entity">location.regions</a>
+
 <table>
     <tr>
         <!-- Table Headers -->
@@ -650,7 +653,7 @@ public class Category {
         <th>Join Table</th>
     </tr>
     <tr>
-<!-- Location Code -->
+<!-- Region Code -->
 <td>
 
 ```java
@@ -733,9 +736,6 @@ public class Category {
 </td>
 </tr>
 </table>
-
-
-## <a href="#location-entity">location.regions</a>
 
 <table>
     <tr><th>Region</th></tr>
