@@ -746,8 +746,9 @@ public class Category {
 </table>
 
 <table>
+    <!-- Location Merged -->
     <tr>
-        <th>Merged <code>Region</code> and <code>Category</code></th>
+        <th>Merged <code>Location</code></th>
     </tr>
     <tr>
         <td>
