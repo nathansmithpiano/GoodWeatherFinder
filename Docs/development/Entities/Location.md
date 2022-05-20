@@ -162,6 +162,7 @@ Mount Elbert is the highest peak in Colorado and a popular, well-known destinati
 ```java
 public class Location {
     private int id;
+    @JoinColumn(name = "name_id")
     private Name name;
 }
 ```
