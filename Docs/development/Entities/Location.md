@@ -1431,31 +1431,54 @@ public class Name {
         <td>
             <table>
                 <tr>
-                    <th><code>Location</code><br>name</th>
-                    <th><code>Region</code><br>id</th>
-                    <th><code>Region</code><br>name</th>
-                    <th><code>Region</code><br>parent</th>
-                    <th><code>Region</code><br>category</th>
+                    <th>id</th>
+                    <th>name_id</th>
+                    <th>name</th>
+                    <th>otherNames</th>
                 </tr>
                 <tr>
-                    <td rowspan="4">Mount Elbert</td>
+                    <td>2</td>
+                    <td>12</td>
+                    <td>Hiking</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>13</td>
+                    <td>Climbing</td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td>4</td>
-                    <td>Elbert Massif</td>
-                    <td>Sawatch</td>
-                    <td>Mountain Range</td>
+                    <td>14</td>
+                    <td>Mountaineering</td>
+                    <td></td>
                 </tr>
                 <tr>
-                <td>5</td>
-                    <td>San Isabel National Forest</td>
-                    <td>null</td>
-                    <td>National Forest</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>Trail Running</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>Colorado</td>
-                    <td>United States</td>
-                    <td>State</td>
+                    <td>16</td>
+                    <td>Camping</td>
+                    <td></td>
                 </tr>
+                <tr>
+                    <td>7</td>
+                    <td>17</td>
+                    <td>Backpacking</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>18</td>
+                    <td>Touring</td>
+                    <td></td>
+                </tr>
+
             </table>
         </td>
     </tr>
