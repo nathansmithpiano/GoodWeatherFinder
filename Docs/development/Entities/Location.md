@@ -870,7 +870,7 @@ public class Region {
             </table>
         </td>
         <td rowspan="5">
-            <!-- Join Table region_name -->
+            <!-- Join Tables -->
             <table>
                 <tr>
                     <th>region_id</th>
@@ -879,6 +879,26 @@ public class Region {
                 <tr>
                     <td></td>
                     <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>region_id</th>
+                    <th>category_id</th>
                 </tr>
                 <tr>
                     <td></td>
