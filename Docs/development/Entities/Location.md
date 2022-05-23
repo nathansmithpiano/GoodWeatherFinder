@@ -1146,7 +1146,7 @@ public class Category {
                     <td>San Isabel National Forest</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>National Forest</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -1154,7 +1154,7 @@ public class Category {
                     <td>Colorado</td>
                     <td></td>
                     <td>United States</td>
-                    <td></td>
+                    <td>State</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -1162,7 +1162,7 @@ public class Category {
                     <td>United States</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>Country</td>
                     <td></td>
                 </tr>
             </table>
