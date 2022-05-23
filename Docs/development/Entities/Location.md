@@ -1386,7 +1386,7 @@ public class Name {
 <table>
     <!-- Location Merged -->
     <tr>
-        <th>Merged <code>Location</code></th>
+        <th>Merged <code>Location</code> and <code>Activity</code></th>
     </tr>
     <tr>
         <td>
@@ -1443,79 +1443,5 @@ public class Name {
                 </tr>
             </table>
         </td>
-    </tr>
-</table>
-
-<table>
-    <!-- Activity Merged -->
-    <tr>
-        <th>Merged <code>Activity</code></th>
-    </tr>
-    <tr>
-        <td>
-            <table>
-                <tr>
-                    <th>id</th>
-                    <th>name_id</th>
-                    <th>name</th>
-                    <th>otherNames</th>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>12</td>
-                    <td>Hiking</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>13</td>
-                    <td>Climbing</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>14</td>
-                    <td>Mountaineering</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>15</td>
-                    <td>Trail Running</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>16</td>
-                    <td>Camping</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>17</td>
-                    <td>Backpacking</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>18</td>
-                    <td>Touring</td>
-                    <td>Skiing/Snowboarding (Backcountry), Skiing, Off Piste</td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-
-
-#### TEMPLATE
-<table>
-    <tr>
-        <th></th>
-        <th></th>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
     </tr>
 </table>
