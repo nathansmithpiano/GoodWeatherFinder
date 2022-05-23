@@ -1365,6 +1365,24 @@ public class Name {
         </table>
     </td>
     <td>
+        <table>
+            <tr>
+                <th>activity_id</th>
+                <th>name_id</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     </td>
 </tr>
 </table>
