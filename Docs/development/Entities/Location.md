@@ -827,7 +827,9 @@ public class Category {
 ```java
 public class Region {
     private int id;
-    private List<Category> categories;
+    private Name name;
+    private Region parent;
+    private List<Name> otherNames;
 }
 ```
 
