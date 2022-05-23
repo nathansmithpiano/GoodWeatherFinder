@@ -1175,6 +1175,7 @@ public class Category {
 - Each `Location` can be associated with one or many `Activities`.
 - For example, Mount Elbert is popular for hiking, backpacking, camping, backcountry skiing, running, and many other activities.  A user may want to search for many locations by activity.
 - Similar to other entities, `Activity` has one primary name and can have otherNames.
+    - Example: "Touring" may also be called "Skiing, Off Piste" and/or "Skiing/Snowboarding (Backcountry)".
 - for `Activity.name` **`Activity` `1:1` `Name`**
     - **Unidirectional**, `Activity` is **owner**.
     - **Required**, **unique**, **non-null**.
