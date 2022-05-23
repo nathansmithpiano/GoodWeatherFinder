@@ -869,8 +869,37 @@ public class Region {
                 </tr>
             </table>
         </td>
-        <td rowspan="5">
-            <!-- Join Table -->
+        <td rowspan="3">
+            <!-- Join Table region_name -->
+            <table>
+                <tr>
+                    <th>region_id</th>
+                    <th>category_id</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>14</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan="2">
+            <!-- Join Table region_category -->
             <table>
                 <tr>
                     <th>region_id</th>
