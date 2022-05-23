@@ -837,27 +837,33 @@ public class Region {
             <table>
                 <tr>
                     <th>id</th>
-                    <th>name</th>
+                    <th>parent_id</th>
+                    <th>name_id</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>null</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>8</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>Sawatch</td>
+                    <td>3</td>
+                    <td>9</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>Elbert Massif</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>San Isabel National Forest</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Colorado</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>United States</td>
+                    <td>null</td>
+                    <td>11</td>
                 </tr>
             </table>
         </td>
