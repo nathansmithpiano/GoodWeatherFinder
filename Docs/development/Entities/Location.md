@@ -806,7 +806,7 @@ public class Category {
 - For `Region.category`, **`Region` `1:1` `Category`**.
     - For both, **Unidirectional**, `Region` is **owner**.
     - Join table `region_category`.
-    - **required**.
+    - **Required**
 - For `Region.name`, **`Region` `1:1` `Name`**.
     - **Unidirectional**, `Region` is **owner**.
     - **Required**, **unique**, **non-null**
@@ -1172,6 +1172,14 @@ public class Category {
 
 
 ## <a href="#location-entity">location.activities</a>
+- Each `Location` can be associated with one or many `Activities`.
+- For example, Mount Elbert is popular for hiking, backpacking, camping, backcountry skiing, running, and many other activities.  A user may want to search for many locations by activity.
+- For simplicity's sake, `Activity` will have only one name and users will select from a list of options.
+    - They can request a new activity be added but cannot add their own.
+- **`Location` `m:m` `Activity`**
+    - Join table `location_activity`.
+    - **Unidirectional**, `Location` is owner.
+    - **Required**
 
 <table>
     <tr>
