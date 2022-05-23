@@ -1325,39 +1325,39 @@ public class Name {
                 <th>name</th>
             </tr>
             <tr>
-                <td>2</td>
+                <td>12</td>
                 <td>Hiking</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>13</td>
                 <td>Climbing</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>14</td>
                 <td>Mountaineering</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>15</td>
                 <td>Trail Running</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>16</td>
                 <td>Camping</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td>17</td>
                 <td>Backpacking</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>18</td>
                 <td>Skiing/Snowboarding (Backcountry)</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td>19</td>
                 <td>Touring</td>
             </tr>
             <tr>
-                <td>10</td>
+                <td>20</td>
                 <td>Skiing, Off Piste</td>
             </tr>
         </table>
