@@ -1393,29 +1393,37 @@ public class Name {
             <table>
                 <tr>
                     <th><code>Location</code><br>name</th>
-                    <th><code>Region</code><br>id</th>
-                    <th><code>Region</code><br>name</th>
-                    <th><code>Region</code><br>parent</th>
-                    <th><code>Region</code><br>category</th>
+                    <th><code>Activity</code><br>id</th>
+                    <th><code>Activity</code><br>name</th>
                 </tr>
                 <tr>
                     <td rowspan="4">Mount Elbert</td>
-                    <td>4</td>
-                    <td>Elbert Massif</td>
-                    <td>Sawatch</td>
-                    <td>Mountain Range</td>
+                    <td>2</td>
+                    <td>Hiking</td>
                 </tr>
                 <tr>
-                <td>5</td>
-                    <td>San Isabel National Forest</td>
-                    <td>null</td>
-                    <td>National Forest</td>
+                    <td>3</td>
+                    <td>Climbing</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mountaineering</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Trail Running</td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>Colorado</td>
-                    <td>United States</td>
-                    <td>State</td>
+                    <td>Camping</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Backpacking</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Touring</td>
                 </tr>
             </table>
         </td>
