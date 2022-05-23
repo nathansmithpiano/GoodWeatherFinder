@@ -818,7 +818,7 @@ public class Category {
     <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
-        <th>Join Tables</th>
+        <th>Join Table</th>
     </tr>
     <tr>
 <!-- Region Code -->
@@ -891,7 +891,7 @@ public class Region {
 <tr>
     <!-- Name Header -->
     <th colspan="2">Name</th>
-    <td rowspan="4"></td>
+    <th>Join Table</th>
 
 </tr>
 <tr>
@@ -942,6 +942,8 @@ public class Name {
             <td>Elbert Massif Nickname 2</td>
         </tr>
     </table>
+</td>
+<td rowspan="3">
 </td>
 </tr>
 <tr>
