@@ -169,19 +169,19 @@ public class Location {
     - `Location.name` corresponds to its primary name.  
     - The join table links a `Location` with its `nicknames`.
         - - [ ] Use business logic to prevent a user from setting its `Location.name` within its `List<Name> nicknames`.
-- While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
+- While primary name must be unique, other names are not.  Many `Location` may share the same `Nickname.name` in their `List<Name> nicknames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
-    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
-    - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Name.name`, "Buffalo Mountain" should be deleted.
+    - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Nickname` table to be deleted from the database.
+    - If no records exist in the join table connecting a `Location` with "Buffalo Mountain", within `Nickname`, "Buffalo Mountain" should be deleted.
         - This seems possible via `orphanRemoval = true` on the `Location` side
             - - [ ] confirm via JUnit5 tests
-    - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
-- For `Location.nicknames`, **`Location` `1:m` `Name`**.
+    - Therefore, the database would have several copies of the "Buffalo Mountain" `Nickname`.
+- For `Location.nicknames`, **`Location` `1:m` `Nickname`**.
 - **Unidirectional**, `Location` is **owner**.
-    - `Name` does not need to know about its `Location`, `Region`, or other relationships.
-    - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
-    - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
-- **Optional** - a location may only have one name and `List<Name> nicknames` may be empty or **null**.
+    - `Nickname` does not need to know about its `Location`, `Region`, or other relationships.
+    - A `m:m` relationship between `Location` and `Nickname` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
+    - Also, other entities, such as `Region`, may also use the `Nickname` table for a collection of names.
+- **Optional** - a location may only have one name and `List<Nickname> nicknames` may be empty or **null**.
 
 <table>
 <tr>
@@ -246,7 +246,7 @@ public class Location {
 - [x] A `Location`'s primary name  
 (`Location.name`) should not  
 be used within any  
-`Location.otherNames`
+`Location.nicknames`
 
 </td>
 
@@ -679,9 +679,9 @@ public class Category {
             - [ ] Only display the `Region` for each `Region``Category`, and display nothing about that `Region``Category` if `Location.regions` for that `Region``Category` is empty or null.
 - Like `Location`, `Region` has one primary name and a collection of `Region.nicknames`.
     - Limiting a `Location`, `Region`, or other entities to only one name would reduce the ability to search - in the application, other resources, search engines, and so on. This also allows for multi-language data and searching.
-- Relationships will be the same as `Location``Name` and `Location``Category`.
-    - Join tables `region_category` and `region_name`.
-    - As in the above example for `Location` "Buffalo Mountain", duplicate Name.name and Category.name may exist.
+- Relationships will be the same as `Location``Nickname` and `Location``Category`.
+    - Join tables `region_category` and `region_nickname`.
+    - As in the above example for `Location` "Buffalo Mountain", duplicate `Nickname.name` and `Category.name` may exist.
         - - [ ] verify orphan removal via JUnit5 tests
 - **`Location` `m:m` `Region`**
     - Join table `location_region`.
@@ -691,7 +691,7 @@ public class Category {
     - For both, **Unidirectional**, `Region` is **owner**.
     - Join table `region_category`.
     - **Required**
-- For `Region.nicknames`, **`Region` `1:m` `Name`**.
+- For `Region.nicknames`, **`Region` `1:m` `Nickname`**.
     - **Unidirectional**, `Region` is **owner**.
     - **Optional**
 
@@ -1027,12 +1027,9 @@ public class Category {
 ## <a href="#location-entity">location.activities</a>
 - Each `Location` can be associated with one or many `Activities`.
 - For example, Mount Elbert is popular for hiking, backpacking, camping, backcountry skiing, running, and many other activities.  A user may want to search for many locations by activity.
-- Similar to other entities, `Activity` has one primary name and can have otherNames.
+- Similar to other entities, `Activity` has one primary name and can have nicknames.
     - Example: *Touring* may also be called *Skiing, Off Piste* and/or *Skiing/Snowboarding (Backcountry)*.
-- for `Activity.name` **`Activity` `1:1` `Name`**
-    - **Unidirectional**, `Activity` is **owner**.
-    - **Required**, **unique**, **non-null**.
-- for `Activity.otherNames`, **`Activity` `1:m` `Name`**.
+- for `Activity.nicknames`, **`Activity` `1:m` `Nickname`**.
     - **Unidirectional**, `Activity` is **owner**.
     - **Optional**
 - ** `Location` `m:m` `Activity`**
@@ -1221,7 +1218,7 @@ public class Name {
                     <th><code>Location</code><br>name</th>
                     <th><code>Activity</code><br>id</th>
                     <th><code>Activity</code><br>name</th>
-                    <th><code>Activity</code><br>otherNames</th>
+                    <th><code>Activity</code><br>nicknames</th>
                 </tr>
                 <tr>
                     <td rowspan="7">Mount Elbert</td>
