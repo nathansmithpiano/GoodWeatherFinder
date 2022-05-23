@@ -1077,7 +1077,7 @@ public class Category {
                     <th><code>Region</code><br>id</th>
                     <th><code>Region</code><br>name</th>
                     <th><code>Region</code><br>parent</th>
-                    <th><code>Region</code><br>categories</th>
+                    <th><code>Region</code><br>category</th>
                 </tr>
                 <tr>
                     <td rowspan="4">Mount Elbert</td>
