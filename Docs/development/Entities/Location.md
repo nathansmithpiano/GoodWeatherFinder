@@ -1097,7 +1097,7 @@ public class Category {
 
 
 <table>
-    <tr><th>Region</th></tr>
+    <tr><th>Merged <code>Region</code></th></tr>
     <tr>
         <td>
             <table>
