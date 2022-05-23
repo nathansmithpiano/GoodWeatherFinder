@@ -166,8 +166,9 @@ public class Location {
 ## <a href="#location-entity">location.nicknames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
-    - `Location.name_id` corresponds to its primary name.  The join table links a `Location` with its `otherNames`.
-        - - [ ] Use business logic to prevent a user from setting a `Name` as its `Location.name` and within its `List<Name> otherNames`.
+    - `Location.name` corresponds to its primary name.  
+    - The join table links a `Location` with its `nicknames`.
+        - - [ ] Use business logic to prevent a user from setting its `Location.name` within its `List<Name> nicknames`.
 - While primary name must be unique, other names are not.  Many `Location` may share the same `Name` in their `List<Name> otherNames`.
     - For example, several `Location` may be called "Buffalo Mountain", but each `Location` would have a unique primary name of "Buffalo Mountain A", "Buffalo Mountain (CO)", etc.  
     - If "Buffalo Mountain A" was deleted, we do not want all "Buffalo Mountain" records in the `Name` table to be deleted from the database.
@@ -175,12 +176,12 @@ public class Location {
         - This seems possible via `orphanRemoval = true` on the `Location` side
             - - [ ] confirm via JUnit5 tests
     - Therefore, the database would have several copies of the "Buffalo Mountain" `Name`.
-- For `Location.otherNames`, **`Location` `1:m` `Name`**.
+- For `Location.nicknames`, **`Location` `1:m` `Name`**.
 - **Unidirectional**, `Location` is **owner**.
     - `Name` does not need to know about its `Location`, `Region`, or other relationships.
     - A `m:m` relationship between `Location` and `Name` would allow for proper normalization and would prevent duplicates, but this would require manual deleting and seems excessive for this application.
     - Also, other entities, such as `Region`, may also use the `Name` table for a collection of names.
-- **Optional** - a location may only have one name and `List<Name> otherNames` may be empty or **null**.
+- **Optional** - a location may only have one name and `List<Name> nicknames` may be empty or **null**.
 
 <table>
 <tr>
@@ -195,17 +196,14 @@ public class Location {
 ```java
 public class Location {
     private int id;
-
-    @OneToOne
-    @JoinColumn(name = "name_id")
-    private Name name;
+    private String name;
 
     @OneToMany
     @JoinTable(
-        name = "location_name",
+        name = "location_nicknames",
         joinColumns = @JoinColumn(name = "location_id"),
         inverseJoinColumns = @JoinColumn(name = "name_id") )
-    private List<Name> otherNames;
+    private List<Name> nicknames;
 }
 ```
 
