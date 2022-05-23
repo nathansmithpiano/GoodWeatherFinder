@@ -944,6 +944,33 @@ public class Name {
     </table>
 </td>
 <td rowspan="3">
+    <!-- Join Table region_category -->
+    <table>
+        <tr>
+            <th>region_id</th>
+            <th>category_id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+        </tr>
+    </table>
 </td>
 </tr>
 <tr>
