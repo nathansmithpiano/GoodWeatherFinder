@@ -873,16 +873,22 @@ public class Region {
             <!-- Join Tables -->
             <table>
                 <tr>
-                    <th>region_id</th>
-                    <th>name_id</th>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>11</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>12</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>region_id</th>
+                                <th>name_id</th>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>12</td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
             </table>
         </td>
