@@ -886,26 +886,6 @@ public class Region {
                             <td>4</td>
                             <td>12</td>
                         </tr>
-                        <tr>
-                            <th>region_id</th>
-                            <th>category_id</th>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
                     </table>
                 </tr>
             </table>
