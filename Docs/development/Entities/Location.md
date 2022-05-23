@@ -869,8 +869,8 @@ public class Region {
                 </tr>
             </table>
         </td>
-        <td rowspan="5">
-            <!-- Join Tables -->
+        <td>
+            <!-- Join Table region_name -->
             <table>
                 <tr>
                     <th>region_id</th>
