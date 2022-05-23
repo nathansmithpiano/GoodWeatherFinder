@@ -1125,30 +1125,6 @@ public class Category {
                     <td>Mountain Range</td>
                     <td>Sawatch</td>
                 </tr>
-                <tr>
-                    <td><b>4</b></td>
-                    <td><b>3</b></td>
-                    <td><b>Mountain Range</b></td>
-                    <td><b>Elbert Massif</b></td>
-                </tr>
-                <tr>
-                    <td><b>5</b></td>
-                    <td><b>null</b></td>
-                    <td><b>National Forest</b></td>
-                    <td><b>San Isabel National Forest</b></td>
-                </tr>
-                <tr>
-                    <td><b>6</b></td>
-                    <td><b>null</b></td>
-                    <td><b>National Forest</b></td>
-                    <td><b>San Isabel National Forest</b></td>
-                </tr>
-                <tr>
-                    <td><b>7</b></td>
-                    <td><b>null</b></td>
-                    <td><b>National Forest</b></td>
-                    <td><b>San Isabel National Forest</b></td>
-                </tr>
             </table>
         </td>
     </tr>
