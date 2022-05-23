@@ -672,12 +672,12 @@ public class Category {
         - *Rocky Mountains (CO)* would contain many thousands of locations, while *Elbert Massif* would only contain a dozen or so. A parent contains all of its children.
             - [ ] Enable searching all children of a `Region` by aggregating all successive parents, with or without additional parameters like `Category`.
     - A `Location` could be attached to several different geographical groupings.  Rather than having an ever-expanding number of tables with very similar data, each `Region` is given one `Category`.
-        - A `Region``Category` would be set at a high level and unlikely to change at the user level.  Unlike with other entities, i.e. `Location.otherNames`, it is unlikely that a `Region``Category` would ever be deleted.
+        - A `Region``Category` would be set at a high level and unlikely to change at the user level.  Unlike with other entities, i.e. `Location.nicknames`, it is unlikely that a `Region``Category` would ever be deleted.
         - Each `Location` can have many `Region` in its `location.regions`, but should only have one of each `Category` for `Region`.
             - For example, Mount Elbert is assigned the *Elbert Massif*, not all of the parent ranges.  The `Region` itself has a parent, which has a parent, and so on.
             - [ ] Assure that a location has at most one of each `Region``Category` in its `location.regions`.
             - [ ] Only display the `Region` for each `Region``Category`, and display nothing about that `Region``Category` if `Location.regions` for that `Region``Category` is empty or null.
-- Like `Location`, `Region` has one primary `Name` and a collection of `Region.otherNames`.
+- Like `Location`, `Region` has one primary name and a collection of `Region.nicknames`.
     - Limiting a `Location`, `Region`, or other entities to only one name would reduce the ability to search - in the application, other resources, search engines, and so on. This also allows for multi-language data and searching.
 - Relationships will be the same as `Location``Name` and `Location``Category`.
     - Join tables `region_category` and `region_name`.
@@ -725,38 +725,38 @@ public class Region {
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>null</td>
-                    <td>6</td>
+                    <td></td>
+                    <td>Rocky Mountains</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>1</td>
-                    <td>7</td>
+                    <td>Southern Rocky Mountains</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>2</td>
-                    <td>8</td>
+                    <td>Sawatch</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>3</td>
-                    <td>9</td>
+                    <td>Elbert Massif</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>null</td>
-                    <td>10</td>
+                    <td></td>
+                    <td>San Isabel National Forest</td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>5</td>
-                    <td>11</td>
+                    <td>Colorado</td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>5</td>
-                    <td>12</td>
+                    <td></td>
+                    <td>United States</td>
                 </tr>
             </table>
         </td>
@@ -810,35 +810,7 @@ public class Name {
     <table>
         <tr>
             <th>id</th>
-            <th>Name</th>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Rocky Mountains</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Southern Rocky Mountains</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Sawatch</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>Elbert Massif</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>San Isabel National Forest</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Colorado</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>United States</td>
+            <th>nickname</th>
         </tr>
         <tr>
             <td>13</td>
