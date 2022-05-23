@@ -765,7 +765,7 @@ public class Region {
             <table>
                 <tr>
                     <th>region_id</th>
-                    <th>name_id</th>
+                    <th>nickname_id</th>
                 </tr>
                 <tr>
                     <td>4</td>
