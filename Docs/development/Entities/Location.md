@@ -954,6 +954,68 @@ public class Category {
     </table>
 </td>
 </tr>
+<tr>
+    <!-- Category Header -->
+    <th colspan="2">Category</th>
+</tr>
+<tr>
+<!-- Category Code -->
+<td>
+
+```java
+public class Category {
+    private int id;
+    private String name;
+}
+```
+
+</td>
+<td>
+    <!-- Category Table -->
+    <table>
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>applies_to</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mountain</td>
+            <td>"Location"</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Summit</td>
+            <td>"Location"</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Colorado 14er</td>
+            <td>"Location"</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Mountain Range</td>
+            <td>"Region"</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>National Forest</td>
+            <td>"Region"</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>State</td>
+            <td>"Region"</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Country</td>
+            <td>"Region"</td>
+        </tr>
+    </table>
+</td>
+</tr>
 </table>
 
 <table>
