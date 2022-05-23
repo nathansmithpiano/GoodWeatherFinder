@@ -1309,6 +1309,8 @@ public class Activity {
 </tr>
 <tr>
     <td>
+    </td>
+    <td>
         <table>
             <tr>
                 <th>id</th>
@@ -1352,7 +1354,6 @@ public class Activity {
             </tr>
         </table>
     </td>
-    <td></td>
 </tr>
 </table>
 
