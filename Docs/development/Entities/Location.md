@@ -1214,7 +1214,7 @@ public class Location {
                 </tr>
             </table>
         </td>
-        <td rowspan="3">
+        <td rowspan="5">
             <table>
                 <tr>
                     <th>location_id</th>
