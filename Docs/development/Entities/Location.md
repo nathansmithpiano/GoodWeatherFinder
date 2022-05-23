@@ -949,6 +949,36 @@ public class Name {
 <tr>
     <!-- Category Header -->
     <th colspan="2">Category</th>
+
+    <td rowspan="2">
+        <!-- Join Table region_category -->
+        <table>
+            <tr>
+                <th>region_id</th>
+                <th>name_id</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </td>
 </tr>
 <tr>
 <!-- Category Code -->
