@@ -879,7 +879,7 @@ public class Region {
                 </tr>
             </table>
         </td>
-        <td>
+        <td valign="baseline">
             <!-- Join Table region_name -->
             <table>
                 <tr>
@@ -969,7 +969,7 @@ public class Name {
         </tr>
     </table>
 </td>
-<td rowspan="3">
+<td rowspan="3" valign="baseline">
     <!-- Join Table region_category -->
     <table>
         <tr>
