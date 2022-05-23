@@ -888,6 +888,30 @@ public class Region {
                         </tr>
                     </table>
                 </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <th>region_id</th>
+                            <th>category_id</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </tr>
             </table>
         </td>
     </tr>
