@@ -1110,22 +1110,22 @@ public class Category {
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td></td>
                     <td>Rocky Mountains</td>
+                    <td></td>
                     <td>null</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td></td>
                     <td>Southern Rocky Mountains</td>
+                    <td></td>
                     <td>1</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td></td>
                     <td>Sawatch</td>
+                    <td></td>
                     <td>2</td>
                     <td>Mountain Range</td>
                 </tr>
