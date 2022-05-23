@@ -894,6 +894,10 @@ public class Region {
                     <td>4</td>
                     <td>12</td>
                 </tr>
+                <tr>
+                    <td>6</td>
+                    <td>15</td>
+                </tr>
             </table>
         </td>
     </tr>
