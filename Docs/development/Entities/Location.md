@@ -1383,6 +1383,84 @@ public class Name {
 </tr>
 </table>
 
+<table>
+    <!-- Location Merged -->
+    <tr>
+        <th>Merged <code>Location</code></th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th><code>Location</code><br>name</th>
+                    <th><code>Region</code><br>id</th>
+                    <th><code>Region</code><br>name</th>
+                    <th><code>Region</code><br>parent</th>
+                    <th><code>Region</code><br>category</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">Mount Elbert</td>
+                    <td>4</td>
+                    <td>Elbert Massif</td>
+                    <td>Sawatch</td>
+                    <td>Mountain Range</td>
+                </tr>
+                <tr>
+                <td>5</td>
+                    <td>San Isabel National Forest</td>
+                    <td>null</td>
+                    <td>National Forest</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Colorado</td>
+                    <td>United States</td>
+                    <td>State</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table>
+    <!-- Location Merged -->
+    <tr>
+        <th>Merged <code>Location</code></th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th><code>Location</code><br>name</th>
+                    <th><code>Region</code><br>id</th>
+                    <th><code>Region</code><br>name</th>
+                    <th><code>Region</code><br>parent</th>
+                    <th><code>Region</code><br>category</th>
+                </tr>
+                <tr>
+                    <td rowspan="4">Mount Elbert</td>
+                    <td>4</td>
+                    <td>Elbert Massif</td>
+                    <td>Sawatch</td>
+                    <td>Mountain Range</td>
+                </tr>
+                <tr>
+                <td>5</td>
+                    <td>San Isabel National Forest</td>
+                    <td>null</td>
+                    <td>National Forest</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Colorado</td>
+                    <td>United States</td>
+                    <td>State</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
 
 #### TEMPLATE
 <table>
