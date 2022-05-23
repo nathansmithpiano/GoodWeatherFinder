@@ -159,7 +159,7 @@ public class Location {
         <td>Mount Elbert</td>
     </tr>
 </table>
-
+<hr>
 
 ## <a href="#location-entity">location.otherNames</a>
 - Additional names for this location.
