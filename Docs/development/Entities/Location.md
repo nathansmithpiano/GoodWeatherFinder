@@ -810,7 +810,7 @@ public class Nickname {
     <table>
         <tr>
             <th>id</th>
-            <th>nickname</th>
+            <th>name</th>
         </tr>
         <tr>
             <td>13</td>
