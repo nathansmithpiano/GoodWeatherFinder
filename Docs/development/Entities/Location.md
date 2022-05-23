@@ -789,7 +789,7 @@ public class Region {
 
 <tr>
     <!-- Name Header -->
-    <th colspan="2">Name</th>
+    <th colspan="2">Nickname</th>
     <th>Join Table</th>
 
 </tr>
@@ -798,7 +798,7 @@ public class Region {
 <td>
 
 ```java
-public class Name {
+public class Nickname {
     private int id;
     private String name;
 }
