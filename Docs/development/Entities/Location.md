@@ -1397,7 +1397,7 @@ public class Name {
                     <th><code>Activity</code><br>name</th>
                 </tr>
                 <tr>
-                    <td rowspan="4">Mount Elbert</td>
+                    <td rowspan="7">Mount Elbert</td>
                     <td>2</td>
                     <td>Hiking</td>
                 </tr>
