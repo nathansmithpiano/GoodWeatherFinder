@@ -1137,6 +1137,18 @@ public class Category {
                     <td><b>National Forest</b></td>
                     <td><b>San Isabel National Forest</b></td>
                 </tr>
+                <tr>
+                    <td><b>6</b></td>
+                    <td><b>null</b></td>
+                    <td><b>National Forest</b></td>
+                    <td><b>San Isabel National Forest</b></td>
+                </tr>
+                <tr>
+                    <td><b>7</b></td>
+                    <td><b>null</b></td>
+                    <td><b>National Forest</b></td>
+                    <td><b>San Isabel National Forest</b></td>
+                </tr>
             </table>
         </td>
     </tr>
