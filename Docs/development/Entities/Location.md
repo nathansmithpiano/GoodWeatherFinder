@@ -1371,16 +1371,12 @@ public class Name {
                 <th>name_id</th>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>8</td>
+                <td>19</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
+                <td>8</td>
+                <td>20</td>
             </tr>
         </table>
     </td>
