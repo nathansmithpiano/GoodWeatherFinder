@@ -877,24 +877,12 @@ public class Region {
                     <th>name_id</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td></td>
+                    <td>4</td>
+                    <td>11</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td></td>
+                    <td>12</td>
                 </tr>
                 <tr>
                     <th>region_id</th>
