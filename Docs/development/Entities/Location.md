@@ -1143,7 +1143,7 @@ public class Category {
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td></td>
+                    <td>San Isabel National Forest</td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -1151,15 +1151,15 @@ public class Category {
                 </tr>
                 <tr>
                     <td>6</td>
+                    <td>Colorado</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>United States</td>
                     <td></td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td></td>
+                    <td>United States</td>
                     <td></td>
                     <td></td>
                     <td></td>
