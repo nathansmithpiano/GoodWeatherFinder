@@ -1073,19 +1073,19 @@ public class Category {
                 </tr>
                 <tr>
                     <td rowspan="4">Mount Elbert</td>
-                    <td>5</td>
+                    <td>4</td>
                     <td>Elbert Massif</td>
                     <td>Sawatch</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
-                <td>6</td>
+                <td>5</td>
                     <td>San Isabel National Forest</td>
                     <td>null</td>
                     <td>National Forest</td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>6</td>
                     <td>Colorado</td>
                     <td>United States</td>
                     <td>State</td>
