@@ -1476,9 +1476,8 @@ public class Name {
                     <td>8</td>
                     <td>18</td>
                     <td>Touring</td>
-                    <td></td>
+                    <td>Skiing/Snowboarding (Backcountry), Skiing, Off Piste</td>
                 </tr>
-
             </table>
         </td>
     </tr>
