@@ -961,11 +961,11 @@ public class Name {
         </tr>
         <tr>
             <td>13</td>
-            <td>Elbert Massif Nickname 1</td>
+            <td>EM 1</td>
         </tr>
         <tr>
             <td>14</td>
-            <td>Elbert Massif Nickname 2</td>
+            <td>EM 2</td>
         </tr>
         <tr>
             <td>15</td>
@@ -1140,7 +1140,7 @@ public class Category {
                 <tr>
                     <td>4</td>
                     <td>Elbert Massif</td>
-                    <td></td>
+                    <td>EM 1, EM 2</td>
                     <td>Sawatch</td>
                     <td>Mountain Range</td>
                 </tr>
@@ -1161,7 +1161,7 @@ public class Category {
                 <tr>
                     <td>7</td>
                     <td>United States</td>
-                    <td></td>
+                    <td>USA</td>
                     <td></td>
                     <td>Country</td>
                 </tr>
