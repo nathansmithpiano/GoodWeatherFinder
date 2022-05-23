@@ -891,6 +891,7 @@ public class Region {
 <tr>
     <!-- Name Header -->
     <th colspan="2">Name</th>
+    <td></td>
 
 </tr>
 <tr>
