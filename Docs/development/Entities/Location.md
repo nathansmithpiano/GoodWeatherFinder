@@ -1220,50 +1220,42 @@ public class Name {
                 <tr>
                     <th><code>Location</code><br>name</th>
                     <th><code>Activity</code><br>id</th>
-                    <th><code>Activity</code><br>name_id</th>
                     <th><code>Activity</code><br>name</th>
                     <th><code>Activity</code><br>otherNames</th>
                 </tr>
                 <tr>
                     <td rowspan="7">Mount Elbert</td>
                     <td>2</td>
-                    <td>12</td>
                     <td>Hiking</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>13</td>
                     <td>Climbing</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>14</td>
                     <td>Mountaineering</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>15</td>
                     <td>Trail Running</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>16</td>
                     <td>Camping</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td>17</td>
                     <td>Backpacking</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>8</td>
-                    <td>18</td>
                     <td>Touring</td>
                     <td>Skiing/Snowboarding (Backcountry), Skiing, Off Piste</td>
                 </tr>
