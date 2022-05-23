@@ -964,8 +964,8 @@ public class Category {
             <table>
                 <tr>
                     <th>id</th>
-                    <th>Name</th>
-                    <th>otherNames</th>
+                    <th>name</th>
+                    <th>nicknames</th>
                     <th>Parent</th>
                     <th>Category</th>
                 </tr>
