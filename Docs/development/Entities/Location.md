@@ -952,23 +952,23 @@ public class Name {
             <td>Southern Rocky Mountains</td>
         </tr>
         <tr>
-            <td>9</td>
+            <td>8</td>
             <td>Sawatch</td>
         </tr>
         <tr>
-            <td>10</td>
+            <td>9</td>
             <td>Elbert Massif</td>
         </tr>
         <tr>
-            <td>11</td>
+            <td>10</td>
             <td>San Isabel National Forest</td>
         </tr>
         <tr>
-            <td>12</td>
+            <td>11</td>
             <td>Elbert Massif Nickname 1</td>
         </tr>
         <tr>
-            <td>13</td>
+            <td>12</td>
             <td>Elbert Massif Nickname 2</td>
         </tr>
     </table>
