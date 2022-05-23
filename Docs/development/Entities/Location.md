@@ -1423,9 +1423,9 @@ public class Name {
 </table>
 
 <table>
-    <!-- Location Merged -->
+    <!-- Activity Merged -->
     <tr>
-        <th>Merged <code>Location</code></th>
+        <th>Merged <code>Activity</code></th>
     </tr>
     <tr>
         <td>
