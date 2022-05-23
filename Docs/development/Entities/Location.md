@@ -1106,8 +1106,7 @@ public class Category {
                     <th>Name</th>
                     <th>otherNames</th>
                     <th>Parent</th>
-                    <th>Type</th>
-                    <th>Categories</th>
+                    <th>Category</th>
                 </tr>
                 <tr>
                     <td>1</td>
@@ -1115,7 +1114,6 @@ public class Category {
                     <td></td>
                     <td></td>
                     <td>Mountain Range</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -1123,7 +1121,6 @@ public class Category {
                     <td></td>
                     <td>Rocky Mountains</td>
                     <td>Mountain Range</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -1131,7 +1128,6 @@ public class Category {
                     <td></td>
                     <td>Southern Rocky Mountains</td>
                     <td>Mountain Range</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -1139,7 +1135,6 @@ public class Category {
                     <td></td>
                     <td>Sawatch</td>
                     <td>Mountain Range</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -1147,7 +1142,6 @@ public class Category {
                     <td></td>
                     <td></td>
                     <td>National Forest</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>6</td>
@@ -1155,7 +1149,6 @@ public class Category {
                     <td></td>
                     <td>United States</td>
                     <td>State</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>7</td>
@@ -1163,7 +1156,6 @@ public class Category {
                     <td></td>
                     <td></td>
                     <td>Country</td>
-                    <td></td>
                 </tr>
             </table>
         </td>
