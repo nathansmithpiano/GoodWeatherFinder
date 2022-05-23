@@ -1308,8 +1308,16 @@ public class Activity {
     <th colspan="2">Name</th>
 </tr>
 <tr>
-    <td>
-    </td>
+<td>
+
+```java
+public class Name {
+    private int id;
+    private String name;
+}
+```
+
+</td>
     <td>
         <table>
             <tr>
