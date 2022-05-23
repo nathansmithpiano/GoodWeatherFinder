@@ -1350,11 +1350,11 @@ public class Name {
             </tr>
             <tr>
                 <td>18</td>
-                <td>Skiing/Snowboarding (Backcountry)</td>
+                <td>Touring</td>
             </tr>
             <tr>
                 <td>19</td>
-                <td>Touring</td>
+                <td>Skiing/Snowboarding (Backcountry)</td>
             </tr>
             <tr>
                 <td>20</td>
