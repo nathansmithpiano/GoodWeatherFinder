@@ -873,6 +873,9 @@ public class Region {
             <!-- Join Tables -->
             <table>
                 <tr>
+                    <th>region_category</th>
+                </tr>
+                <tr>
                     <td>
                         <table>
                             <tr>
