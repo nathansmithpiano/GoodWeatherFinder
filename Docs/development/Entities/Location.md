@@ -909,47 +909,31 @@ public class Name {
 
 </td>
 <td>
-    <!-- Category Table -->
+    <!-- Name Table -->
     <table>
         <tr>
             <th>id</th>
             <th>Name</th>
-            <th>applies_to</th>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Mountain</td>
-            <td>"Location"</td>
+            <td>6</td>
+            <td>Rocky Mountains</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Summit</td>
-            <td>"Location"</td>
+            <td>7</td>
+            <td>Southern Rocky Mountains</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>Colorado 14er</td>
-            <td>"Location"</td>
+            <td>9</td>
+            <td>Sawatch</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Elbert Massif</td>
         </tr>
         <tr>
             <td>11</td>
-            <td>Mountain Range</td>
-            <td>"Region"</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>National Forest</td>
-            <td>"Region"</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>State</td>
-            <td>"Region"</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>Country</td>
-            <td>"Region"</td>
+            <td>San Isabel National Forest</td>
         </tr>
     </table>
 </td>
@@ -1152,7 +1136,7 @@ public class Name {
 
 </td>
 <td>
-    <!-- Category Table -->
+    <!-- Name Table -->
     <table>
         <tr>
             <th>id</th>
