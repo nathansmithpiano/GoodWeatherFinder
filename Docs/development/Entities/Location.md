@@ -1215,7 +1215,7 @@ public class Location {
                 </tr>
             </table>
         </td>
-        <td rowspan="5">
+        <td rowspan="4">
             <table>
                 <tr>
                     <th>location_id</th>
@@ -1362,6 +1362,8 @@ public class Name {
                 <td>Skiing, Off Piste</td>
             </tr>
         </table>
+    </td>
+    <td>
     </td>
 </tr>
 </table>
