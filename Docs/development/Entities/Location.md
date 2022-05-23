@@ -1272,35 +1272,35 @@ public class Activity {
     <table>
         <tr>
             <th>id</th>
-            <th>Name</th>
+            <th>name_id</th>
         </tr>
         <tr>
             <td>2</td>
-            <td>Hiking</td>
+            <td>12</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Climbing</td>
+            <td>13</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Mountaineering</td>
+            <td>14</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>Trail Running</td>
+            <td>15</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Camping</td>
+            <td>16</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Backpacking</td>
+            <td>17</td>
         </tr>
         <tr>
             <td>8</td>
-            <td>Skiing/Snowboarding (Backcountry)</td>
+            <td>18</td>
         </tr>
     </table>
 </td>
