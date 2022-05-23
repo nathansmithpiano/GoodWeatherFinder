@@ -889,7 +889,7 @@ public class Category {
     <table>
         <tr>
             <th>id</th>
-            <th>Name</th>
+            <th>name</th>
             <th>applies_to</th>
         </tr>
         <tr>
