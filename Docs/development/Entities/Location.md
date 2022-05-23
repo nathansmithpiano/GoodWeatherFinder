@@ -818,7 +818,7 @@ public class Category {
     <tr>
         <!-- Table Headers -->
         <th colspan="2">Region</th>
-        <th>Join Table</th>
+        <th>Join Tables</th>
     </tr>
     <tr>
 <!-- Region Code -->
