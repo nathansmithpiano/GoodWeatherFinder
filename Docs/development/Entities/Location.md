@@ -965,11 +965,11 @@ public class Name {
         </tr>
         <tr>
             <td>12</td>
-            <td>ElbMas Nickname1</td>
+            <td>Elbert Mas Nickname 1</td>
         </tr>
         <tr>
             <td>13</td>
-            <td>ElbMas Nickname2</td>
+            <td>Elbert Mas Nickname 2</td>
         </tr>
     </table>
 </td>
