@@ -870,12 +870,12 @@ public class Region {
                 <tr>
                     <td>6</td>
                     <td>5</td>
-                    <td>10</td>
+                    <td>11</td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>5</td>
-                    <td>10</td>
+                    <td>12</td>
                 </tr>
             </table>
         </td>
@@ -958,6 +958,10 @@ public class Name {
         <tr>
             <td>14</td>
             <td>Elbert Massif Nickname 2</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>CO</td>
         </tr>
     </table>
 </td>
