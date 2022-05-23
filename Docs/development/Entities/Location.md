@@ -869,7 +869,7 @@ public class Region {
                 </tr>
             </table>
         </td>
-        <td rowspan="3">
+        <td rowspan="5">
             <!-- Join Table region_name -->
             <table>
                 <tr>
@@ -949,7 +949,6 @@ public class Name {
 <tr>
     <!-- Category Header -->
     <th colspan="2">Category</th>
-    <th>region_category</th>
 </tr>
 <tr>
 <!-- Category Code -->
