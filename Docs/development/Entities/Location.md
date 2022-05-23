@@ -809,7 +809,7 @@ public class Category {
     - **Required**
 - For `Region.name`, **`Region` `1:1` `Name`**.
     - **Unidirectional**, `Region` is **owner**.
-    - **Required**, **unique**, **non-null**
+    - **Required**, **unique**, **non-null**.
 - For `Region.otherNames`, **`Region` `1:m` `Name`**.
     - **Unidirectional**, `Region` is **owner**.
     - **Optional**
@@ -1174,11 +1174,16 @@ public class Category {
 ## <a href="#location-entity">location.activities</a>
 - Each `Location` can be associated with one or many `Activities`.
 - For example, Mount Elbert is popular for hiking, backpacking, camping, backcountry skiing, running, and many other activities.  A user may want to search for many locations by activity.
-- For simplicity's sake, `Activity` will have only one name and users will select from a list of options.
-    - They can request a new activity be added but cannot add their own.
-- **`Location` `m:m` `Activity`**
+- Similar to other entities, `Activity` has one primary name and can have otherNames.
+- for `Activity.name` **`Activity` `1:1` `Name`**
+    - **Unidirectional**, `Activity` is **owner**.
+    - **Required**, **unique**, **non-null**.
+- for `Activity.otherNames`, **`Activity` `1:m` `Name`**.
+    - **Unidirectional**, `Activity` is **owner**.
+    - **Optional**
+- ** `Location` `m:m` `Activity`**
     - Join table `location_activity`.
-    - **Unidirectional**, `Location` is owner.
+    - **Unidirectional**, `Location` is **owner**.
     - **Required**
 
 <table>
@@ -1191,7 +1196,8 @@ public class Category {
 
 ```java
 public class Location {
-
+    private int id;
+    private List<Activity> activities;
 }
 ```
 
@@ -1252,7 +1258,9 @@ public class Location {
 
 ```java
 public class Activity {
-
+    private int id;
+    private Name name;
+    private List<Name> otherNames;
 }
 ```
 
