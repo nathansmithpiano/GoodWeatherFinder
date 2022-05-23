@@ -163,7 +163,7 @@ public class Location {
 </table>
 <hr>
 
-## <a href="#location-entity">location.otherNames</a>
+## <a href="#location-entity">location.nicknames</a>
 - Additional names for this location.
     - For example, Mount Elbert is also known as Mt. Elbert. It may also have a traditional name, names in other languages, nicknames, etc.
     - `Location.name_id` corresponds to its primary name.  The join table links a `Location` with its `otherNames`.
