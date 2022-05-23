@@ -1090,12 +1090,6 @@ public class Category {
                     <td>United States</td>
                     <td>State</td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>United States</td>
-                    <td>null</td>
-                    <td>Country</td>
-                </tr>
             </table>
         </td>
     </tr>
