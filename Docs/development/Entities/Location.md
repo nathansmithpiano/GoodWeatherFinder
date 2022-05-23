@@ -607,17 +607,17 @@ public class Category {
         <tr>
             <td>2</td>
             <td>Mountain</td>
-            <td>"Location"</td>
+            <td>Location</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Summit</td>
-            <td>"Location"</td>
+            <td>Location</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Colorado 14er</td>
-            <td>"Location"</td>
+            <td>Location</td>
         </tr>
     </table>
 </td>
@@ -641,11 +641,7 @@ public class Category {
         <td>1</td>
         <td>2</td>
         <td>Mountain</td>
-        <td rowspan="3">
-            [ "Mountain",<br>
-            "Summit",<br>
-            "Colorado 14er" ]
-        </td>
+        <td rowspan="3">Mountain, Summit, Colorado 14er</td>
     </tr>
     <tr>
         <td>1</td>
