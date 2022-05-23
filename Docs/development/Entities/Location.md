@@ -1051,6 +1051,7 @@ public class Category {
 ```java
 public class Location {
     private int id;
+    private String name;
     private List<Activity> activities;
 }
 ```
@@ -1115,8 +1116,8 @@ public class Location {
 ```java
 public class Activity {
     private int id;
-    private Name name;
-    private List<Name> otherNames;
+    private String name;
+    private List<Name> nicknames;
 }
 ```
 
@@ -1125,7 +1126,7 @@ public class Activity {
     <table>
         <tr>
             <th>id</th>
-            <th>name_id</th>
+            <th>name</th>
         </tr>
         <tr>
             <td>2</td>
