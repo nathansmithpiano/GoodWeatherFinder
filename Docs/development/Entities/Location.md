@@ -1104,23 +1104,27 @@ public class Category {
                 <tr>
                     <th>id</th>
                     <th>Name</th>
+                    <th>otherNames</th>
                     <th>Parent</th>
                     <th>Type</th>
                 </tr>
                 <tr>
                     <td>1</td>
+                    <td></td>
                     <td>Rocky Mountains</td>
                     <td>null</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
                     <td>2</td>
+                    <td></td>
                     <td>Southern Rocky Mountains</td>
                     <td>1</td>
                     <td>Mountain Range</td>
                 </tr>
                 <tr>
                     <td>3</td>
+                    <td></td>
                     <td>Sawatch</td>
                     <td>2</td>
                     <td>Mountain Range</td>
