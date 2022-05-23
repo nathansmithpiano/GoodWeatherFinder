@@ -971,21 +971,6 @@ public class Category {
             <th>applies_to</th>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Mountain</td>
-            <td>"Location"</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Summit</td>
-            <td>"Location"</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Colorado 14er</td>
-            <td>"Location"</td>
-        </tr>
-        <tr>
             <td>11</td>
             <td>Mountain Range</td>
             <td>"Region"</td>
