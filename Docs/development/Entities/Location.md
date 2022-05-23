@@ -893,15 +893,15 @@ public class Region {
     </tr>
 
 <tr>
-    <!-- Category Header -->
-    <th colspan="2">Category</th>
+    <!-- Name Header -->
+    <th colspan="2">Name</th>
 </tr>
 <tr>
-<!-- Category Code -->
+<!-- Name Code -->
 <td>
 
 ```java
-public class Category {
+public class Name {
     private int id;
     private String name;
 }
