@@ -213,11 +213,11 @@ public class Location {
     <table>
         <tr>        
             <th>id</th>
-            <th>name_id</th>
+            <th>name</th>
         </tr>
         <tr>
             <td>1</td>
-            <td>2</td>
+            <td>Mount Elbert</td>
         </tr>
     </table>
 </td>
@@ -272,10 +272,6 @@ public class Name {
         <tr>        
             <th>id</th>
             <th>name</th>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Mount Elbert</td>
         </tr>
         <tr>
             <td>3</td>
