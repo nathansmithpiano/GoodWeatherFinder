@@ -898,6 +898,10 @@ public class Region {
                     <td>6</td>
                     <td>15</td>
                 </tr>
+                <tr>
+                    <td>7</td>
+                    <td>16</td>
+                </tr>
             </table>
         </td>
     </tr>
@@ -966,6 +970,10 @@ public class Name {
         <tr>
             <td>15</td>
             <td>CO</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>USA</td>
         </tr>
     </table>
 </td>
@@ -1146,7 +1154,7 @@ public class Category {
                 <tr>
                     <td>6</td>
                     <td>Colorado</td>
-                    <td></td>
+                    <td>CO</td>
                     <td>United States</td>
                     <td>State</td>
                 </tr>
