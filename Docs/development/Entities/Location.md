@@ -691,10 +691,7 @@ public class Category {
     - For both, **Unidirectional**, `Region` is **owner**.
     - Join table `region_category`.
     - **Required**
-- For `Region.name`, **`Region` `1:1` `Name`**.
-    - **Unidirectional**, `Region` is **owner**.
-    - **Required**, **unique**, **non-null**.
-- For `Region.otherNames`, **`Region` `1:m` `Name`**.
+- For `Region.nicknames`, **`Region` `1:m` `Name`**.
     - **Unidirectional**, `Region` is **owner**.
     - **Optional**
 
@@ -711,9 +708,9 @@ public class Category {
 ```java
 public class Region {
     private int id;
-    private Name name;
+    private String name;
     private Region parent;
-    private List<Name> otherNames;
+    private List<Name> nicknames;
 }
 ```
 
