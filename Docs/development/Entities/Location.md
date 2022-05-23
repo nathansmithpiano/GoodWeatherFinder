@@ -1304,6 +1304,13 @@ public class Activity {
     </table>
 </td>
 </tr>
+<tr>
+    <th colspan="2">Name</th>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
 </table>
 
 
