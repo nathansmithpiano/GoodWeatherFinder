@@ -1215,7 +1215,7 @@ public class Location {
                 </tr>
             </table>
         </td>
-        <td rowspan="4">
+        <td rowspan="3">
             <table>
                 <tr>
                     <th>location_id</th>
@@ -1307,6 +1307,7 @@ public class Activity {
 </tr>
 <tr>
     <th colspan="2">Name</th>
+    <th>Join Table</th>
 </tr>
 <tr>
 <td>
